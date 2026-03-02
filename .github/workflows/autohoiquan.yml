@@ -34,4 +34,5 @@ jobs:
       - name: Chạy Bot Bắt Link
         env:
           MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+          TZ: Asia/Ho_Chi_Minh
         run: python bottestlink.py
