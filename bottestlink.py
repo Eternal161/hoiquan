@@ -13,13 +13,9 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-# ==========================================
-# ⚙️ CẤU HÌNH GITHUB (ĐÃ BẢO MẬT TOKEN)
-# ==========================================
 GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN") 
 GITHUB_REPO_NAME = "Eternal161/hoiquan" 
 GITHUB_FILE_PATH = "playlist.json"
-# ==========================================
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
@@ -49,7 +45,6 @@ def make_absolute_url(u):
     return u
 
 try:
-    print("🚀 Đang quét dữ liệu, giữ nguyên Background và ẩn Tỉ số...")
     wait = WebDriverWait(driver, 20)
     driver.get("https://sv2.hoiquan2.live/lich-thi-dau/bong-da")
     
@@ -69,7 +64,6 @@ try:
         doi_1 = teams[0].text.strip()
         doi_2 = teams[1].text.strip()
         
-        # --- LẤY BACKGROUND GỐC ---
         style = item.get_attribute("style") or ""
         bg_match = re.search(r'url\("?\'?(.*?)\'?"?\)', style)
         if bg_match:
@@ -77,7 +71,6 @@ try:
         else:
             poster_goc = "https://hoiquan1.live/assets/imgs/bg-fixture-card.png"
 
-        # --- LẤY LOGO 2 ĐỘI ---
         html_content = item.get_attribute("innerHTML")
         all_urls = re.findall(r'src="([^"]+)"', html_content) + re.findall(r'url\([\'"]?(.*?)[\'"]?\)', html_content)
         
@@ -95,7 +88,6 @@ try:
         else:
             logo_1 = logo_2 = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/500px-Soccerball.svg.png"
 
-        # --- VẼ ẢNH: LẤY NỀN GỐC + ĐẮP LOGO + CHỮ VS ---
         svg_template = f"""<svg width="1600" height="1200" xmlns="http://www.w3.org/2000/svg">
             <image href="{poster_goc}" x="0" y="0" width="1600" height="1200" preserveAspectRatio="xMidYMid slice"/>
             <image href="{logo_1}" x="250" y="300" width="400" height="400" preserveAspectRatio="xMidYMid meet"/>
@@ -106,9 +98,7 @@ try:
             <text x="800" y="1000" font-size="65" fill="#ffd700" text-anchor="middle" font-family="sans-serif" font-weight="bold" filter="drop-shadow(3px 3px 2px rgba(0,0,0,0.8))">{giai_dau}</text>
         </svg>"""
         poster_hoan_hao = "data:image/svg+xml;charset=utf-8," + urllib.parse.quote(svg_template)
-        # ----------------------------------------------
 
-        # --- XỬ LÝ NHÃN (CHỈ HIỆN THỜI GIAN/NGÀY THÁNG) ---
         time_m = re.search(r"(\d{2}:\d{2})\s*[\r\n]*\s*(\d{2}/\d{2}/\d{4})?", text)
         if time_m:
             gio = time_m.group(1)
@@ -117,14 +107,10 @@ try:
         else:
             thoi_gian_goc = "Sắp diễn ra"
 
-        phut_match = re.search(r"(?i)(\d{1,3}\s*'|Phút\s*\d+|\bHT\b|\bFT\b)", text)
-        phut = phut_match.group(1).strip() if phut_match else ""
-        
         is_live = bool(re.search(r"(\d+)\s*-\s*(\d+)", text)) or "Live" in text or "Trực tiếp" in text
 
         if is_live:
-            phut_hien_thi = phut if phut else "Đang đá"
-            nhan_hien_thi = f"🔴 {phut_hien_thi} | {thoi_gian_goc}"
+            nhan_hien_thi = f"🔴 Đang đá | {thoi_gian_goc}"
         else:
             nhan_hien_thi = f"⏳ {thoi_gian_goc}"
 
@@ -217,9 +203,7 @@ try:
             "channels": danh_sach_kenh
         })
 
-    if not GITHUB_TOKEN:
-        print("❌ LỖI: Không tìm thấy Token.")
-    else:
+    if GITHUB_TOKEN:
         auth = Auth.Token(GITHUB_TOKEN)
         g = Github(auth=auth)
         repo = g.get_repo(GITHUB_REPO_NAME)
@@ -227,14 +211,11 @@ try:
         
         try:
             contents = repo.get_contents(GITHUB_FILE_PATH)
-            repo.update_file(contents.path, "Hoàn thiện: Nền gốc + Ẩn Tỉ Số", json_content, contents.sha)
-            print("🎉 Cập nhật thành công file playlist.json!")
+            repo.update_file(contents.path, "Final Build", json_content, contents.sha)
         except Exception:
-            repo.create_file(GITHUB_FILE_PATH, "Tạo mới JSON", json_content)
-            print("🎉 Đã tạo mới file playlist.json thành công!")
+            repo.create_file(GITHUB_FILE_PATH, "Final Build", json_content)
 
-except Exception as e:
-    print(f"❌ Có lỗi cực mạnh:")
+except Exception:
     traceback.print_exc()
 finally:
     driver.quit()
