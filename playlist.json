@@ -1,7 +1,7 @@
 {
     "id": "hoiquan-tv",
     "url": "https://raw.githack.com/Eternal161/hoiquan/main/playlist.json",
-    "name": "Sáng",
+    "name": "Sáng TV",
     "color": "#1cb57a",
     "grid_number": 3,
     "image": {
@@ -18,7 +18,7 @@
             "channels": [
                 {
                     "id": "hq-cccc0b6d40",
-                    "name": "⚽ IMT Novi Beograd vs Radnik Surdulica",
+                    "name": "🏆 SUPER LIGA | ⚽ IMT Novi Beograd vs Radnik Surdulica",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -32,7 +32,7 @@
                     },
                     "labels": [
                         {
-                            "text": "🔴  | 0-0",
+                            "text": "🔴 Đang đá | 0-0",
                             "position": "top-left",
                             "color": "#e50914",
                             "text_color": "#ffffff"
@@ -79,14 +79,14 @@
                         "league": "SUPER LIGA",
                         "team_a": "IMT Novi Beograd",
                         "team_b": "Radnik Surdulica",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/286.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-636e0f2134",
-                    "name": "⚽ Pisa vs Bologna",
+                    "name": "🏆 SERIE A | ⚽ Pisa vs Bologna",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -100,9 +100,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 00:30 03/03/2026",
+                            "text": "⏳ 00:30",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -147,14 +147,14 @@
                         "league": "SERIE A",
                         "team_a": "Pisa",
                         "team_b": "Bologna",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Serie_A.svg/966px-Serie_A.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-eec2318bf3",
-                    "name": "⚽ Unirea Slobozia vs Rapid",
+                    "name": "🏆 LIGA I | ⚽ Unirea Slobozia vs Rapid",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -168,9 +168,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 00:30 03/03/2026",
+                            "text": "⏳ 00:30",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -215,14 +215,14 @@
                         "league": "LIGA I",
                         "team_a": "Unirea Slobozia",
                         "team_b": "Rapid",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/283.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-413732360b",
-                    "name": "⚽ Udinese vs Fiorentina",
+                    "name": "🏆 SERIE A | ⚽ Udinese vs Fiorentina",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -236,9 +236,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 02:45 03/03/2026",
+                            "text": "⏳ 02:45",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -283,14 +283,14 @@
                         "league": "SERIE A",
                         "team_a": "Udinese",
                         "team_b": "Fiorentina",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Serie_A.svg/966px-Serie_A.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-a1e89e77f7",
-                    "name": "⚽ Real Madrid vs Getafe",
+                    "name": "🏆 LA LIGA | ⚽ Real Madrid vs Getafe",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -304,9 +304,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 03:00 03/03/2026",
+                            "text": "⏳ 03:00",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -351,14 +351,14 @@
                         "league": "LA LIGA",
                         "team_a": "Real Madrid",
                         "team_b": "Getafe",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/140.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-046f70d190",
-                    "name": "⚽ Gil Vicente vs Benfica",
+                    "name": "🏆 VĐQG BỒ ĐÀO NHA | ⚽ Gil Vicente vs Benfica",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -372,9 +372,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 03:15 03/03/2026",
+                            "text": "⏳ 03:15",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -419,14 +419,14 @@
                         "league": "VĐQG BỒ ĐÀO NHA",
                         "team_a": "Gil Vicente",
                         "team_b": "Benfica",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://imgts.sportpulseapiz.com/football/competition/9vjxm8ghx2r6odg/image/small",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-d46c394fd4",
-                    "name": "⚽ Estudiantes L.P. vs Velez Sarsfield",
+                    "name": "🏆 LIGA PROFESIONAL ARGENTINA | ⚽ Estudiantes L.P. vs Velez Sarsfield",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -440,9 +440,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 05:15 03/03/2026",
+                            "text": "⏳ 05:15",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -487,14 +487,14 @@
                         "league": "LIGA PROFESIONAL ARGENTINA",
                         "team_a": "Estudiantes L.P.",
                         "team_b": "Velez Sarsfield",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/128.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-b5a845ed5d",
-                    "name": "⚽ Banfield vs Aldosivi",
+                    "name": "🏆 LIGA PROFESIONAL ARGENTINA | ⚽ Banfield vs Aldosivi",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -508,9 +508,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 07:30 03/03/2026",
+                            "text": "⏳ 07:30",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -555,14 +555,14 @@
                         "league": "LIGA PROFESIONAL ARGENTINA",
                         "team_a": "Banfield",
                         "team_b": "Aldosivi",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/128.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-b94a6765f8",
-                    "name": "⚽ Independ. Rivadavia vs River Plate",
+                    "name": "🏆 LIGA PROFESIONAL ARGENTINA | ⚽ Independ. Rivadavia vs River Plate",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -576,9 +576,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 07:30 03/03/2026",
+                            "text": "⏳ 07:30",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -623,14 +623,14 @@
                         "league": "LIGA PROFESIONAL ARGENTINA",
                         "team_a": "Independ. Rivadavia",
                         "team_b": "River Plate",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/128.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-375837238e",
-                    "name": "⚽ Korea DPR vs Uzbekistan W",
+                    "name": "🏆 ASIAN CUP WOMEN | ⚽ Korea DPR vs Uzbekistan W",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -644,9 +644,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 09:00 03/03/2026",
+                            "text": "⏳ 09:00",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -691,14 +691,14 @@
                         "league": "ASIAN CUP WOMEN",
                         "team_a": "Korea DPR",
                         "team_b": "Uzbekistan W",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/897.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-a8b20b88f7",
-                    "name": "⚽ Tahiti United vs Hekari United",
+                    "name": "🏆 OFC PRO LEAGUE | ⚽ Tahiti United vs Hekari United",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -712,9 +712,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 11:00 03/03/2026",
+                            "text": "⏳ 11:00",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -759,14 +759,14 @@
                         "league": "OFC PRO LEAGUE",
                         "team_a": "Tahiti United",
                         "team_b": "Hekari United",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/1214.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-49e2d6a189",
-                    "name": "⚽ Melbourne City vs Buriram United",
+                    "name": "🏆 AFC CHAMPIONS LEAGUE | ⚽ Melbourne City vs Buriram United",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -780,9 +780,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 14:45 03/03/2026",
+                            "text": "⏳ 14:45",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -827,14 +827,14 @@
                         "league": "AFC CHAMPIONS LEAGUE",
                         "team_a": "Melbourne City",
                         "team_b": "Buriram United",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-8d96b16d25",
-                    "name": "⚽ China W vs Bangladesh W",
+                    "name": "🏆 ASIAN CUP WOMEN | ⚽ China W vs Bangladesh W",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -848,9 +848,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 15:00 03/03/2026",
+                            "text": "⏳ 15:00",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -895,14 +895,14 @@
                         "league": "ASIAN CUP WOMEN",
                         "team_a": "China W",
                         "team_b": "Bangladesh W",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/897.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-23a7962322",
-                    "name": "⚽ Gangwon FC vs Machida Zelvia",
+                    "name": "🏆 AFC CHAMPIONS LEAGUE | ⚽ Gangwon FC vs Machida Zelvia",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -916,9 +916,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 17:00 03/03/2026",
+                            "text": "⏳ 17:00",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -963,14 +963,14 @@
                         "league": "AFC CHAMPIONS LEAGUE",
                         "team_a": "Gangwon FC",
                         "team_b": "Machida Zelvia",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-c1d0850b26",
-                    "name": "⚽ Syunik vs Andranik",
+                    "name": "🏆 CUP | ⚽ Syunik vs Andranik",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -984,9 +984,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 18:00 03/03/2026",
+                            "text": "⏳ 18:00",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -1031,14 +1031,14 @@
                         "league": "CUP",
                         "team_a": "Syunik",
                         "team_b": "Andranik",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/199.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-43919785dc",
-                    "name": "⚽ Spartak Varna vs Montana",
+                    "name": "🏆 FIRST LEAGUE | ⚽ Spartak Varna vs Montana",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -1052,9 +1052,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 18:30 03/03/2026",
+                            "text": "⏳ 18:30",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -1099,14 +1099,14 @@
                         "league": "FIRST LEAGUE",
                         "team_a": "Spartak Varna",
                         "team_b": "Montana",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-c91c9ba14d",
-                    "name": "⚽ İstanbulspor vs Boluspor",
+                    "name": "🏆 TÜRKIYE KUPASI | ⚽ İstanbulspor vs Boluspor",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -1120,9 +1120,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 19:30 03/03/2026",
+                            "text": "⏳ 19:30",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -1167,14 +1167,14 @@
                         "league": "TÜRKIYE KUPASI",
                         "team_a": "İstanbulspor",
                         "team_b": "Boluspor",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/206.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-55568df904",
-                    "name": "⚽ Persepam Madura Utd vs Malut United",
+                    "name": "🏆 LIGA 1 | ⚽ Persepam Madura Utd vs Malut United",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -1188,9 +1188,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 20:30 03/03/2026",
+                            "text": "⏳ 20:30",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -1235,14 +1235,14 @@
                         "league": "LIGA 1",
                         "team_a": "Persepam Madura Utd",
                         "team_b": "Malut United",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/274.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-15c96eea8e",
-                    "name": "⚽ Persija vs Pusamania Borneo",
+                    "name": "🏆 LIGA 1 | ⚽ Persija vs Pusamania Borneo",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -1256,9 +1256,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 20:30 03/03/2026",
+                            "text": "⏳ 20:30",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -1303,14 +1303,14 @@
                         "league": "LIGA 1",
                         "team_a": "Persija",
                         "team_b": "Pusamania Borneo",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/274.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-6af96978ec",
-                    "name": "⚽ Kelantan United vs Penang",
+                    "name": "🏆 MFL CUP | ⚽ Kelantan United vs Penang",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -1324,9 +1324,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 21:00 03/03/2026",
+                            "text": "⏳ 21:00",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -1371,14 +1371,14 @@
                         "league": "MFL CUP",
                         "team_a": "Kelantan United",
                         "team_b": "Penang",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/1170.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-56285e9d15",
-                    "name": "⚽ Sporting CP U23 vs Leixões U23",
+                    "name": "🏆 LIGA REVELAÇÃO U23 | ⚽ Sporting CP U23 vs Leixões U23",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -1392,9 +1392,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 22:00 03/03/2026",
+                            "text": "⏳ 22:00",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -1439,14 +1439,14 @@
                         "league": "LIGA REVELAÇÃO U23",
                         "team_a": "Sporting CP U23",
                         "team_b": "Leixões U23",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/701.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-c43c84893d",
-                    "name": "⚽ Dynamo Kyiv vs Inhulets",
+                    "name": "🏆 CUP | ⚽ Dynamo Kyiv vs Inhulets",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -1460,9 +1460,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 23:00 03/03/2026",
+                            "text": "⏳ 23:00",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -1507,14 +1507,14 @@
                         "league": "CUP",
                         "team_a": "Dynamo Kyiv",
                         "team_b": "Inhulets",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://media.api-sports.io/football/leagues/199.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 },
                 {
                     "id": "hq-85cf3d81ab",
-                    "name": "⚽ Botev Plovdiv vs Septemvri Sofia",
+                    "name": "🏆 FIRST LEAGUE | ⚽ Botev Plovdiv vs Septemvri Sofia",
                     "type": "single",
                     "display": "default",
                     "enable_detail": true,
@@ -1528,9 +1528,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 23:30 03/03/2026",
+                            "text": "⏳ 23:30",
                             "position": "top-left",
-                            "color": "#e50914",
+                            "color": "#1cb57a",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -1575,8 +1575,8 @@
                         "league": "FIRST LEAGUE",
                         "team_a": "Botev Plovdiv",
                         "team_b": "Septemvri Sofia",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_a": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 }
