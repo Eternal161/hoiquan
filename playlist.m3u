@@ -1,8 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⚽ Đang đá", 🔴 🏆 NATIONAL LEAGUE | Rakhine United vs Shan United | ⏰ 16:30 | 02/03/2026
-https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⚽ Đang đá", 🔴 🏆 PREMIER LEAGUE | SK Poltava vs Kudrivka | ⏰ 18:00 | 02/03/2026
-https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8
+https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phancauca/playlist.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", 🏆 LIGA 1 | Persebaya Surabaya vs Persib Bandung | ⏰ 20:30 | 02/03/2026
 http://waiting.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", 🏆 LIGA 1 | PSM Makassar vs Persita | ⏰ 20:30 | 02/03/2026
@@ -14,8 +12,6 @@ http://waiting.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", 🏆 SERIE A | Pisa vs Bologna | ⏰ 00:30 | 03/03/2026
 http://waiting.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", 🏆 LIGA I | Unirea Slobozia vs Rapid | ⏰ 00:30 | 03/03/2026
-http://waiting.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", 🏆 AFC CHAMPIONS LEAGUE | Al-Duhail SC vs Al-Ahli Jeddah | ⏰ 01:15 | 03/03/2026
 http://waiting.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", 🏆 SERIE A | Udinese vs Fiorentina | ⏰ 02:45 | 03/03/2026
 http://waiting.m3u8
@@ -54,8 +50,6 @@ http://waiting.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", 🏆 MFL CUP | Kelantan United vs Penang | ⏰ 21:00 | 03/03/2026
 http://waiting.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", 🏆 LIGA REVELAÇÃO U23 | Sporting CP U23 vs Leixões U23 | ⏰ 22:00 | 03/03/2026
-http://waiting.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", 🏆 AFC CHAMPIONS LEAGUE | Al Wahda FC vs Al-Ittihad FC | ⏰ 23:00 | 03/03/2026
 http://waiting.m3u8
 #EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", 🏆 CUP | Dynamo Kyiv vs Inhulets | ⏰ 23:00 | 03/03/2026
 http://waiting.m3u8
