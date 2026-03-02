@@ -18,9 +18,8 @@ GITHUB_FILE_PATH = "playlist.m3u"
 # ==========================================
 
 options = webdriver.ChromeOptions()
-options.add_argument('--headless')
+options.add_argument('--headless') # Chạy ngầm trên GitHub
 options.add_argument('--no-sandbox')
-options.add_argument('--disable-dev-shm-usage')
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
 m3u_content = "#EXTM3U\n"
@@ -29,10 +28,9 @@ link_da_quet = set()
 
 try:
     wait = WebDriverWait(driver, 20)
-    print("⏳ Đang cào dữ liệu trang chủ...")
     driver.get("https://sv2.hoiquan1.live/lich-thi-dau/bong-da")
     
-    # Gom danh sách trận bóng đá
+    # Gom danh sách các thẻ trận đấu
     items = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a[href*='bong-da']")))
     
     for item in items:
@@ -41,75 +39,60 @@ try:
         link_da_quet.add(link)
         
         text = item.text
-        # Lấy Poster xịn
+        # CHIÊU THỨ 1: LẤY POSTER (ẢNH NỀN CHỨA CẢ 2 LOGO)
         style = item.get_attribute("style")
         bg = re.search(r'url\("?\'?(.*?)\'?"?\)', style)
-        logo = bg.group(1) if bg else ""
+        poster_url = bg.group(1) if bg else ""
         
-        # Lấy Tên giải và Đội
+        # Bóc tách Giải đấu và Tên đội
         lines = [l.strip() for l in text.split('\n') if l.strip()]
-        giai = lines[0] if len(lines) > 0 else "Bóng Đá"
+        giai_dau = lines[0].upper() if len(lines) > 0 else "BÓNG ĐÁ"
+        
         teams = item.find_elements(By.CSS_SELECTOR, "span.truncate")
-        
         if len(teams) < 2: continue
-        ten = f"{teams[0].text.strip()} vs {teams[1].text.strip()}"
+        doi_1 = teams[0].text.strip()
+        doi_2 = teams[1].text.strip()
         
-        # Lấy giờ thi đấu chuẩn
+        # Bóc tách Thời gian và Ngày tháng
         time_m = re.search(r"(\d{2}:\d{2})\s*[\r\n]*\s*(\d{2}/\d{2}/\d{4})", text)
-        gio = f"{time_m.group(1)} {time_m.group(2)}" if time_m else "Giờ cập nhật sau"
+        thoi_gian = f"{time_m.group(1)} | {time_m.group(2)}" if time_m else "Sắp thi đấu"
         
         is_live = "Sắp diễn ra" not in text
         
         danh_sach_tran.append({
-            "link": link, "ten": ten, "logo": logo, "giai": giai, "gio": gio, "is_live": is_live
+            "link": link, "doi_1": doi_1, "doi_2": doi_2, "poster": poster_url, 
+            "giai": giai_dau, "gio": thoi_gian, "is_live": is_live
         })
 
-    print(f"✅ Đã gom {len(danh_sach_tran)} trận. Đang bắt link server...")
-
     for tran in danh_sach_tran:
-        tieu_de = f"[{tran['gio']}] 🏆 {tran['giai']} | {tran['ten']}"
+        # CHIÊU THỨ 2: SẮP XẾP TIÊU ĐỀ THEO HÀNG LỐI
+        # Cấu trúc: [GIẢI ĐẤU] Đội 1 vs Đội 2 (Giờ)
+        title_format = f"🏆 {tran['giai']} | {tran['doi_1']} vs {tran['doi_2']} | ⏰ {tran['gio']}"
         
         if not tran['is_live']:
-            # Trận sắp đá: 1 dòng duy nhất
-            m3u_content += f'#EXTINF:-1 tvg-logo="{tran["logo"]}" group-title="⏳ Sắp diễn ra", ⏰ {tieu_de}\n'
-            m3u_content += f'http://cho-den-gio-da.m3u8\n'
-            continue
-
-        # TRẬN ĐANG ĐÁ: Tìm link m3u8 thật
-        print(f"🔍 Đang vào phòng: {tran['ten']}")
-        del driver.requests # Xóa lịch sử cũ
-        driver.get(tran['link'])
-        time.sleep(12) # Đợi lâu hơn để link kịp hiện
-
-        unique_links = []
-        for req in driver.requests:
-            url = req.url
-            if req.response and '.m3u8' in url:
-                # BỘ LỌC CHỐNG LINK RÁC: Loại bỏ link phân đoạn chunklist hoặc index rác
-                if any(x in url.lower() for x in ['chunklist', 'index-v1', 'variant']):
-                    continue
-                if url not in unique_links:
-                    unique_links.append(url)
-        
-        if not unique_links:
-            # Nếu không bắt được link, vẫn hiện tên trận để người dùng biết
-            m3u_content += f'#EXTINF:-1 tvg-logo="{tran["logo"]}" group-title="⚽ Lỗi link", 🔴 {tieu_de}\n'
-            m3u_content += f'http://link-dang-cap-nhat.m3u8\n'
+            m3u_content += f'#EXTINF:-1 tvg-logo="{tran["poster"]}" group-title="⏳ Sắp diễn ra", {title_format}\n'
+            m3u_content += f'http://waiting.m3u8\n'
         else:
-            # CHỈ LẤY TỐI ĐA 2 SERVER TỐT NHẤT CHO GỌN
-            for i, url in enumerate(unique_links[:2]):
-                sv_name = "Chính" if i == 0 else f"Dự phòng {i}"
-                m3u_content += f'#EXTINF:-1 tvg-logo="{tran["logo"]}" group-title="⚽ Đang đá", 🔴 {tieu_de} ({sv_name})\n'
-                m3u_content += f'{url}\n'
+            driver.get(tran['link'])
+            time.sleep(12) # Đợi link m3u8 sinh ra
+            
+            link_m3u8 = "http://error-link.m3u8"
+            for req in driver.requests:
+                if req.response and '.m3u8' in req.url and 'chunklist' not in req.url:
+                    link_m3u8 = req.url
+                    break
+            
+            group = "⚽ Đang đá" if link_m3u8 != "http://error-link.m3u8" else "❌ Lỗi link"
+            m3u_content += f'#EXTINF:-1 tvg-logo="{tran["poster"]}" group-title="{group}", 🔴 {title_format}\n'
+            m3u_content += f'{link_m3u8}\n'
 
-    # ĐẨY LÊN GITHUB
-    print("🚀 Đang cập nhật lên GitHub...")
+    # Đẩy lên GitHub (Sử dụng cách thức đã fix lỗi thụt lề trước đó)
     auth = Auth.Token(GITHUB_TOKEN)
     g = Github(auth=auth)
     repo = g.get_repo(GITHUB_REPO_NAME)
     contents = repo.get_contents(GITHUB_FILE_PATH)
-    repo.update_file(contents.path, "Fix lỗi server và lặp trận", m3u_content, contents.sha)
-    print("🎉 HOÀN TẤT!")
+    repo.update_file(contents.path, "Giao diện Poster Pro", m3u_content, contents.sha)
+    print("🎉 Cập nhật giao diện thành công!")
 
 except Exception as e:
     print(f"❌ Có lỗi: {e}")
