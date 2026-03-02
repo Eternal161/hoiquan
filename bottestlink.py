@@ -13,7 +13,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # ==========================================
-# ⚙️ CẤU HÌNH GITHUB (BẢO MẬT TOKEN)
+# ⚙️ CẤU HÌNH GITHUB (ĐÃ BẢO MẬT TOKEN)
 # ==========================================
 GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN") 
 GITHUB_REPO_NAME = "Eternal161/hoiquan" 
@@ -28,7 +28,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 du_lieu_json = {
     "id": "hoiquan-tv",
     "url": "https://raw.githack.com/Eternal161/hoiquan/main/playlist.json",
-    "name": "Sáng",
+    "name": "Sáng TV",
     "color": "#1cb57a",
     "grid_number": 3,
     "image": {
@@ -48,8 +48,15 @@ du_lieu_json = {
 danh_sach_tran = []
 link_da_quet = set()
 
+# Hàm ép mọi link ảnh thành link chuẩn tuyệt đối (Không để TV bị mù)
+def make_absolute_url(u):
+    if not u: return "https://hoiquan1.live/assets/imgs/bg-fixture-card.png"
+    if u.startswith("//"): return "https:" + u
+    if u.startswith("/"): return "https://hoiquan1.live" + u
+    return u
+
 try:
-    print("🚀 Đang quét dữ liệu, tỉ số và thời gian...")
+    print("🚀 Đang quét dữ liệu toàn diện (Tỉ số, Thời gian, Logo)...")
     wait = WebDriverWait(driver, 20)
     driver.get("https://sv2.hoiquan2.live/lich-thi-dau/bong-da")
     
@@ -61,45 +68,54 @@ try:
         link_da_quet.add(link)
         
         text = item.text
-        
-        style = item.get_attribute("style") or ""
-        bg = re.search(r'url\("?\'?(.*?)\'?"?\)', style)
-        poster_url = bg.group(1) if bg else "https://via.placeholder.com/1600x1200.png?text=Bong+Da"
-        
-        # Bơm thêm tên miền nếu link ảnh bị cụt
-        if poster_url.startswith("/"):
-            poster_url = "https://hoiquan1.live" + poster_url
-            
         lines = [l.strip() for l in text.split('\n') if l.strip()]
         giai_dau = lines[0].upper() if len(lines) > 0 else "BÓNG ĐÁ"
         
+        # TÌM TÊN ĐỘI
         teams = item.find_elements(By.CSS_SELECTOR, "span.truncate")
         if len(teams) < 2: continue
         doi_1 = teams[0].text.strip()
         doi_2 = teams[1].text.strip()
         
-        time_m = re.search(r"(\d{2}:\d{2})\s*[\r\n]*\s*(\d{2}/\d{2}/\d{4})", text)
-        thoi_gian = f"{time_m.group(1)} {time_m.group(2)}" if time_m else "Sắp diễn ra"
-        is_live = "Sắp diễn ra" not in text
+        # TÌM LOGO 2 ĐỘI & ẢNH BÌA CHUẨN XÁC
+        imgs = item.find_elements(By.TAG_NAME, "img")
+        urls = [img.get_attribute("src") for img in imgs if img.get_attribute("src")]
         
-        # Xử lý tỉ số: xóa mọi khoảng trắng và dấu xuống dòng
-        ti_so_match = re.search(r"(\d+\s*-\s*\d+)", text)
-        ti_so = re.sub(r'\s+', '', ti_so_match.group(1)) if ti_so_match else ""
-        
-        phut_match = re.search(r"(\d{1,3}'|HT|FT|Live)", text, re.IGNORECASE)
-        phut = phut_match.group(1) if phut_match else ""
-        
-        if is_live:
-            if ti_so or phut:
-                nhan_hien_thi = f"🔴 {phut} | {ti_so}".strip(" |")
-            else:
-                nhan_hien_thi = "🔴 Đang Đá"
+        if len(urls) >= 2:
+            logo_1 = make_absolute_url(urls[0])
+            logo_2 = make_absolute_url(urls[1])
+            poster = logo_1 # Dùng logo đội 1 làm nền tạm
         else:
-            nhan_hien_thi = f"⏳ {thoi_gian}"
+            logo_1 = logo_2 = poster = "https://hoiquan1.live/assets/imgs/bg-fixture-card.png"
+            
+        style = item.get_attribute("style") or ""
+        bg_match = re.search(r'url\("?\'?(.*?)\'?"?\)', style)
+        if bg_match:
+            poster = make_absolute_url(bg_match.group(1))
+
+        # TÌM THỜI GIAN VÀ TỈ SỐ SIÊU NHẠY
+        ti_so_match = re.search(r"(\d+)\s*-\s*(\d+)", text)
+        ti_so = f"{ti_so_match.group(1)}-{ti_so_match.group(2)}" if ti_so_match else ""
         
+        # Bắt các chữ: 75', Phút 75, HT, FT
+        phut_match = re.search(r"(?i)(\d{1,3}\s*'|Phút\s*\d+|\bHT\b|\bFT\b)", text)
+        phut = phut_match.group(1).strip() if phut_match else ""
+        
+        time_m = re.search(r"(\d{2}:\d{2})\s*[\r\n]*\s*(\d{2}/\d{2}/\d{4})?", text)
+        thoi_gian_goc = time_m.group(1) if time_m else "Sắp diễn ra"
+        
+        if ti_so: # Nếu có tỉ số nghĩa là trận đang đá hoặc đã xong
+            phut_hien_thi = phut if phut else "Đang đá"
+            nhan_hien_thi = f"🔴 {phut_hien_thi} | {ti_so}"
+        else: # Chưa đá
+            nhan_hien_thi = f"⏳ {thoi_gian_goc}"
+            
+        is_live = bool(ti_so) or "Live" in text or "Trực tiếp" in text
+
         danh_sach_tran.append({
-            "link": link, "doi_1": doi_1, "doi_2": doi_2, "poster": poster_url, 
-            "giai": giai_dau, "gio": thoi_gian, "is_live": is_live, "nhan": nhan_hien_thi
+            "link": link, "doi_1": doi_1, "doi_2": doi_2, 
+            "poster": poster, "logo_1": logo_1, "logo_2": logo_2,
+            "giai": giai_dau, "is_live": is_live, "nhan": nhan_hien_thi
         })
 
     for tran in danh_sach_tran:
@@ -116,7 +132,8 @@ try:
         
         kenh_json = {
             "id": match_id,
-            "name": f"⚽ {tran['doi_1']} vs {tran['doi_2']}",
+            # ÉP TÊN GIẢI ĐẤU LÊN TIÊU ĐỀ ĐỂ TV BẮT BUỘC PHẢI HIỂN THỊ
+            "name": f"🏆 {tran['giai']} | ⚽ {tran['doi_1']} vs {tran['doi_2']}",
             "type": "single",
             "display": "default",
             "enable_detail": True,
@@ -131,7 +148,7 @@ try:
             "labels": [{
                 "text": tran['nhan'], 
                 "position": "top-left", 
-                "color": "#e50914",
+                "color": "#e50914" if tran['is_live'] else "#1cb57a", # Đỏ nếu Live, Xanh nếu sắp đá
                 "text_color": "#ffffff"
             }],
             "sources": [{
@@ -161,8 +178,8 @@ try:
                 "league": tran['giai'],
                 "team_a": tran['doi_1'],
                 "team_b": tran['doi_2'],
-                "logo_a": tran['poster'],
-                "logo_b": tran['poster'],
+                "logo_a": tran['logo_1'], # Đã cung cấp logo chuẩn
+                "logo_b": tran['logo_2'], # Đã cung cấp logo chuẩn
                 "thumb": tran['poster']
             }
         }
@@ -179,7 +196,7 @@ try:
         
         try:
             contents = repo.get_contents(GITHUB_FILE_PATH)
-            repo.update_file(contents.path, "Bản chuẩn hóa cuối cùng", json_content, contents.sha)
+            repo.update_file(contents.path, "Bản fix hình ảnh và thời gian chuẩn 100%", json_content, contents.sha)
             print("🎉 Cập nhật thành công file playlist.json!")
         except Exception:
             repo.create_file(GITHUB_FILE_PATH, "Tạo mới JSON", json_content)
