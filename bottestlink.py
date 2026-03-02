@@ -4,6 +4,7 @@ import re
 import json
 import hashlib
 import traceback
+import urllib.parse
 from github import Github, Auth
 from seleniumwire import webdriver 
 from selenium.webdriver.chrome.service import Service
@@ -28,27 +29,19 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 du_lieu_json = {
     "id": "hoiquan-tv",
     "url": "https://raw.githack.com/Eternal161/hoiquan/main/playlist.json",
-    "name": "Sáng TV",
+    "name": "Sáng",
     "color": "#1cb57a",
     "grid_number": 3,
     "image": {
         "type": "cover", 
         "url": "https://i.postimg.cc/02tKjcyN/JT3IVCOJDKW3PBRFZAZUILENLU.jpg"
     },
-    "groups": [{
-        "id": "live-matches",
-        "name": "🔴 Trực Tiếp Bóng Đá",
-        "display": "vertical",
-        "grid_number": 2,
-        "enable_detail": False,
-        "channels": []
-    }]
+    "groups": [] 
 }
 
 danh_sach_tran = []
 link_da_quet = set()
 
-# Hàm ép mọi link ảnh thành link chuẩn tuyệt đối (Không để TV bị mù)
 def make_absolute_url(u):
     if not u: return "https://hoiquan1.live/assets/imgs/bg-fixture-card.png"
     if u.startswith("//"): return "https:" + u
@@ -56,7 +49,7 @@ def make_absolute_url(u):
     return u
 
 try:
-    print("🚀 Đang quét dữ liệu toàn diện (Tỉ số, Thời gian, Logo)...")
+    print("🚀 Đang quét dữ liệu, giữ nguyên Background và ẩn Tỉ số...")
     wait = WebDriverWait(driver, 20)
     driver.get("https://sv2.hoiquan2.live/lich-thi-dau/bong-da")
     
@@ -71,52 +64,77 @@ try:
         lines = [l.strip() for l in text.split('\n') if l.strip()]
         giai_dau = lines[0].upper() if len(lines) > 0 else "BÓNG ĐÁ"
         
-        # TÌM TÊN ĐỘI
         teams = item.find_elements(By.CSS_SELECTOR, "span.truncate")
         if len(teams) < 2: continue
         doi_1 = teams[0].text.strip()
         doi_2 = teams[1].text.strip()
         
-        # TÌM LOGO 2 ĐỘI & ẢNH BÌA CHUẨN XÁC
-        imgs = item.find_elements(By.TAG_NAME, "img")
-        urls = [img.get_attribute("src") for img in imgs if img.get_attribute("src")]
-        
-        if len(urls) >= 2:
-            logo_1 = make_absolute_url(urls[0])
-            logo_2 = make_absolute_url(urls[1])
-            poster = logo_1 # Dùng logo đội 1 làm nền tạm
-        else:
-            logo_1 = logo_2 = poster = "https://hoiquan1.live/assets/imgs/bg-fixture-card.png"
-            
+        # --- LẤY BACKGROUND GỐC ---
         style = item.get_attribute("style") or ""
         bg_match = re.search(r'url\("?\'?(.*?)\'?"?\)', style)
         if bg_match:
-            poster = make_absolute_url(bg_match.group(1))
+            poster_goc = make_absolute_url(bg_match.group(1))
+        else:
+            poster_goc = "https://hoiquan1.live/assets/imgs/bg-fixture-card.png"
 
-        # TÌM THỜI GIAN VÀ TỈ SỐ SIÊU NHẠY
-        ti_so_match = re.search(r"(\d+)\s*-\s*(\d+)", text)
-        ti_so = f"{ti_so_match.group(1)}-{ti_so_match.group(2)}" if ti_so_match else ""
+        # --- LẤY LOGO 2 ĐỘI ---
+        html_content = item.get_attribute("innerHTML")
+        all_urls = re.findall(r'src="([^"]+)"', html_content) + re.findall(r'url\([\'"]?(.*?)[\'"]?\)', html_content)
         
-        # Bắt các chữ: 75', Phút 75, HT, FT
+        real_logos = []
+        for u in all_urls:
+            if "bg-fixture" not in u and "data:image" not in u:
+                url_chuan = make_absolute_url(u)
+                if url_chuan not in real_logos:
+                    real_logos.append(url_chuan)
+        
+        if len(real_logos) >= 2:
+            logo_1, logo_2 = real_logos[0], real_logos[1]
+        elif len(real_logos) == 1:
+            logo_1 = logo_2 = real_logos[0]
+        else:
+            logo_1 = logo_2 = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/500px-Soccerball.svg.png"
+
+        # --- VẼ ẢNH: LẤY NỀN GỐC + ĐẮP LOGO + CHỮ VS ---
+        svg_template = f"""<svg width="1600" height="1200" xmlns="http://www.w3.org/2000/svg">
+            <image href="{poster_goc}" x="0" y="0" width="1600" height="1200" preserveAspectRatio="xMidYMid slice"/>
+            <image href="{logo_1}" x="250" y="300" width="400" height="400" preserveAspectRatio="xMidYMid meet"/>
+            <text x="800" y="530" font-size="140" fill="#ffffff" text-anchor="middle" font-family="sans-serif" font-weight="bold">VS</text>
+            <image href="{logo_2}" x="950" y="300" width="400" height="400" preserveAspectRatio="xMidYMid meet"/>
+            <text x="450" y="800" font-size="55" fill="#ffffff" text-anchor="middle" font-family="sans-serif" font-weight="bold" filter="drop-shadow(3px 3px 2px rgba(0,0,0,0.8))">{doi_1}</text>
+            <text x="1150" y="800" font-size="55" fill="#ffffff" text-anchor="middle" font-family="sans-serif" font-weight="bold" filter="drop-shadow(3px 3px 2px rgba(0,0,0,0.8))">{doi_2}</text>
+            <text x="800" y="1000" font-size="65" fill="#ffd700" text-anchor="middle" font-family="sans-serif" font-weight="bold" filter="drop-shadow(3px 3px 2px rgba(0,0,0,0.8))">{giai_dau}</text>
+        </svg>"""
+        poster_hoan_hao = "data:image/svg+xml;charset=utf-8," + urllib.parse.quote(svg_template)
+        # ----------------------------------------------
+
+        # --- XỬ LÝ NHÃN (CHỈ HIỆN THỜI GIAN/NGÀY THÁNG) ---
+        time_m = re.search(r"(\d{2}:\d{2})\s*[\r\n]*\s*(\d{2}/\d{2}/\d{4})?", text)
+        if time_m:
+            gio = time_m.group(1)
+            ngay = time_m.group(2) if time_m.group(2) else ""
+            thoi_gian_goc = f"{gio} {ngay}".strip()
+        else:
+            thoi_gian_goc = "Sắp diễn ra"
+
         phut_match = re.search(r"(?i)(\d{1,3}\s*'|Phút\s*\d+|\bHT\b|\bFT\b)", text)
         phut = phut_match.group(1).strip() if phut_match else ""
         
-        time_m = re.search(r"(\d{2}:\d{2})\s*[\r\n]*\s*(\d{2}/\d{2}/\d{4})?", text)
-        thoi_gian_goc = time_m.group(1) if time_m else "Sắp diễn ra"
-        
-        if ti_so: # Nếu có tỉ số nghĩa là trận đang đá hoặc đã xong
+        is_live = bool(re.search(r"(\d+)\s*-\s*(\d+)", text)) or "Live" in text or "Trực tiếp" in text
+
+        if is_live:
             phut_hien_thi = phut if phut else "Đang đá"
-            nhan_hien_thi = f"🔴 {phut_hien_thi} | {ti_so}"
-        else: # Chưa đá
+            nhan_hien_thi = f"🔴 {phut_hien_thi} | {thoi_gian_goc}"
+        else:
             nhan_hien_thi = f"⏳ {thoi_gian_goc}"
-            
-        is_live = bool(ti_so) or "Live" in text or "Trực tiếp" in text
 
         danh_sach_tran.append({
             "link": link, "doi_1": doi_1, "doi_2": doi_2, 
-            "poster": poster, "logo_1": logo_1, "logo_2": logo_2,
+            "poster": poster_hoan_hao, "logo_1": logo_1, "logo_2": logo_2,
             "giai": giai_dau, "is_live": is_live, "nhan": nhan_hien_thi
         })
+
+    nhom_giai_dau = {}
 
     for tran in danh_sach_tran:
         link_m3u8 = "http://waiting.m3u8"
@@ -132,23 +150,22 @@ try:
         
         kenh_json = {
             "id": match_id,
-            # ÉP TÊN GIẢI ĐẤU LÊN TIÊU ĐỀ ĐỂ TV BẮT BUỘC PHẢI HIỂN THỊ
-            "name": f"🏆 {tran['giai']} | ⚽ {tran['doi_1']} vs {tran['doi_2']}",
+            "name": f"⚽ {tran['doi_1']} vs {tran['doi_2']}",
             "type": "single",
             "display": "default",
-            "enable_detail": True,
+            "enable_detail": False,  
             "image": {
                 "padding": 1,
-                "background_color": "#ececec",
+                "background_color": "#111318",
                 "display": "contain",
-                "url": tran['poster'],
+                "url": tran['poster'], 
                 "width": 1600,
                 "height": 1200
             },
             "labels": [{
                 "text": tran['nhan'], 
                 "position": "top-left", 
-                "color": "#e50914" if tran['is_live'] else "#1cb57a", # Đỏ nếu Live, Xanh nếu sắp đá
+                "color": "#e50914" if tran['is_live'] else "#1cb57a",
                 "text_color": "#ffffff"
             }],
             "sources": [{
@@ -178,16 +195,30 @@ try:
                 "league": tran['giai'],
                 "team_a": tran['doi_1'],
                 "team_b": tran['doi_2'],
-                "logo_a": tran['logo_1'], # Đã cung cấp logo chuẩn
-                "logo_b": tran['logo_2'], # Đã cung cấp logo chuẩn
+                "logo_a": tran['logo_1'],
+                "logo_b": tran['logo_2'],
                 "thumb": tran['poster']
             }
         }
         
-        du_lieu_json["groups"][0]["channels"].append(kenh_json)
+        giai = tran['giai']
+        if giai not in nhom_giai_dau:
+            nhom_giai_dau[giai] = []
+        nhom_giai_dau[giai].append(kenh_json)
+
+    for giai, danh_sach_kenh in nhom_giai_dau.items():
+        id_nhom = "grp-" + hashlib.md5(giai.encode()).hexdigest()[:8]
+        du_lieu_json["groups"].append({
+            "id": id_nhom,
+            "name": f"🏆 {giai}", 
+            "display": "vertical",
+            "grid_number": 3,
+            "enable_detail": False,
+            "channels": danh_sach_kenh
+        })
 
     if not GITHUB_TOKEN:
-        print("❌ LỖI: Không tìm thấy Token. Hãy chạy code này thông qua GitHub Actions.")
+        print("❌ LỖI: Không tìm thấy Token.")
     else:
         auth = Auth.Token(GITHUB_TOKEN)
         g = Github(auth=auth)
@@ -196,7 +227,7 @@ try:
         
         try:
             contents = repo.get_contents(GITHUB_FILE_PATH)
-            repo.update_file(contents.path, "Bản fix hình ảnh và thời gian chuẩn 100%", json_content, contents.sha)
+            repo.update_file(contents.path, "Hoàn thiện: Nền gốc + Ẩn Tỉ Số", json_content, contents.sha)
             print("🎉 Cập nhật thành công file playlist.json!")
         except Exception:
             repo.create_file(GITHUB_FILE_PATH, "Tạo mới JSON", json_content)
