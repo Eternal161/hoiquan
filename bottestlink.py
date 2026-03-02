@@ -25,7 +25,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 du_lieu_json = {
     "id": "hoiquan-tv",
     "url": "https://raw.githack.com/Eternal161/hoiquan/main/playlist.json",
-    "name": "Sáng",
+    "name": "",
     "color": "#1cb57a",
     "grid_number": 3,
     "image": {
@@ -43,6 +43,17 @@ def make_absolute_url(u):
     if u.startswith("//"): return "https:" + u
     if u.startswith("/"): return "https://hoiquan1.live" + u
     return u
+
+def get_sort_key(t):
+    if t['is_live']:
+        return "0000000000"
+    m = re.search(r"(\d{2}):(\d{2})\s+(\d{2})/(\d{2})/(\d{4})", t['thoi_gian_goc'])
+    if m:
+        return f"{m.group(5)}{m.group(4)}{m.group(3)}{m.group(1)}{m.group(2)}"
+    m2 = re.search(r"(\d{2}):(\d{2})", t['thoi_gian_goc'])
+    if m2:
+        return f"99991231{m2.group(1)}{m2.group(2)}"
+    return "9999999999"
 
 try:
     wait = WebDriverWait(driver, 20)
@@ -117,10 +128,12 @@ try:
         danh_sach_tran.append({
             "link": link, "doi_1": doi_1, "doi_2": doi_2, 
             "poster": poster_hoan_hao, "logo_1": logo_1, "logo_2": logo_2,
-            "giai": giai_dau, "is_live": is_live, "nhan": nhan_hien_thi
+            "giai": giai_dau, "is_live": is_live, "nhan": nhan_hien_thi,
+            "thoi_gian_goc": thoi_gian_goc
         })
 
-    nhom_giai_dau = {}
+    danh_sach_tran.sort(key=get_sort_key)
+    danh_sach_kenh = []
 
     for tran in danh_sach_tran:
         link_m3u8 = "http://waiting.m3u8"
@@ -186,22 +199,16 @@ try:
                 "thumb": tran['poster']
             }
         }
-        
-        giai = tran['giai']
-        if giai not in nhom_giai_dau:
-            nhom_giai_dau[giai] = []
-        nhom_giai_dau[giai].append(kenh_json)
+        danh_sach_kenh.append(kenh_json)
 
-    for giai, danh_sach_kenh in nhom_giai_dau.items():
-        id_nhom = "grp-" + hashlib.md5(giai.encode()).hexdigest()[:8]
-        du_lieu_json["groups"].append({
-            "id": id_nhom,
-            "name": f"🏆 {giai}", 
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": False,
-            "channels": danh_sach_kenh
-        })
+    du_lieu_json["groups"].append({
+        "id": "all-matches",
+        "name": "🔴 Trực Tiếp Bóng Đá", 
+        "display": "vertical",
+        "grid_number": 3,
+        "enable_detail": False,
+        "channels": danh_sach_kenh
+    })
 
     if GITHUB_TOKEN:
         auth = Auth.Token(GITHUB_TOKEN)
@@ -211,9 +218,9 @@ try:
         
         try:
             contents = repo.get_contents(GITHUB_FILE_PATH)
-            repo.update_file(contents.path, "Final Build", json_content, contents.sha)
+            repo.update_file(contents.path, "Final Build: Sorted by Time", json_content, contents.sha)
         except Exception:
-            repo.create_file(GITHUB_FILE_PATH, "Final Build", json_content)
+            repo.create_file(GITHUB_FILE_PATH, "Final Build: Sorted by Time", json_content)
 
 except Exception:
     traceback.print_exc()
