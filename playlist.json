@@ -32,7 +32,7 @@
                     },
                     "labels": [
                         {
-                            "text": "🔴 Live | 0\n-\n0",
+                            "text": "🔴 7' | 2-90",
                             "position": "top-left",
                             "color": "#e50914",
                             "text_color": "#ffffff"
@@ -100,7 +100,7 @@
                     },
                     "labels": [
                         {
-                            "text": "🔴 Live | 0\n-\n0",
+                            "text": "🔴 6' | 2-90",
                             "position": "top-left",
                             "color": "#e50914",
                             "text_color": "#ffffff"
@@ -168,7 +168,7 @@
                     },
                     "labels": [
                         {
-                            "text": "🔴 Live | 0\n-\n0",
+                            "text": "🔴  | 0\n-\n0",
                             "position": "top-left",
                             "color": "#e50914",
                             "text_color": "#ffffff"
@@ -218,6 +218,142 @@
                         "logo_a": "/assets/imgs/bg-fixture-card.png",
                         "logo_b": "/assets/imgs/bg-fixture-card.png",
                         "thumb": "/assets/imgs/bg-fixture-card.png"
+                    }
+                },
+                {
+                    "id": "hq-d41d8cd98f",
+                    "name": "⚽  vs ",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": true,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "🔴 Đang Đá",
+                            "position": "top-left",
+                            "color": "#e50914",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-d41d8cd98f",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-d41d8cd98f",
+                                    "name": " vs ",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-d41d8cd98f",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-d41d8cd98f",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "BÓNG ĐÁ",
+                        "team_a": "",
+                        "team_b": "",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-d41d8cd98f",
+                    "name": "⚽  vs ",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": true,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "🔴 Đang Đá",
+                            "position": "top-left",
+                            "color": "#e50914",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-d41d8cd98f",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-d41d8cd98f",
+                                    "name": " vs ",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-d41d8cd98f",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-d41d8cd98f",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "BÓNG ĐÁ",
+                        "team_a": "",
+                        "team_b": "",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
                     }
                 }
             ]
