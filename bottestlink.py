@@ -51,7 +51,7 @@ link_da_quet = set()
 try:
     print("🚀 Đang quét dữ liệu, tỉ số và thời gian...")
     wait = WebDriverWait(driver, 20)
-    driver.get("https://hoiquan1.live/")
+    driver.get("https://sv2.hoiquan2.live/lich-thi-dau/bong-")
     
     items = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a[href*='bong-da']")))
     
@@ -75,15 +75,41 @@ try:
         doi_2 = teams[1].text.strip()
         
         # --- THUẬT TOÁN TÌM TỈ SỐ VÀ PHÚT MỚI ---
+      style = item.get_attribute("style") or ""
+        bg = re.search(r'url\("?\'?(.*?)\'?"?\)', style)
+        poster_url = bg.group(1) if bg else "https://via.placeholder.com/1600x1200.png?text=Bong+Da"
+        
+        # FIX LỖI 1: Bơm thêm tên miền nếu link ảnh bị cụt
+        if poster_url.startswith("/"):
+            poster_url = "https://hoiquan1.live" + poster_url
+            
+        lines = [l.strip() for l in text.split('\n') if l.strip()]
+        giai_dau = lines[0].upper() if len(lines) > 0 else "BÓNG ĐÁ"
+        
+        teams = item.find_elements(By.CSS_SELECTOR, "span.truncate")
+        if len(teams) < 2: continue
+        doi_1 = teams[0].text.strip()
+        doi_2 = teams[1].text.strip()
+        
+        # --- THUẬT TOÁN TÌM TỈ SỐ VÀ PHÚT (ĐÃ VÁ LỖI) ---
         time_m = re.search(r"(\d{2}:\d{2})\s*[\r\n]*\s*(\d{2}/\d{2}/\d{4})", text)
         thoi_gian = f"{time_m.group(1)} {time_m.group(2)}" if time_m else "Sắp diễn ra"
         is_live = "Sắp diễn ra" not in text
         
+        # FIX LỖI 2: Quét sạch mọi dấu cách và dấu \n (xuống dòng) trong tỉ số
         ti_so_match = re.search(r"(\d+\s*-\s*\d+)", text)
-        ti_so = ti_so_match.group(1).replace(" ", "") if ti_so_match else ""
+        ti_so = re.sub(r'\s+', '', ti_so_match.group(1)) if ti_so_match else ""
         
         phut_match = re.search(r"(\d{1,3}'|HT|FT|Live)", text, re.IGNORECASE)
         phut = phut_match.group(1) if phut_match else ""
+        
+        if is_live:
+            if ti_so or phut:
+                nhan_hien_thi = f"🔴 {phut} | {ti_so}".strip(" |")
+            else:
+                nhan_hien_thi = "🔴 Đang Đá"
+        else:
+            nhan_hien_thi = f"⏳ {thoi_gian}"
         
         # Xây dựng chữ hiển thị trên góc ảnh
         if is_live:
@@ -188,3 +214,4 @@ except Exception as e:
     traceback.print_exc()
 finally:
     driver.quit()
+
