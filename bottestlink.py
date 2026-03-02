@@ -75,7 +75,7 @@ try:
         doi_2 = teams[1].text.strip()
         
         # --- THUẬT TOÁN TÌM TỈ SỐ VÀ PHÚT MỚI ---
-      style = item.get_attribute("style") or ""
+      style = item.get_attribute("style") or " "
         bg = re.search(r'url\("?\'?(.*?)\'?"?\)', style)
         poster_url = bg.group(1) if bg else "https://via.placeholder.com/1600x1200.png?text=Bong+Da"
         
@@ -214,4 +214,5 @@ except Exception as e:
     traceback.print_exc()
 finally:
     driver.quit()
+
 
