@@ -1,15 +1,19 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/leagues/897.png" group-title="⚽ Đang đá", 🔴 [Giờ cập nhật sau] 1 - 29 | South Korea W vs Iran W
-https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanchanh/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/leagues/588.png" group-title="⚽ Đang đá", 🔴 [Giờ cập nhật sau] 0
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/1728.png" group-title="⚽ Đang đá", 🔴 [16:0002/03/2026] 1
 -
-0 | Rakhine United vs Shan United
+0 (H1 - 39') | South Korea W vs Iran W
+https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanchanh/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/12527.png" group-title="⚽ Đang đá", 🔴 [16:3002/03/2026] 0
+-
+0 (H1 - 9') | Rakhine United vs Shan United
 https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png" group-title="⏳ Sắp diễn ra", ⏰ [Giờ cập nhật sau] VS | SK Poltava vs Kudrivka
-https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
-#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/leagues/897.png" group-title="⚽ Đang đá", 🔴 [Giờ cập nhật sau] 1 - 29 | South Korea W vs Iran W
-https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanchanh/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/leagues/588.png" group-title="⚽ Đang đá", 🔴 [Giờ cập nhật sau] 0
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/17165.png" group-title="⏳ Sắp diễn ra", ⏰ [18:0002/03/2026] VS | SK Poltava vs Kudrivka
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8?id=SK_Poltava_vs_Kudrivka
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/1728.png" group-title="⚽ Đang đá", 🔴 [16:0002/03/2026] 1
 -
-0 | Rakhine United vs Shan United
+0 (H1 - 39') | South Korea W vs Iran W
+https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanchanh/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/12527.png" group-title="⚽ Đang đá", 🔴 [16:3002/03/2026] 0
+-
+0 (H1 - 9') | Rakhine United vs Shan United
 https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8
