@@ -1,0 +1,4 @@
+seleniumwire==5.1.0
+webdriver-manager==4.0.1
+PyGithub==2.3.0
+blinker==1.7.0
