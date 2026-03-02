@@ -1,7 +1,13 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/1728.png" group-title="⚽ Đang đá", 🔴 [16:0002/03/2026] South Korea W vs Iran W
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/1728.png" group-title="⚽ Đang đá", 🔴 [16:0002/03/2026]    South Korea W vs Iran W
 https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanchanh/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/12527.png" group-title="⚽ Đang đá", 🔴 [16:3002/03/2026] Rakhine United vs Shan United
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/12527.png" group-title="⚽ Đang đá", 🔴 [16:3002/03/2026]    Rakhine United vs Shan United
 https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/17165.png" group-title="⏳ Sắp diễn ra", ⏰ [18:0002/03/2026] SK Poltava vs Kudrivka
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/17165.png" group-title="⏳ Sắp diễn ra", ⏰ [18:0002/03/2026]    SK Poltava vs Kudrivka
 https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8?id=SK_Poltava_vs_Kudrivka
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/1728.png" group-title="⚽ Đang đá", 🔴 [16:0002/03/2026]    South Korea W vs Iran W
+https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanchanh/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/12527.png" group-title="⚽ Đang đá", 🔴 [16:3002/03/2026]    Rakhine United vs Shan United
+https://tftu3ge51hp3tfaau1ptqgrhugmmrpfagacbage41h3mrc71s4amacp1gh.100ycdn.com/dipl0825.edgemaxcdn.org/live/hqtv_blv_phanchanh/playlist.m3u8?wsSession=5337a501778bcae726ebea81-177244497188848&wsIPSercert=6bfe7b391fdb69c08f9b94bfe410c45a&wsiphost=local&wsBindIP=1
+#EXTINF:-1 tvg-logo="https://media.api-sports.io/football/teams/17165.png" group-title="⚽ Đang đá", 🔴 [Giờ cập nhật sau]    SK Poltava vs 
+https://tftu3ge51hp3tfaau1ptqgr4urmmrpfagacbage41h3mrc71s4amacp1gh.100ycdn.com/dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8?wsSession=6dc3e4d2ef0ffa05ab8f4791-177244497836355&wsIPSercert=6bfe7b391fdb69c08f9b94bfe410c45a&wsiphost=local&wsBindIP=1
