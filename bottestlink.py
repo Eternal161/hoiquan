@@ -3,7 +3,7 @@ import time
 import re
 import json
 import hashlib
-import traceback # Thư viện mới để soi lỗi chi tiết
+import traceback
 from github import Github, Auth
 from seleniumwire import webdriver 
 from selenium.webdriver.chrome.service import Service
@@ -13,10 +13,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # ==========================================
-# ⚙️ CẤU HÌNH GITHUB (CHẠY TRÊN MÁY TÍNH)
+# ⚙️ CẤU HÌNH GITHUB (ĐÃ BẢO MẬT TOKEN)
 # ==========================================
-# TẠM THỜI DÁN THẲNG TOKEN CỦA BẠN VÀO ĐÂY ĐỂ TEST TRÊN VS CODE
-GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN")
+GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN") 
 GITHUB_REPO_NAME = "Eternal161/hoiquan" 
 GITHUB_FILE_PATH = "playlist.json"
 # ==========================================
@@ -29,36 +28,32 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 du_lieu_json = {
     "id": "hoiquan-tv",
     "url": "https://raw.githack.com/Eternal161/hoiquan/main/playlist.json",
-    "name": "Hội Quán TV",
+    "name": "Sáng",
     "color": "#1cb57a",
     "grid_number": 3,
     "image": {
         "type": "cover", 
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/500px-Soccerball.svg.png"
+        "url": "https://postimg.cc/hfdt38xF"
     },
-    "groups": [
-        {
-            "id": "live-matches",
-            "name": "🔴 Trực Tiếp Bóng Đá",
-            "display": "vertical",
-            "grid_number": 2,
-            "enable_detail": False,
-            "channels": []
-        }
-    ]
+    "groups": [{
+        "id": "live-matches",
+        "name": "🔴 Trực Tiếp Bóng Đá",
+        "display": "vertical",
+        "grid_number": 2,
+        "enable_detail": False,
+        "channels": []
+    }]
 }
 
 danh_sach_tran = []
 link_da_quet = set()
 
 try:
-    print("🚀 Đang khởi động bot quét dữ liệu dạng JSON...")
+    print("🚀 Đang quét dữ liệu, tỉ số và thời gian...")
     wait = WebDriverWait(driver, 20)
-    driver.get("https://sv2.hoiquan1.live/lich-thi-dau/bong-da")
+    driver.get("https://hoiquan1.live/")
     
-    # Tìm tất cả các thẻ a
     items = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a[href*='bong-da']")))
-    print(f"👀 Đã quét thấy {len(items)} thẻ chứa link bóng đá...")
     
     for item in items:
         link = item.get_attribute("href")
@@ -67,7 +62,6 @@ try:
         
         text = item.text
         
-        # FIX LỖI: Lấy Poster an toàn hơn (Tránh lỗi TypeError)
         style = item.get_attribute("style") or ""
         bg = re.search(r'url\("?\'?(.*?)\'?"?\)', style)
         poster_url = bg.group(1) if bg else "https://via.placeholder.com/1600x1200.png?text=Bong+Da"
@@ -80,20 +74,34 @@ try:
         doi_1 = teams[0].text.strip()
         doi_2 = teams[1].text.strip()
         
+        # --- THUẬT TOÁN TÌM TỈ SỐ VÀ PHÚT MỚI ---
         time_m = re.search(r"(\d{2}:\d{2})\s*[\r\n]*\s*(\d{2}/\d{2}/\d{4})", text)
         thoi_gian = f"{time_m.group(1)} {time_m.group(2)}" if time_m else "Sắp diễn ra"
         is_live = "Sắp diễn ra" not in text
         
+        ti_so_match = re.search(r"(\d+\s*-\s*\d+)", text)
+        ti_so = ti_so_match.group(1).replace(" ", "") if ti_so_match else ""
+        
+        phut_match = re.search(r"(\d{1,3}'|HT|FT|Live)", text, re.IGNORECASE)
+        phut = phut_match.group(1) if phut_match else ""
+        
+        # Xây dựng chữ hiển thị trên góc ảnh
+        if is_live:
+            if ti_so or phut:
+                nhan_hien_thi = f"🔴 {phut} | {ti_so}".strip(" |")
+            else:
+                nhan_hien_thi = "🔴 Đang Đá"
+        else:
+            nhan_hien_thi = f"⏳ {thoi_gian}"
+        # ----------------------------------------
+        
         danh_sach_tran.append({
             "link": link, "doi_1": doi_1, "doi_2": doi_2, "poster": poster_url, 
-            "giai": giai_dau, "gio": thoi_gian, "is_live": is_live
+            "giai": giai_dau, "gio": thoi_gian, "is_live": is_live, "nhan": nhan_hien_thi
         })
-
-    print(f"✅ Đã phân tích thành công {len(danh_sach_tran)} trận đấu. Đang lấy link m3u8...")
 
     for tran in danh_sach_tran:
         link_m3u8 = "http://waiting.m3u8"
-        
         if tran['is_live']:
             driver.get(tran['link'])
             time.sleep(10)
@@ -106,10 +114,10 @@ try:
         
         kenh_json = {
             "id": match_id,
-            "name": f"⚽ {tran['doi_1']} vs {tran['doi_2']} | {tran['gio']}",
+            "name": f"⚽ {tran['doi_1']} vs {tran['doi_2']}",
             "type": "single",
-            "display": "default", 
-            "enable_detail": True,
+            "display": "default",         # ĐÃ BẬT HIỆN TÊN TRẬN (thay vì thumbnail-only)
+            "enable_detail": True,        # ĐÃ BẬT CHI TIẾT
             "image": {
                 "padding": 1,
                 "background_color": "#ececec",
@@ -118,7 +126,12 @@ try:
                 "width": 1600,
                 "height": 1200
             },
-            "labels": [{"text": "● Live" if tran['is_live'] else "⏳ Sắp đá", "position": "top-left", "color": "#00ffffff", "text_color": "#ff0000"}],
+            "labels": [{
+                "text": tran['nhan'], 
+                "position": "top-left", 
+                "color": "#e50914",       # Đổi sang nền Đỏ chuẩn Live
+                "text_color": "#ffffff"   # Chữ màu Trắng cho nổi bật
+            }],
             "sources": [{
                 "id": f"src-{match_id}",
                 "name": "Hội Quán",
@@ -127,10 +140,10 @@ try:
                     "name": f"{tran['doi_1']} vs {tran['doi_2']}",
                     "streams": [{
                         "id": f"st-{match_id}",
-                        "name": "Server 1",
+                        "name": "Server Chính",
                         "stream_links": [{
                             "id": f"lnk-{match_id}",
-                            "name": "Link Chính",
+                            "name": "Vào Xem",
                             "type": "hls",
                             "default": True,
                             "url": link_m3u8,
@@ -154,10 +167,8 @@ try:
         
         du_lieu_json["groups"][0]["channels"].append(kenh_json)
 
-    # ĐẨY LÊN GITHUB
-    print("⏳ Đang đẩy dữ liệu lên GitHub...")
-    if not GITHUB_TOKEN or GITHUB_TOKEN.startswith("ghp_xxx"):
-        print("❌ LỖI: Bạn chưa điền GITHUB_TOKEN!")
+    if not GITHUB_TOKEN:
+        print("❌ LỖI: Không tìm thấy Token. Hãy chạy code này thông qua GitHub Actions.")
     else:
         auth = Auth.Token(GITHUB_TOKEN)
         g = Github(auth=auth)
@@ -166,15 +177,14 @@ try:
         
         try:
             contents = repo.get_contents(GITHUB_FILE_PATH)
-            repo.update_file(contents.path, "Tái sinh bot với JSON", json_content, contents.sha)
+            repo.update_file(contents.path, "Update tỉ số & bật giao diện", json_content, contents.sha)
             print("🎉 Cập nhật thành công file playlist.json!")
         except Exception:
-            repo.create_file(GITHUB_FILE_PATH, "Tạo mới file JSON", json_content)
+            repo.create_file(GITHUB_FILE_PATH, "Tạo mới JSON", json_content)
             print("🎉 Đã tạo mới file playlist.json thành công!")
 
 except Exception as e:
     print(f"❌ Có lỗi cực mạnh:")
-    traceback.print_exc() # In ra đích xác lỗi ở dòng nào
+    traceback.print_exc()
 finally:
     driver.quit()
-
