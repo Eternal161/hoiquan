@@ -20,8 +20,8 @@
                     "id": "hq-0631bf50df",
                     "name": "⚽ Persebaya Surabaya vs Persib Bandung | 20:30 02/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -88,8 +88,8 @@
                     "id": "hq-2d0eb03e3d",
                     "name": "⚽ PSM Makassar vs Persita | 20:30 02/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -156,8 +156,8 @@
                     "id": "hq-cccc0b6d40",
                     "name": "⚽ IMT Novi Beograd vs Radnik Surdulica | 23:00 02/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -168,7 +168,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ Sắp đá",
+                            "text": "● Live",
                             "position": "top-left",
                             "color": "#00ffffff",
                             "text_color": "#ff0000"
@@ -192,7 +192,7 @@
                                                     "name": "Link Chính",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "http://waiting.m3u8",
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
@@ -221,79 +221,11 @@
                     }
                 },
                 {
-                    "id": "hq-42585650bc",
-                    "name": "⚽ Ludogorets vs Lokomotiv Plovdiv | 23:00 02/03/2026",
-                    "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#ececec",
-                        "display": "contain",
-                        "url": "https://i.imgur.com/HDRH6Ii.png",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "⏳ Sắp đá",
-                            "position": "top-left",
-                            "color": "#00ffffff",
-                            "text_color": "#ff0000"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-42585650bc",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-42585650bc",
-                                    "name": "Ludogorets vs Lokomotiv Plovdiv",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-42585650bc",
-                                            "name": "Server 1",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-42585650bc",
-                                                    "name": "Link Chính",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "http://waiting.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "FIRST LEAGUE",
-                        "team_a": "Ludogorets",
-                        "team_b": "Lokomotiv Plovdiv",
-                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
-                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
-                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
-                    }
-                },
-                {
                     "id": "hq-636e0f2134",
                     "name": "⚽ Pisa vs Bologna | 00:30 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -360,8 +292,8 @@
                     "id": "hq-eec2318bf3",
                     "name": "⚽ Unirea Slobozia vs Rapid | 00:30 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -428,8 +360,8 @@
                     "id": "hq-413732360b",
                     "name": "⚽ Udinese vs Fiorentina | 02:45 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -496,8 +428,8 @@
                     "id": "hq-a1e89e77f7",
                     "name": "⚽ Real Madrid vs Getafe | 03:00 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -564,8 +496,8 @@
                     "id": "hq-046f70d190",
                     "name": "⚽ Gil Vicente vs Benfica | 03:15 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -632,8 +564,8 @@
                     "id": "hq-d46c394fd4",
                     "name": "⚽ Estudiantes L.P. vs Velez Sarsfield | 05:15 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -700,8 +632,8 @@
                     "id": "hq-b5a845ed5d",
                     "name": "⚽ Banfield vs Aldosivi | 07:30 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -768,8 +700,8 @@
                     "id": "hq-b94a6765f8",
                     "name": "⚽ Independ. Rivadavia vs River Plate | 07:30 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -836,8 +768,8 @@
                     "id": "hq-375837238e",
                     "name": "⚽ Korea DPR vs Uzbekistan W | 09:00 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -904,8 +836,8 @@
                     "id": "hq-a8b20b88f7",
                     "name": "⚽ Tahiti United vs Hekari United | 11:00 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -972,8 +904,8 @@
                     "id": "hq-49e2d6a189",
                     "name": "⚽ Melbourne City vs Buriram United | 14:45 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -1040,8 +972,8 @@
                     "id": "hq-8d96b16d25",
                     "name": "⚽ China W vs Bangladesh W | 15:00 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -1108,8 +1040,8 @@
                     "id": "hq-23a7962322",
                     "name": "⚽ Gangwon FC vs Machida Zelvia | 17:00 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -1176,8 +1108,8 @@
                     "id": "hq-c1d0850b26",
                     "name": "⚽ Syunik vs Andranik | 18:00 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -1244,8 +1176,8 @@
                     "id": "hq-43919785dc",
                     "name": "⚽ Spartak Varna vs Montana | 18:30 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -1312,8 +1244,8 @@
                     "id": "hq-c91c9ba14d",
                     "name": "⚽ İstanbulspor vs Boluspor | 19:30 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -1380,8 +1312,8 @@
                     "id": "hq-55568df904",
                     "name": "⚽ Persepam Madura Utd vs Malut United | 20:30 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -1448,8 +1380,8 @@
                     "id": "hq-15c96eea8e",
                     "name": "⚽ Persija vs Pusamania Borneo | 20:30 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -1516,8 +1448,8 @@
                     "id": "hq-6af96978ec",
                     "name": "⚽ Kelantan United vs Penang | 21:00 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -1584,8 +1516,8 @@
                     "id": "hq-56285e9d15",
                     "name": "⚽ Sporting CP U23 vs Leixões U23 | 22:00 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -1652,8 +1584,8 @@
                     "id": "hq-c43c84893d",
                     "name": "⚽ Dynamo Kyiv vs Inhulets | 23:00 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
@@ -1720,8 +1652,8 @@
                     "id": "hq-85cf3d81ab",
                     "name": "⚽ Botev Plovdiv vs Septemvri Sofia | 23:30 03/03/2026",
                     "type": "single",
-                    "display": "thumbnail-only",
-                    "enable_detail": false,
+                    "display": "default",
+                    "enable_detail": true,
                     "image": {
                         "padding": 1,
                         "background_color": "#ececec",
