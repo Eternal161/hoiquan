@@ -13,9 +13,13 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
+# ==========================================
+# ⚙️ CẤU HÌNH GITHUB (BẢO MẬT TOKEN)
+# ==========================================
 GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN") 
 GITHUB_REPO_NAME = "Eternal161/hoiquan" 
 GITHUB_FILE_PATH = "playlist.json"
+# ==========================================
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
@@ -25,37 +29,28 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 du_lieu_json = {
     "id": "hoiquan-tv",
     "url": "https://raw.githack.com/Eternal161/hoiquan/main/playlist.json",
-    "name": "",
+    "name": "Hội Quán TV",
     "color": "#1cb57a",
     "grid_number": 3,
     "image": {
         "type": "cover", 
         "url": "https://i.postimg.cc/02tKjcyN/JT3IVCOJDKW3PBRFZAZUILENLU.jpg"
     },
-    "groups": [] 
+    "groups": [] # Sẽ tự động chia nhóm theo Giải Đấu
 }
 
 danh_sach_tran = []
 link_da_quet = set()
 
+# Hàm ép mọi link ảnh thành link chuẩn tuyệt đối (Không để TV bị mù)
 def make_absolute_url(u):
     if not u: return "https://hoiquan1.live/assets/imgs/bg-fixture-card.png"
     if u.startswith("//"): return "https:" + u
     if u.startswith("/"): return "https://hoiquan1.live" + u
     return u
 
-def get_sort_key(t):
-    if t['is_live']:
-        return "0000000000"
-    m = re.search(r"(\d{2}):(\d{2})\s+(\d{2})/(\d{2})/(\d{4})", t['thoi_gian_goc'])
-    if m:
-        return f"{m.group(5)}{m.group(4)}{m.group(3)}{m.group(1)}{m.group(2)}"
-    m2 = re.search(r"(\d{2}):(\d{2})", t['thoi_gian_goc'])
-    if m2:
-        return f"99991231{m2.group(1)}{m2.group(2)}"
-    return "9999999999"
-
 try:
+    print("🚀 Đang quét dữ liệu, giữ nguyên Background và ẩn Tỉ số...")
     wait = WebDriverWait(driver, 20)
     driver.get("https://sv2.hoiquan2.live/lich-thi-dau/bong-da")
     
@@ -68,6 +63,8 @@ try:
         
         text = item.text
         lines = [l.strip() for l in text.split('\n') if l.strip()]
+        
+        # --- LẤY TÊN GIẢI ĐẤU ---
         giai_dau = lines[0].upper() if len(lines) > 0 else "BÓNG ĐÁ"
         
         teams = item.find_elements(By.CSS_SELECTOR, "span.truncate")
@@ -75,6 +72,7 @@ try:
         doi_1 = teams[0].text.strip()
         doi_2 = teams[1].text.strip()
         
+        # --- LẤY BACKGROUND GỐC ---
         style = item.get_attribute("style") or ""
         bg_match = re.search(r'url\("?\'?(.*?)\'?"?\)', style)
         if bg_match:
@@ -82,6 +80,7 @@ try:
         else:
             poster_goc = "https://hoiquan1.live/assets/imgs/bg-fixture-card.png"
 
+        # --- LẤY LOGO 2 ĐỘI ---
         html_content = item.get_attribute("innerHTML")
         all_urls = re.findall(r'src="([^"]+)"', html_content) + re.findall(r'url\([\'"]?(.*?)[\'"]?\)', html_content)
         
@@ -99,6 +98,7 @@ try:
         else:
             logo_1 = logo_2 = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/500px-Soccerball.svg.png"
 
+        # --- VẼ ẢNH: LẤY NỀN GỐC + ĐẮP LOGO + CHỮ VS ---
         svg_template = f"""<svg width="1600" height="1200" xmlns="http://www.w3.org/2000/svg">
             <image href="{poster_goc}" x="0" y="0" width="1600" height="1200" preserveAspectRatio="xMidYMid slice"/>
             <image href="{logo_1}" x="250" y="300" width="400" height="400" preserveAspectRatio="xMidYMid meet"/>
@@ -109,7 +109,9 @@ try:
             <text x="800" y="1000" font-size="65" fill="#ffd700" text-anchor="middle" font-family="sans-serif" font-weight="bold" filter="drop-shadow(3px 3px 2px rgba(0,0,0,0.8))">{giai_dau}</text>
         </svg>"""
         poster_hoan_hao = "data:image/svg+xml;charset=utf-8," + urllib.parse.quote(svg_template)
+        # ----------------------------------------------
 
+        # --- XỬ LÝ NHÃN (CHỈ HIỆN THỜI GIAN/NGÀY THÁNG) ---
         time_m = re.search(r"(\d{2}:\d{2})\s*[\r\n]*\s*(\d{2}/\d{2}/\d{4})?", text)
         if time_m:
             gio = time_m.group(1)
@@ -128,12 +130,10 @@ try:
         danh_sach_tran.append({
             "link": link, "doi_1": doi_1, "doi_2": doi_2, 
             "poster": poster_hoan_hao, "logo_1": logo_1, "logo_2": logo_2,
-            "giai": giai_dau, "is_live": is_live, "nhan": nhan_hien_thi,
-            "thoi_gian_goc": thoi_gian_goc
+            "giai": giai_dau, "is_live": is_live, "nhan": nhan_hien_thi
         })
 
-    danh_sach_tran.sort(key=get_sort_key)
-    danh_sach_kenh = []
+    nhom_giai_dau = {}
 
     for tran in danh_sach_tran:
         link_m3u8 = "http://waiting.m3u8"
@@ -199,18 +199,26 @@ try:
                 "thumb": tran['poster']
             }
         }
-        danh_sach_kenh.append(kenh_json)
+        
+        giai = tran['giai']
+        if giai not in nhom_giai_dau:
+            nhom_giai_dau[giai] = []
+        nhom_giai_dau[giai].append(kenh_json)
 
-    du_lieu_json["groups"].append({
-        "id": "all-matches",
-        "name": "🔴 Trực Tiếp Bóng Đá", 
-        "display": "vertical",
-        "grid_number": 3,
-        "enable_detail": False,
-        "channels": danh_sach_kenh
-    })
+    for giai, danh_sach_kenh in nhom_giai_dau.items():
+        id_nhom = "grp-" + hashlib.md5(giai.encode()).hexdigest()[:8]
+        du_lieu_json["groups"].append({
+            "id": id_nhom,
+            "name": f"🏆 {giai}", 
+            "display": "vertical",
+            "grid_number": 3,
+            "enable_detail": False,
+            "channels": danh_sach_kenh
+        })
 
-    if GITHUB_TOKEN:
+    if not GITHUB_TOKEN:
+        print("❌ LỖI: Không tìm thấy Token. Hãy chạy code này thông qua GitHub Actions.")
+    else:
         auth = Auth.Token(GITHUB_TOKEN)
         g = Github(auth=auth)
         repo = g.get_repo(GITHUB_REPO_NAME)
@@ -218,11 +226,14 @@ try:
         
         try:
             contents = repo.get_contents(GITHUB_FILE_PATH)
-            repo.update_file(contents.path, "Final Build: Sorted by Time", json_content, contents.sha)
+            repo.update_file(contents.path, "Final Build: Fix Background & Hide Score", json_content, contents.sha)
+            print("🎉 Cập nhật thành công file playlist.json!")
         except Exception:
-            repo.create_file(GITHUB_FILE_PATH, "Final Build: Sorted by Time", json_content)
+            repo.create_file(GITHUB_FILE_PATH, "Tạo mới JSON", json_content)
+            print("🎉 Đã tạo mới file playlist.json thành công!")
 
-except Exception:
+except Exception as e:
+    print(f"❌ Có lỗi cực mạnh:")
     traceback.print_exc()
 finally:
     driver.quit()
