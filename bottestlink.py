@@ -108,8 +108,8 @@ try:
             "id": match_id,
             "name": f"⚽ {tran['doi_1']} vs {tran['doi_2']} | {tran['gio']}",
             "type": "single",
-            "display": "thumbnail-only",
-            "enable_detail": False,
+            "display": "default", 
+            "enable_detail": True,
             "image": {
                 "padding": 1,
                 "background_color": "#ececec",
@@ -177,3 +177,4 @@ except Exception as e:
     traceback.print_exc() # In ra đích xác lỗi ở dòng nào
 finally:
     driver.quit()
+
