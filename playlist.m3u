@@ -1,27 +1,27 @@
 #EXTM3U
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⚽ Đang đá", 🔴 [09:00 02/03/2026] 🏆 Asian Cup Women | South Korea W vs Iran W
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⚽ Đang đá", 🔴 [16:00 02/03/2026] 🏆 Asian Cup Women | South Korea W vs Iran W
 https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanchanh/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⚽ Đang đá", 🔴 [09:30 02/03/2026] 🏆 National League | Rakhine United vs Shan United
-https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⚽ Đang đá", 🔴 [11:00 02/03/2026] 🏆 Premier League | SK Poltava vs Kudrivka
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⚽ Lỗi link", 🔴 [16:30 02/03/2026] 🏆 National League | Rakhine United vs Shan United
+http://loi-khong-bat-duoc-link.m3u8
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⚽ Đang đá", 🔴 [18:00 02/03/2026] 🏆 Premier League | SK Poltava vs Kudrivka
 https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phancauca/playlist.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [13:30 02/03/2026] 🏆 Liga 1 | Persebaya Surabaya vs Persib Bandung
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [20:30 02/03/2026] 🏆 Liga 1 | Persebaya Surabaya vs Persib Bandung
 http://tran-nay-chua-da-vui-long-cho.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [13:30 02/03/2026] 🏆 Liga 1 | PSM Makassar vs Persita
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [20:30 02/03/2026] 🏆 Liga 1 | PSM Makassar vs Persita
 http://tran-nay-chua-da-vui-long-cho.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [16:00 02/03/2026] 🏆 Super Liga | IMT Novi Beograd vs Radnik Surdulica
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [23:00 02/03/2026] 🏆 Super Liga | IMT Novi Beograd vs Radnik Surdulica
 http://tran-nay-chua-da-vui-long-cho.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [16:00 02/03/2026] 🏆 First League | Ludogorets vs Lokomotiv Plovdiv
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [23:00 02/03/2026] 🏆 First League | Ludogorets vs Lokomotiv Plovdiv
 http://tran-nay-chua-da-vui-long-cho.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [17:30 02/03/2026] 🏆 Serie A | Pisa vs Bologna
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [00:30 03/03/2026] 🏆 Serie A | Pisa vs Bologna
 http://tran-nay-chua-da-vui-long-cho.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [17:30 02/03/2026] 🏆 Liga I | Unirea Slobozia vs Rapid
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [00:30 03/03/2026] 🏆 Liga I | Unirea Slobozia vs Rapid
 http://tran-nay-chua-da-vui-long-cho.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [18:15 02/03/2026] 🏆 AFC Champions League | Al-Duhail SC vs Al-Ahli Jeddah
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [01:15 03/03/2026] 🏆 AFC Champions League | Al-Duhail SC vs Al-Ahli Jeddah
 http://tran-nay-chua-da-vui-long-cho.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [19:45 02/03/2026] 🏆 Serie A | Udinese vs Fiorentina
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [02:45 03/03/2026] 🏆 Serie A | Udinese vs Fiorentina
 http://tran-nay-chua-da-vui-long-cho.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [20:00 02/03/2026] 🏆 La Liga | Real Madrid vs Getafe
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [03:00 03/03/2026] 🏆 La Liga | Real Madrid vs Getafe
 http://tran-nay-chua-da-vui-long-cho.m3u8
-#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [20:15 02/03/2026] 🏆 VĐQG Bồ Đào Nha | Gil Vicente vs Benfica
+#EXTINF:-1 tvg-logo="https://i.imgur.com/HDRH6Ii.png" group-title="⏳ Sắp diễn ra", ⏰ [03:15 03/03/2026] 🏆 VĐQG Bồ Đào Nha | Gil Vicente vs Benfica
 http://tran-nay-chua-da-vui-long-cho.m3u8
