@@ -1,7 +1,7 @@
 {
     "id": "hoiquan-tv",
     "url": "https://raw.githack.com/Eternal161/hoiquan/main/playlist.json",
-    "name": "Sáng",
+    "name": "",
     "color": "#1cb57a",
     "grid_number": 3,
     "image": {
@@ -10,8 +10,8 @@
     },
     "groups": [
         {
-            "id": "grp-5a6a0b0f",
-            "name": "🏆 SUPER LIGA",
+            "id": "all-matches",
+            "name": "🔴 Trực Tiếp Bóng Đá",
             "display": "vertical",
             "grid_number": 3,
             "enable_detail": false,
@@ -83,16 +83,7 @@
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/286.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EIMT%20Novi%20Beograd%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ERadnik%20Surdulica%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ESUPER%20LIGA%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
                     }
-                }
-            ]
-        },
-        {
-            "id": "grp-e3d7d5a1",
-            "name": "🏆 SERIE A",
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": false,
-            "channels": [
+                },
                 {
                     "id": "hq-636e0f2134",
                     "name": "⚽ Pisa vs Bologna",
@@ -162,83 +153,6 @@
                     }
                 },
                 {
-                    "id": "hq-413732360b",
-                    "name": "⚽ Udinese vs Fiorentina",
-                    "type": "single",
-                    "display": "default",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#111318",
-                        "display": "contain",
-                        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Serie_A.svg/966px-Serie_A.svg.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EUdinese%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EFiorentina%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ESERIE%20A%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "⏳ 02:45 03/03/2026",
-                            "position": "top-left",
-                            "color": "#1cb57a",
-                            "text_color": "#ffffff"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-413732360b",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-413732360b",
-                                    "name": "Udinese vs Fiorentina",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-413732360b",
-                                            "name": "Server Chính",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-413732360b",
-                                                    "name": "Vào Xem",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "http://waiting.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "SERIE A",
-                        "team_a": "Udinese",
-                        "team_b": "Fiorentina",
-                        "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Serie_A.svg/966px-Serie_A.svg.png",
-                        "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Serie_A.svg/966px-Serie_A.svg.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EUdinese%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EFiorentina%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ESERIE%20A%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "grp-5c189a16",
-            "name": "🏆 LIGA I",
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": false,
-            "channels": [
-                {
                     "id": "hq-eec2318bf3",
                     "name": "⚽ Unirea Slobozia vs Rapid",
                     "type": "single",
@@ -305,16 +219,75 @@
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/283.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EUnirea%20Slobozia%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ERapid%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ELIGA%20I%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
                     }
-                }
-            ]
-        },
-        {
-            "id": "grp-4cfc2840",
-            "name": "🏆 LA LIGA",
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": false,
-            "channels": [
+                },
+                {
+                    "id": "hq-413732360b",
+                    "name": "⚽ Udinese vs Fiorentina",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Serie_A.svg/966px-Serie_A.svg.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EUdinese%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EFiorentina%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ESERIE%20A%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 02:45 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-413732360b",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-413732360b",
+                                    "name": "Udinese vs Fiorentina",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-413732360b",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-413732360b",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "SERIE A",
+                        "team_a": "Udinese",
+                        "team_b": "Fiorentina",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Serie_A.svg/966px-Serie_A.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Serie_A.svg/966px-Serie_A.svg.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EUdinese%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EFiorentina%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ESERIE%20A%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
+                    }
+                },
                 {
                     "id": "hq-a1e89e77f7",
                     "name": "⚽ Real Madrid vs Getafe",
@@ -382,16 +355,7 @@
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/140.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EReal%20Madrid%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EGetafe%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ELA%20LIGA%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
                     }
-                }
-            ]
-        },
-        {
-            "id": "grp-610e15b6",
-            "name": "🏆 VĐQG BỒ ĐÀO NHA",
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": false,
-            "channels": [
+                },
                 {
                     "id": "hq-046f70d190",
                     "name": "⚽ Gil Vicente vs Benfica",
@@ -459,16 +423,7 @@
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//imgts.sportpulseapiz.com/football/competition/9vjxm8ghx2r6odg/image/small%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EGil%20Vicente%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBenfica%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EV%C4%90QG%20B%E1%BB%92%20%C4%90%C3%80O%20NHA%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
                     }
-                }
-            ]
-        },
-        {
-            "id": "grp-5c6d4d2f",
-            "name": "🏆 LIGA PROFESIONAL ARGENTINA",
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": false,
-            "channels": [
+                },
                 {
                     "id": "hq-d46c394fd4",
                     "name": "⚽ Estudiantes L.P. vs Velez Sarsfield",
@@ -672,16 +627,7 @@
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/128.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EIndepend.%20Rivadavia%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ERiver%20Plate%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ELIGA%20PROFESIONAL%20ARGENTINA%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
                     }
-                }
-            ]
-        },
-        {
-            "id": "grp-d4cab144",
-            "name": "🏆 ASIAN CUP WOMEN",
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": false,
-            "channels": [
+                },
                 {
                     "id": "hq-375837238e",
                     "name": "⚽ Korea DPR vs Uzbekistan W",
@@ -751,83 +697,6 @@
                     }
                 },
                 {
-                    "id": "hq-8d96b16d25",
-                    "name": "⚽ China W vs Bangladesh W",
-                    "type": "single",
-                    "display": "default",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#111318",
-                        "display": "contain",
-                        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/897.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EChina%20W%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBangladesh%20W%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EASIAN%20CUP%20WOMEN%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "⏳ 15:00 03/03/2026",
-                            "position": "top-left",
-                            "color": "#1cb57a",
-                            "text_color": "#ffffff"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-8d96b16d25",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-8d96b16d25",
-                                    "name": "China W vs Bangladesh W",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-8d96b16d25",
-                                            "name": "Server Chính",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-8d96b16d25",
-                                                    "name": "Vào Xem",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "http://waiting.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "ASIAN CUP WOMEN",
-                        "team_a": "China W",
-                        "team_b": "Bangladesh W",
-                        "logo_a": "https://media.api-sports.io/football/leagues/897.png",
-                        "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/897.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EChina%20W%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBangladesh%20W%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EASIAN%20CUP%20WOMEN%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "grp-b69272a1",
-            "name": "🏆 OFC PRO LEAGUE",
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": false,
-            "channels": [
-                {
                     "id": "hq-a8b20b88f7",
                     "name": "⚽ Tahiti United vs Hekari United",
                     "type": "single",
@@ -894,16 +763,7 @@
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/1214.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ETahiti%20United%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EHekari%20United%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EOFC%20PRO%20LEAGUE%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
                     }
-                }
-            ]
-        },
-        {
-            "id": "grp-2cebd3ae",
-            "name": "🏆 AFC CHAMPIONS LEAGUE",
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": false,
-            "channels": [
+                },
                 {
                     "id": "hq-49e2d6a189",
                     "name": "⚽ Melbourne City vs Buriram United",
@@ -973,6 +833,74 @@
                     }
                 },
                 {
+                    "id": "hq-8d96b16d25",
+                    "name": "⚽ China W vs Bangladesh W",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/897.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EChina%20W%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBangladesh%20W%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EASIAN%20CUP%20WOMEN%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 15:00 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-8d96b16d25",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-8d96b16d25",
+                                    "name": "China W vs Bangladesh W",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-8d96b16d25",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-8d96b16d25",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "ASIAN CUP WOMEN",
+                        "team_a": "China W",
+                        "team_b": "Bangladesh W",
+                        "logo_a": "https://media.api-sports.io/football/leagues/897.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/897.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EChina%20W%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBangladesh%20W%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EASIAN%20CUP%20WOMEN%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
+                    }
+                },
+                {
                     "id": "hq-23a7962322",
                     "name": "⚽ Gangwon FC vs Machida Zelvia",
                     "type": "single",
@@ -1039,16 +967,7 @@
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EGangwon%20FC%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EMachida%20Zelvia%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EAFC%20CHAMPIONS%20LEAGUE%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
                     }
-                }
-            ]
-        },
-        {
-            "id": "grp-5b11962d",
-            "name": "🏆 CUP",
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": false,
-            "channels": [
+                },
                 {
                     "id": "hq-c1d0850b26",
                     "name": "⚽ Syunik vs Andranik",
@@ -1118,83 +1037,6 @@
                     }
                 },
                 {
-                    "id": "hq-c43c84893d",
-                    "name": "⚽ Dynamo Kyiv vs Inhulets",
-                    "type": "single",
-                    "display": "default",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#111318",
-                        "display": "contain",
-                        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/199.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EDynamo%20Kyiv%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EInhulets%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ECUP%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "⏳ 23:00 03/03/2026",
-                            "position": "top-left",
-                            "color": "#1cb57a",
-                            "text_color": "#ffffff"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-c43c84893d",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-c43c84893d",
-                                    "name": "Dynamo Kyiv vs Inhulets",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-c43c84893d",
-                                            "name": "Server Chính",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-c43c84893d",
-                                                    "name": "Vào Xem",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "http://waiting.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "CUP",
-                        "team_a": "Dynamo Kyiv",
-                        "team_b": "Inhulets",
-                        "logo_a": "https://media.api-sports.io/football/leagues/199.png",
-                        "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/199.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EDynamo%20Kyiv%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EInhulets%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ECUP%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "grp-40d6a8a4",
-            "name": "🏆 FIRST LEAGUE",
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": false,
-            "channels": [
-                {
                     "id": "hq-43919785dc",
                     "name": "⚽ Spartak Varna vs Montana",
                     "type": "single",
@@ -1263,83 +1105,6 @@
                     }
                 },
                 {
-                    "id": "hq-85cf3d81ab",
-                    "name": "⚽ Botev Plovdiv vs Septemvri Sofia",
-                    "type": "single",
-                    "display": "default",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#111318",
-                        "display": "contain",
-                        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBotev%20Plovdiv%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ESeptemvri%20Sofia%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EFIRST%20LEAGUE%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "⏳ 23:30 03/03/2026",
-                            "position": "top-left",
-                            "color": "#1cb57a",
-                            "text_color": "#ffffff"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-85cf3d81ab",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-85cf3d81ab",
-                                    "name": "Botev Plovdiv vs Septemvri Sofia",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-85cf3d81ab",
-                                            "name": "Server Chính",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-85cf3d81ab",
-                                                    "name": "Vào Xem",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "http://waiting.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "FIRST LEAGUE",
-                        "team_a": "Botev Plovdiv",
-                        "team_b": "Septemvri Sofia",
-                        "logo_a": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
-                        "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBotev%20Plovdiv%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ESeptemvri%20Sofia%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EFIRST%20LEAGUE%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "grp-fd886849",
-            "name": "🏆 TÜRKIYE KUPASI",
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": false,
-            "channels": [
-                {
                     "id": "hq-c91c9ba14d",
                     "name": "⚽ İstanbulspor vs Boluspor",
                     "type": "single",
@@ -1406,16 +1171,7 @@
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/206.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3E%C4%B0stanbulspor%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBoluspor%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ET%C3%9CRKIYE%20KUPASI%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
                     }
-                }
-            ]
-        },
-        {
-            "id": "grp-ac1e5bf1",
-            "name": "🏆 LIGA 1",
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": false,
-            "channels": [
+                },
                 {
                     "id": "hq-55568df904",
                     "name": "⚽ Persepam Madura Utd vs Malut United",
@@ -1551,16 +1307,7 @@
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/274.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EPersija%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EPusamania%20Borneo%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ELIGA%201%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
                     }
-                }
-            ]
-        },
-        {
-            "id": "grp-6861e016",
-            "name": "🏆 MFL CUP",
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": false,
-            "channels": [
+                },
                 {
                     "id": "hq-6af96978ec",
                     "name": "⚽ Kelantan United vs Penang",
@@ -1628,16 +1375,7 @@
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/1170.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EKelantan%20United%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EPenang%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EMFL%20CUP%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
                     }
-                }
-            ]
-        },
-        {
-            "id": "grp-5423a21f",
-            "name": "🏆 LIGA REVELAÇÃO U23",
-            "display": "vertical",
-            "grid_number": 3,
-            "enable_detail": false,
-            "channels": [
+                },
                 {
                     "id": "hq-56285e9d15",
                     "name": "⚽ Sporting CP U23 vs Leixões U23",
@@ -1704,6 +1442,142 @@
                         "logo_a": "https://media.api-sports.io/football/leagues/701.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/701.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ESporting%20CP%20U23%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ELeix%C3%B5es%20U23%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ELIGA%20REVELA%C3%87%C3%83O%20U23%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
+                    }
+                },
+                {
+                    "id": "hq-c43c84893d",
+                    "name": "⚽ Dynamo Kyiv vs Inhulets",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/199.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EDynamo%20Kyiv%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EInhulets%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ECUP%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 23:00 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c43c84893d",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c43c84893d",
+                                    "name": "Dynamo Kyiv vs Inhulets",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c43c84893d",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c43c84893d",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "CUP",
+                        "team_a": "Dynamo Kyiv",
+                        "team_b": "Inhulets",
+                        "logo_a": "https://media.api-sports.io/football/leagues/199.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/199.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EDynamo%20Kyiv%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EInhulets%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ECUP%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
+                    }
+                },
+                {
+                    "id": "hq-85cf3d81ab",
+                    "name": "⚽ Botev Plovdiv vs Septemvri Sofia",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBotev%20Plovdiv%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ESeptemvri%20Sofia%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EFIRST%20LEAGUE%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 23:30 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-85cf3d81ab",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-85cf3d81ab",
+                                    "name": "Botev Plovdiv vs Septemvri Sofia",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-85cf3d81ab",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-85cf3d81ab",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "FIRST LEAGUE",
+                        "team_a": "Botev Plovdiv",
+                        "team_b": "Septemvri Sofia",
+                        "logo_a": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBotev%20Plovdiv%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ESeptemvri%20Sofia%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EFIRST%20LEAGUE%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
                     }
                 }
             ]
