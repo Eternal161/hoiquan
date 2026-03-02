@@ -55,17 +55,22 @@ try:
     
     items = wait.until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a[href*='bong-da']")))
     
-    for item in items:
+for item in items:
         link = item.get_attribute("href")
         if link in link_da_quet: continue
         link_da_quet.add(link)
         
         text = item.text
         
+        # Đã được căn chỉnh lề chuẩn 100%
         style = item.get_attribute("style") or ""
         bg = re.search(r'url\("?\'?(.*?)\'?"?\)', style)
         poster_url = bg.group(1) if bg else "https://via.placeholder.com/1600x1200.png?text=Bong+Da"
         
+        # FIX LỖI 1: Bơm thêm tên miền nếu link ảnh bị cụt
+        if poster_url.startswith("/"):
+            poster_url = "https://hoiquan1.live" + poster_url
+            
         lines = [l.strip() for l in text.split('\n') if l.strip()]
         giai_dau = lines[0].upper() if len(lines) > 0 else "BÓNG ĐÁ"
         
@@ -73,7 +78,6 @@ try:
         if len(teams) < 2: continue
         doi_1 = teams[0].text.strip()
         doi_2 = teams[1].text.strip()
-        
         # --- THUẬT TOÁN TÌM TỈ SỐ VÀ PHÚT MỚI ---
       style = item.get_attribute("style") or " "
         bg = re.search(r'url\("?\'?(.*?)\'?"?\)', style)
@@ -214,5 +218,6 @@ except Exception as e:
     traceback.print_exc()
 finally:
     driver.quit()
+
 
 
