@@ -7,13 +7,15 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import re
 from github import Github 
+import os
+from github import Github, Auth
 
 # ==========================================
 # ⚙️ CẤU HÌNH GITHUB 
 # ==========================================
-GITHUB_TOKEN = "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" # Dán token bạn vừa tạo vào đây
-GITHUB_REPO_NAME = "Eternal161/hoiquan" # Ví dụ: "nguyenvana/my-iptv-playlist"
-GITHUB_FILE_PATH = "playlist.m3u" # Tên file khi đẩy lên GitHub
+GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN") 
+GITHUB_REPO_NAME = "Eternal161/hoiquan" # Tên kho của bạn
+GITHUB_FILE_PATH = "playlist.m3u"
 # ==========================================
 
 options = webdriver.ChromeOptions()
@@ -128,22 +130,30 @@ try:
              m3u_content += f'#EXTINF:-1 tvg-logo="{data["logo"]}" group-title="⚽ Lỗi link", 🔴 {tieu_de_dep}\n'
              m3u_content += f'http://loi-khong-bat-duoc-link.m3u8\n'
 
-    print("\n🚀 Đang đẩy file lên GitHub...")
-    g = Github(GITHUB_TOKEN)
-    repo = g.get_repo(GITHUB_REPO_NAME)
+ print("\n🚀 Đang đẩy file lên GitHub...")
+    if not GITHUB_TOKEN:
+        print("❌ LỖI: Không tìm thấy Token trong két sắt!")
+    else:
+        # Cách đăng nhập mới không bị báo lỗi vàng
+        auth = Auth.Token(GITHUB_TOKEN)
+        g = Github(auth=auth)
+        repo = g.get_repo(GITHUB_REPO_NAME)
 
-    try:
-        file_tren_github = repo.get_contents(GITHUB_FILE_PATH)
-        repo.update_file(file_tren_github.path, "Update Giao dien Pro", m3u_content, file_tren_github.sha)
-        print("🎉 THÀNH CÔNG! Đã cập nhật file playlist.m3u lên GitHub.")
-    except Exception as e: 
-        if e.status == 404: 
-             repo.create_file(GITHUB_FILE_PATH, "Create list", m3u_content)
-             print("🎉 THÀNH CÔNG! Đã TẠO MỚI file trên GitHub.")
+        try:
+            file_tren_github = repo.get_contents(GITHUB_FILE_PATH)
+            repo.update_file(file_tren_github.path, "Update link tự động", m3u_content, file_tren_github.sha)
+            print("🎉 THÀNH CÔNG! Đã cập nhật file playlist.m3u lên GitHub.")
+        except Exception as e: 
+            if getattr(e, 'status', None) == 404: 
+                 repo.create_file(GITHUB_FILE_PATH, "Create list", m3u_content)
+                 print("🎉 THÀNH CÔNG! Đã TẠO MỚI file trên GitHub.")
+            else:
+                 print(f"❌ Lỗi đẩy GitHub: {e}")
 
 except Exception as e:
     print(f"❌ Có lỗi xảy ra: {e}")
 
 finally:
     driver.quit()
+
 
