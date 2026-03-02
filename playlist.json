@@ -1,0 +1,1790 @@
+{
+    "id": "hoiquan-tv",
+    "url": "https://raw.githack.com/Eternal161/hoiquan/main/playlist.json",
+    "name": "Hội Quán TV",
+    "color": "#1cb57a",
+    "grid_number": 3,
+    "image": {
+        "type": "cover",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/500px-Soccerball.svg.png"
+    },
+    "groups": [
+        {
+            "id": "live-matches",
+            "name": "🔴 Trực Tiếp Bóng Đá",
+            "display": "vertical",
+            "grid_number": 2,
+            "enable_detail": false,
+            "channels": [
+                {
+                    "id": "hq-0631bf50df",
+                    "name": "⚽ Persebaya Surabaya vs Persib Bandung | 20:30 02/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "● Live",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-0631bf50df",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-0631bf50df",
+                                    "name": "Persebaya Surabaya vs Persib Bandung",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-0631bf50df",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-0631bf50df",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA 1",
+                        "team_a": "Persebaya Surabaya",
+                        "team_b": "Persib Bandung",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-2d0eb03e3d",
+                    "name": "⚽ PSM Makassar vs Persita | 20:30 02/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "● Live",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-2d0eb03e3d",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-2d0eb03e3d",
+                                    "name": "PSM Makassar vs Persita",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-2d0eb03e3d",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-2d0eb03e3d",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA 1",
+                        "team_a": "PSM Makassar",
+                        "team_b": "Persita",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-cccc0b6d40",
+                    "name": "⚽ IMT Novi Beograd vs Radnik Surdulica | 23:00 02/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-cccc0b6d40",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-cccc0b6d40",
+                                    "name": "IMT Novi Beograd vs Radnik Surdulica",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-cccc0b6d40",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-cccc0b6d40",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "SUPER LIGA",
+                        "team_a": "IMT Novi Beograd",
+                        "team_b": "Radnik Surdulica",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-42585650bc",
+                    "name": "⚽ Ludogorets vs Lokomotiv Plovdiv | 23:00 02/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-42585650bc",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-42585650bc",
+                                    "name": "Ludogorets vs Lokomotiv Plovdiv",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-42585650bc",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-42585650bc",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "FIRST LEAGUE",
+                        "team_a": "Ludogorets",
+                        "team_b": "Lokomotiv Plovdiv",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-636e0f2134",
+                    "name": "⚽ Pisa vs Bologna | 00:30 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-636e0f2134",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-636e0f2134",
+                                    "name": "Pisa vs Bologna",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-636e0f2134",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-636e0f2134",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "SERIE A",
+                        "team_a": "Pisa",
+                        "team_b": "Bologna",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-eec2318bf3",
+                    "name": "⚽ Unirea Slobozia vs Rapid | 00:30 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-eec2318bf3",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-eec2318bf3",
+                                    "name": "Unirea Slobozia vs Rapid",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-eec2318bf3",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-eec2318bf3",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA I",
+                        "team_a": "Unirea Slobozia",
+                        "team_b": "Rapid",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-413732360b",
+                    "name": "⚽ Udinese vs Fiorentina | 02:45 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-413732360b",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-413732360b",
+                                    "name": "Udinese vs Fiorentina",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-413732360b",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-413732360b",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "SERIE A",
+                        "team_a": "Udinese",
+                        "team_b": "Fiorentina",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-a1e89e77f7",
+                    "name": "⚽ Real Madrid vs Getafe | 03:00 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-a1e89e77f7",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-a1e89e77f7",
+                                    "name": "Real Madrid vs Getafe",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-a1e89e77f7",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-a1e89e77f7",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LA LIGA",
+                        "team_a": "Real Madrid",
+                        "team_b": "Getafe",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-046f70d190",
+                    "name": "⚽ Gil Vicente vs Benfica | 03:15 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-046f70d190",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-046f70d190",
+                                    "name": "Gil Vicente vs Benfica",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-046f70d190",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-046f70d190",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "VĐQG BỒ ĐÀO NHA",
+                        "team_a": "Gil Vicente",
+                        "team_b": "Benfica",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-d46c394fd4",
+                    "name": "⚽ Estudiantes L.P. vs Velez Sarsfield | 05:15 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-d46c394fd4",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-d46c394fd4",
+                                    "name": "Estudiantes L.P. vs Velez Sarsfield",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-d46c394fd4",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-d46c394fd4",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA PROFESIONAL ARGENTINA",
+                        "team_a": "Estudiantes L.P.",
+                        "team_b": "Velez Sarsfield",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-b5a845ed5d",
+                    "name": "⚽ Banfield vs Aldosivi | 07:30 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-b5a845ed5d",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-b5a845ed5d",
+                                    "name": "Banfield vs Aldosivi",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-b5a845ed5d",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-b5a845ed5d",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA PROFESIONAL ARGENTINA",
+                        "team_a": "Banfield",
+                        "team_b": "Aldosivi",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-b94a6765f8",
+                    "name": "⚽ Independ. Rivadavia vs River Plate | 07:30 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-b94a6765f8",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-b94a6765f8",
+                                    "name": "Independ. Rivadavia vs River Plate",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-b94a6765f8",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-b94a6765f8",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA PROFESIONAL ARGENTINA",
+                        "team_a": "Independ. Rivadavia",
+                        "team_b": "River Plate",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-375837238e",
+                    "name": "⚽ Korea DPR vs Uzbekistan W | 09:00 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-375837238e",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-375837238e",
+                                    "name": "Korea DPR vs Uzbekistan W",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-375837238e",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-375837238e",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "ASIAN CUP WOMEN",
+                        "team_a": "Korea DPR",
+                        "team_b": "Uzbekistan W",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-a8b20b88f7",
+                    "name": "⚽ Tahiti United vs Hekari United | 11:00 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-a8b20b88f7",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-a8b20b88f7",
+                                    "name": "Tahiti United vs Hekari United",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-a8b20b88f7",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-a8b20b88f7",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "OFC PRO LEAGUE",
+                        "team_a": "Tahiti United",
+                        "team_b": "Hekari United",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-49e2d6a189",
+                    "name": "⚽ Melbourne City vs Buriram United | 14:45 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-49e2d6a189",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-49e2d6a189",
+                                    "name": "Melbourne City vs Buriram United",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-49e2d6a189",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-49e2d6a189",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "AFC CHAMPIONS LEAGUE",
+                        "team_a": "Melbourne City",
+                        "team_b": "Buriram United",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-8d96b16d25",
+                    "name": "⚽ China W vs Bangladesh W | 15:00 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-8d96b16d25",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-8d96b16d25",
+                                    "name": "China W vs Bangladesh W",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-8d96b16d25",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-8d96b16d25",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "ASIAN CUP WOMEN",
+                        "team_a": "China W",
+                        "team_b": "Bangladesh W",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-23a7962322",
+                    "name": "⚽ Gangwon FC vs Machida Zelvia | 17:00 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-23a7962322",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-23a7962322",
+                                    "name": "Gangwon FC vs Machida Zelvia",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-23a7962322",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-23a7962322",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "AFC CHAMPIONS LEAGUE",
+                        "team_a": "Gangwon FC",
+                        "team_b": "Machida Zelvia",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-c1d0850b26",
+                    "name": "⚽ Syunik vs Andranik | 18:00 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c1d0850b26",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c1d0850b26",
+                                    "name": "Syunik vs Andranik",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c1d0850b26",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c1d0850b26",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "CUP",
+                        "team_a": "Syunik",
+                        "team_b": "Andranik",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-43919785dc",
+                    "name": "⚽ Spartak Varna vs Montana | 18:30 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-43919785dc",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-43919785dc",
+                                    "name": "Spartak Varna vs Montana",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-43919785dc",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-43919785dc",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "FIRST LEAGUE",
+                        "team_a": "Spartak Varna",
+                        "team_b": "Montana",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-c91c9ba14d",
+                    "name": "⚽ İstanbulspor vs Boluspor | 19:30 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c91c9ba14d",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c91c9ba14d",
+                                    "name": "İstanbulspor vs Boluspor",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c91c9ba14d",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c91c9ba14d",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "TÜRKIYE KUPASI",
+                        "team_a": "İstanbulspor",
+                        "team_b": "Boluspor",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-55568df904",
+                    "name": "⚽ Persepam Madura Utd vs Malut United | 20:30 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-55568df904",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-55568df904",
+                                    "name": "Persepam Madura Utd vs Malut United",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-55568df904",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-55568df904",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA 1",
+                        "team_a": "Persepam Madura Utd",
+                        "team_b": "Malut United",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-15c96eea8e",
+                    "name": "⚽ Persija vs Pusamania Borneo | 20:30 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-15c96eea8e",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-15c96eea8e",
+                                    "name": "Persija vs Pusamania Borneo",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-15c96eea8e",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-15c96eea8e",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA 1",
+                        "team_a": "Persija",
+                        "team_b": "Pusamania Borneo",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-6af96978ec",
+                    "name": "⚽ Kelantan United vs Penang | 21:00 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-6af96978ec",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-6af96978ec",
+                                    "name": "Kelantan United vs Penang",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-6af96978ec",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-6af96978ec",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "MFL CUP",
+                        "team_a": "Kelantan United",
+                        "team_b": "Penang",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-56285e9d15",
+                    "name": "⚽ Sporting CP U23 vs Leixões U23 | 22:00 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-56285e9d15",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-56285e9d15",
+                                    "name": "Sporting CP U23 vs Leixões U23",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-56285e9d15",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-56285e9d15",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA REVELAÇÃO U23",
+                        "team_a": "Sporting CP U23",
+                        "team_b": "Leixões U23",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-c43c84893d",
+                    "name": "⚽ Dynamo Kyiv vs Inhulets | 23:00 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c43c84893d",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c43c84893d",
+                                    "name": "Dynamo Kyiv vs Inhulets",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c43c84893d",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c43c84893d",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "CUP",
+                        "team_a": "Dynamo Kyiv",
+                        "team_b": "Inhulets",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                },
+                {
+                    "id": "hq-85cf3d81ab",
+                    "name": "⚽ Botev Plovdiv vs Septemvri Sofia | 23:30 03/03/2026",
+                    "type": "single",
+                    "display": "thumbnail-only",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ececec",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/HDRH6Ii.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ Sắp đá",
+                            "position": "top-left",
+                            "color": "#00ffffff",
+                            "text_color": "#ff0000"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-85cf3d81ab",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-85cf3d81ab",
+                                    "name": "Botev Plovdiv vs Septemvri Sofia",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-85cf3d81ab",
+                                            "name": "Server 1",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-85cf3d81ab",
+                                                    "name": "Link Chính",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "FIRST LEAGUE",
+                        "team_a": "Botev Plovdiv",
+                        "team_b": "Septemvri Sofia",
+                        "logo_a": "https://i.imgur.com/HDRH6Ii.png",
+                        "logo_b": "https://i.imgur.com/HDRH6Ii.png",
+                        "thumb": "https://i.imgur.com/HDRH6Ii.png"
+                    }
+                }
+            ]
+        }
+    ]
+}
