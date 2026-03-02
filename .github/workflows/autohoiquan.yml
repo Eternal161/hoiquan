@@ -1,0 +1,34 @@
+name: Auto Cập Nhật M3U8 Bóng Đá
+
+# Cài đặt lịch trình chạy
+on:
+  schedule:
+    # Lệnh cron này nghĩa là: Chạy tự động vào phút thứ 0 và 30 của mỗi giờ (Cứ 30 phút/lần)
+    - cron: '0,25 * * * *'
+  # Cho phép bạn bấm nút chạy bằng tay bất cứ lúc nào
+  workflow_dispatch:
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest # Chạy trên máy chủ Linux của GitHub
+
+    steps:
+      # Bước 1: Kéo toàn bộ code trong kho của bạn về máy ảo
+      - name: Lấy mã nguồn
+        uses: actions/checkout@v4
+
+      # Bước 2: Cài đặt Python
+      - name: Cài đặt Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      # Bước 3: Cài đặt các thư viện cần thiết
+      - name: Cài đặt thư viện
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Bước 4: Chạy con bot của bạn
+      - name: Chạy Bot Bắt Link
+        run: python bottestlink.py
