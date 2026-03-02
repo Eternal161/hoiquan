@@ -29,7 +29,7 @@ try:
     wait = WebDriverWait(driver, 15)
     
     print("⏳ Đang cào dữ liệu trang chủ...")
-    driver.get("https://hoiquan1.live/")
+    driver.get("https://sv2.hoiquan1.live/lich-thi-dau/bong-da")
     
     danh_sach_tran = wait.until(
         EC.presence_of_all_elements_located((By.CSS_SELECTOR, "a[href*='bong-da']"))
@@ -146,3 +146,4 @@ except Exception as e:
 
 finally:
     driver.quit()
+
