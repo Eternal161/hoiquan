@@ -56,7 +56,7 @@
                                                     "name": "Vào Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanca/playlist.m3u8",
+                                                    "url": "http://waiting.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
@@ -124,7 +124,7 @@
                                                     "name": "Vào Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanca/playlist.m3u8",
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanliem/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
@@ -192,7 +192,7 @@
                                                     "name": "Vào Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanca/playlist.m3u8",
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanliem/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
@@ -260,7 +260,7 @@
                                                     "name": "Vào Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanca/playlist.m3u8",
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanliem/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
