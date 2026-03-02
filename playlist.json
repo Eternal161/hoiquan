@@ -109,9 +109,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 00:30 03/03/2026",
+                            "text": "🔴 Đang đá | 00:30 03/03/2026",
                             "position": "top-left",
-                            "color": "#1cb57a",
+                            "color": "#e50914",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -133,7 +133,7 @@
                                                     "name": "Vào Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "http://waiting.m3u8",
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanca/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
@@ -254,9 +254,9 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 00:30 03/03/2026",
+                            "text": "🔴 Đang đá | 00:30 03/03/2026",
                             "position": "top-left",
-                            "color": "#1cb57a",
+                            "color": "#e50914",
                             "text_color": "#ffffff"
                         }
                     ],
@@ -278,7 +278,7 @@
                                                     "name": "Vào Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "http://waiting.m3u8",
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanca/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
