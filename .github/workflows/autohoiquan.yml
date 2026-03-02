@@ -30,5 +30,8 @@ jobs:
           pip install -r requirements.txt
 
       # Bước 4: Chạy con bot của bạn
+      # Bước 4: Chạy con bot của bạn
       - name: Chạy Bot Bắt Link
+        env:
+          MY_GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
         run: python bottestlink.py
