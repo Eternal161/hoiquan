@@ -85,6 +85,74 @@
                     }
                 },
                 {
+                    "id": "hq-30bc6c39d0",
+                    "name": "⚽ Wolves vs Liverpool",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EWolves%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ELiverpool%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EPREMIER%20LEAGUE%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "🔴 Đang đá | 03:15 04/03/2026",
+                            "position": "top-left",
+                            "color": "#e50914",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-30bc6c39d0",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-30bc6c39d0",
+                                    "name": "Wolves vs Liverpool",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-30bc6c39d0",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-30bc6c39d0",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanca/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "PREMIER LEAGUE",
+                        "team_a": "Wolves",
+                        "team_b": "Liverpool",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EWolves%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ELiverpool%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EPREMIER%20LEAGUE%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
+                    }
+                },
+                {
                     "id": "hq-636e0f2134",
                     "name": "⚽ Pisa vs Bologna",
                     "type": "single",
@@ -1714,6 +1782,346 @@
                         "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ELeeds%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ESunderland%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EPREMIER%20LEAGUE%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
+                    }
+                },
+                {
+                    "id": "hq-c22ecae959",
+                    "name": "⚽ Barcelona vs Atletico Madrid",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/143.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBarcelona%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EAtletico%20Madrid%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ECOPA%20DEL%20REY%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 03:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c22ecae959",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c22ecae959",
+                                    "name": "Barcelona vs Atletico Madrid",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c22ecae959",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c22ecae959",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "COPA DEL REY",
+                        "team_a": "Barcelona",
+                        "team_b": "Atletico Madrid",
+                        "logo_a": "https://media.api-sports.io/football/leagues/143.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/143.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBarcelona%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EAtletico%20Madrid%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ECOPA%20DEL%20REY%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
+                    }
+                },
+                {
+                    "id": "hq-c22ecae959",
+                    "name": "⚽ Barcelona vs Atletico Madrid",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/143.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBarcelona%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EAtletico%20Madrid%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ECOPA%20DEL%20REY%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 03:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c22ecae959",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c22ecae959",
+                                    "name": "Barcelona vs Atletico Madrid",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c22ecae959",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c22ecae959",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "COPA DEL REY",
+                        "team_a": "Barcelona",
+                        "team_b": "Atletico Madrid",
+                        "logo_a": "https://media.api-sports.io/football/leagues/143.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/143.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBarcelona%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EAtletico%20Madrid%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ECOPA%20DEL%20REY%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
+                    }
+                },
+                {
+                    "id": "hq-c22ecae959",
+                    "name": "⚽ Barcelona vs Atletico Madrid",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/143.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBarcelona%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EAtletico%20Madrid%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ECOPA%20DEL%20REY%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 03:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c22ecae959",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c22ecae959",
+                                    "name": "Barcelona vs Atletico Madrid",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c22ecae959",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c22ecae959",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "COPA DEL REY",
+                        "team_a": "Barcelona",
+                        "team_b": "Atletico Madrid",
+                        "logo_a": "https://media.api-sports.io/football/leagues/143.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/143.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EBarcelona%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EAtletico%20Madrid%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ECOPA%20DEL%20REY%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
+                    }
+                },
+                {
+                    "id": "hq-ae5d9193fe",
+                    "name": "⚽ Como vs Inter",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//encrypted-tbn0.gstatic.com/images%3Fq%3Dtbn%3AANd9GcRcLnjYpFe2SNeZyFJC3mbAMUUYHdPt0kyb6w%26amp%3Bs%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EComo%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EInter%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ECOPPA%20ITALIA%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 03:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-ae5d9193fe",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-ae5d9193fe",
+                                    "name": "Como vs Inter",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-ae5d9193fe",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-ae5d9193fe",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "COPPA ITALIA",
+                        "team_a": "Como",
+                        "team_b": "Inter",
+                        "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcLnjYpFe2SNeZyFJC3mbAMUUYHdPt0kyb6w&amp;s",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//encrypted-tbn0.gstatic.com/images%3Fq%3Dtbn%3AANd9GcRcLnjYpFe2SNeZyFJC3mbAMUUYHdPt0kyb6w%26amp%3Bs%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EComo%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EInter%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3ECOPPA%20ITALIA%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
+                    }
+                },
+                {
+                    "id": "hq-18ec7d6d3c",
+                    "name": "⚽ Vietnam W vs India W",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/897.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EVietnam%20W%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EIndia%20W%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EASIAN%20CUP%20WOMEN%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 18:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-18ec7d6d3c",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-18ec7d6d3c",
+                                    "name": "Vietnam W vs India W",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-18ec7d6d3c",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-18ec7d6d3c",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "ASIAN CUP WOMEN",
+                        "team_a": "Vietnam W",
+                        "team_b": "India W",
+                        "logo_a": "https://media.api-sports.io/football/leagues/897.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%221600%22%20height%3D%221200%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/HDRH6Ii.png%22%20x%3D%220%22%20y%3D%220%22%20width%3D%221600%22%20height%3D%221200%22%20preserveAspectRatio%3D%22xMidYMid%20slice%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//media.api-sports.io/football/leagues/897.png%22%20x%3D%22250%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%22530%22%20font-size%3D%22140%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%3EVS%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cimage%20href%3D%22https%3A//i.imgur.com/30aaqin.png%22%20x%3D%22950%22%20y%3D%22300%22%20width%3D%22400%22%20height%3D%22400%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22450%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EVietnam%20W%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%221150%22%20y%3D%22800%22%20font-size%3D%2255%22%20fill%3D%22%23ffffff%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EIndia%20W%3C/text%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ctext%20x%3D%22800%22%20y%3D%221000%22%20font-size%3D%2265%22%20fill%3D%22%23ffd700%22%20text-anchor%3D%22middle%22%20font-family%3D%22sans-serif%22%20font-weight%3D%22bold%22%20filter%3D%22drop-shadow%283px%203px%202px%20rgba%280%2C0%2C0%2C0.8%29%29%22%3EASIAN%20CUP%20WOMEN%3C/text%3E%0A%20%20%20%20%20%20%20%20%3C/svg%3E"
                     }
                 }
             ]
