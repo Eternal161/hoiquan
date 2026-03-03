@@ -63,7 +63,7 @@ def main():
        "image": {
         "type": "cover", 
         "url": "https://i.postimg.cc/02tKjcyN/JT3IVCOJDKW3PBRFZAZUILENLU.jpg"
-    },
+    }},
 
     # Hai mảng chứa riêng biệt
     live_channels = []
@@ -229,4 +229,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
