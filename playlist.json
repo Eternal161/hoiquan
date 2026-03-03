@@ -56,7 +56,7 @@
                                                     "name": "Vào Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8",
+                                                    "url": "http://waiting.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
@@ -153,6 +153,74 @@
                     }
                 },
                 {
+                    "id": "hq-23a7962322",
+                    "name": "🏆 AFC CHAMPIONS LEAGUE | ⚽ Gangwon FC vs Machida Zelvia",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "🔴 Đang đá | 17:00 03/03/2026",
+                            "position": "top-left",
+                            "color": "#e50914",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-23a7962322",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-23a7962322",
+                                    "name": "Gangwon FC vs Machida Zelvia",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-23a7962322",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-23a7962322",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanma/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "AFC CHAMPIONS LEAGUE",
+                        "team_a": "Gangwon FC",
+                        "team_b": "Machida Zelvia",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png"
+                    }
+                },
+                {
                     "id": "hq-30bc6c39d0",
                     "name": "🏆 PREMIER LEAGUE | ⚽ Wolves vs Liverpool",
                     "type": "single",
@@ -218,74 +286,6 @@
                         "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png"
-                    }
-                },
-                {
-                    "id": "hq-23a7962322",
-                    "name": "🏆 AFC CHAMPIONS LEAGUE | ⚽ Gangwon FC vs Machida Zelvia",
-                    "type": "single",
-                    "display": "default",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "⏳ 17:00 03/03/2026",
-                            "position": "top-left",
-                            "color": "#1cb57a",
-                            "text_color": "#ffffff"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-23a7962322",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-23a7962322",
-                                    "name": "Gangwon FC vs Machida Zelvia",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-23a7962322",
-                                            "name": "Server Chính",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-23a7962322",
-                                                    "name": "Vào Xem",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "http://waiting.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "AFC CHAMPIONS LEAGUE",
-                        "team_a": "Gangwon FC",
-                        "team_b": "Machida Zelvia",
-                        "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
-                        "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png"
                     }
                 },
                 {
