@@ -4,7 +4,6 @@ import re
 import json
 import hashlib
 import traceback
-import base64
 from github import Github, Auth
 from seleniumwire import webdriver 
 from selenium.webdriver.chrome.service import Service
@@ -25,7 +24,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 du_lieu_json = {
     "id": "hoiquan-tv",
     "url": "https://raw.githack.com/Eternal161/hoiquan/main/playlist.json",
-    "name": "Hội Quán TV",
+    "name": "Sáng TV",
     "color": "#1cb57a",
     "grid_number": 3,
     "image": {
@@ -74,13 +73,6 @@ try:
         if len(teams) < 2: continue
         doi_1 = teams[0].text.strip()
         doi_2 = teams[1].text.strip()
-        
-        style = item.get_attribute("style") or ""
-        bg_match = re.search(r'url\("?\'?(.*?)\'?"?\)', style)
-        if bg_match:
-            poster_goc = make_absolute_url(bg_match.group(1))
-        else:
-            poster_goc = "https://hoiquan1.live/assets/imgs/bg-fixture-card.png"
 
         html_content = item.get_attribute("innerHTML")
         all_urls = re.findall(r'src="([^"]+)"', html_content) + re.findall(r'url\([\'"]?(.*?)[\'"]?\)', html_content)
@@ -99,20 +91,13 @@ try:
         else:
             logo_1 = logo_2 = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/500px-Soccerball.svg.png"
 
-        # --- MÃ HÓA BASE64 ĐỂ TV MON PLAYER BẮT BUỘC PHẢI HIỂN THỊ ẢNH ---
-        svg_template = f"""<svg width="1600" height="1200" xmlns="http://www.w3.org/2000/svg">
-            <image href="{poster_goc}" x="0" y="0" width="1600" height="1200" preserveAspectRatio="xMidYMid slice"/>
-            <image href="{logo_1}" x="250" y="300" width="400" height="400" preserveAspectRatio="xMidYMid meet"/>
-            <text x="800" y="530" font-size="140" fill="#ffffff" text-anchor="middle" font-family="sans-serif" font-weight="bold">VS</text>
-            <image href="{logo_2}" x="950" y="300" width="400" height="400" preserveAspectRatio="xMidYMid meet"/>
-            <text x="450" y="800" font-size="55" fill="#ffffff" text-anchor="middle" font-family="sans-serif" font-weight="bold" filter="drop-shadow(3px 3px 2px rgba(0,0,0,0.8))">{doi_1}</text>
-            <text x="1150" y="800" font-size="55" fill="#ffffff" text-anchor="middle" font-family="sans-serif" font-weight="bold" filter="drop-shadow(3px 3px 2px rgba(0,0,0,0.8))">{doi_2}</text>
-        </svg>"""
-        
-        # Chuyển đổi sang Base64 an toàn cho TV
-        svg_b64 = base64.b64encode(svg_template.encode('utf-8')).decode('utf-8')
-        poster_hoan_hao = f"data:image/svg+xml;base64,{svg_b64}"
-        # ----------------------------------------------------------------
+        # ĐÃ VÁ LỖI MẤT HÌNH: Trả về hình Logo Đội 1 nguyên bản để TV không bị lỗi xám ngoét
+        poster_hoan_hao = logo_1
+
+        # ĐÃ VÁ LỖI SAI LIVE: Bộ lọc nhận diện trận đấu đã kết thúc
+        text_upper = text.upper()
+        is_finished = "FT" in text_upper or "KT" in text_upper or "HẾT GIỜ" in text_upper
+        has_score = bool(re.search(r"(\d+)\s*-\s*(\d+)", text))
 
         time_m = re.search(r"(\d{2}:\d{2})\s*[\r\n]*\s*(\d{2}/\d{2}/\d{4})?", text)
         if time_m:
@@ -122,7 +107,11 @@ try:
         else:
             thoi_gian_goc = "Sắp diễn ra"
 
-        is_live = bool(re.search(r"(\d+)\s*-\s*(\d+)", text)) or "Live" in text or "Trực tiếp" in text
+        # Chỉ tính là Live nếu có tỉ số/chữ Live và CHƯA kết thúc
+        if (has_score and not is_finished) or (("LIVE" in text_upper or "ĐANG ĐÁ" in text_upper) and not is_finished):
+            is_live = True
+        else:
+            is_live = False
 
         if is_live:
             nhan_hien_thi = f"🔴 Đang đá | {thoi_gian_goc}"
@@ -136,13 +125,14 @@ try:
             "thoi_gian_goc": thoi_gian_goc
         })
 
-    # SẮP XẾP TOÀN BỘ TRẬN ĐẤU THEO THỜI GIAN
     danh_sach_tran.sort(key=get_sort_key)
     danh_sach_kenh = []
 
     for tran in danh_sach_tran:
         link_m3u8 = "http://waiting.m3u8"
         if tran['is_live']:
+            # ĐÃ VÁ LỖI TRÙNG LINK VIDEO: Dọn dẹp sạch trí nhớ trước khi lấy trận mới
+            del driver.requests
             driver.get(tran['link'])
             time.sleep(10)
             for req in driver.requests:
@@ -154,14 +144,13 @@ try:
         
         kenh_json = {
             "id": match_id,
-            # TÊN GIẢI ĐẤU XUẤT HIỆN TRƯỚC TÊN TRẬN
             "name": f"🏆 {tran['giai']} | ⚽ {tran['doi_1']} vs {tran['doi_2']}",
             "type": "single",
             "display": "default",
             "enable_detail": False,  
             "image": {
                 "padding": 1,
-                "background_color": "#111318",
+                "background_color": "#ffffff",
                 "display": "contain",
                 "url": tran['poster'], 
                 "width": 1600,
@@ -207,7 +196,6 @@ try:
         }
         danh_sach_kenh.append(kenh_json)
 
-    # GOM VÀO 1 DANH SÁCH DUY NHẤT
     du_lieu_json["groups"].append({
         "id": "all-matches",
         "name": "🔴 Trực Tiếp Bóng Đá", 
@@ -225,9 +213,9 @@ try:
         
         try:
             contents = repo.get_contents(GITHUB_FILE_PATH)
-            repo.update_file(contents.path, "Bản chuẩn: Base64 Image + Sort by Time", json_content, contents.sha)
+            repo.update_file(contents.path, "Đã vá lỗi: Live, Trùng Video và Ảnh", json_content, contents.sha)
         except Exception:
-            repo.create_file(GITHUB_FILE_PATH, "Bản chuẩn: Base64 Image + Sort by Time", json_content)
+            repo.create_file(GITHUB_FILE_PATH, "Đã vá lỗi: Live, Trùng Video và Ảnh", json_content)
 
 except Exception:
     traceback.print_exc()
