@@ -85,6 +85,74 @@
                     }
                 },
                 {
+                    "id": "hq-c91c9ba14d",
+                    "name": "🏆 TÜRKIYE KUPASI | ⚽ İstanbulspor vs Boluspor",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://media.api-sports.io/football/leagues/206.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "🔴 Đang đá | 19:30 03/03/2026",
+                            "position": "top-left",
+                            "color": "#e50914",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c91c9ba14d",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c91c9ba14d",
+                                    "name": "İstanbulspor vs Boluspor",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c91c9ba14d",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c91c9ba14d",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "TÜRKIYE KUPASI",
+                        "team_a": "İstanbulspor",
+                        "team_b": "Boluspor",
+                        "logo_a": "https://media.api-sports.io/football/leagues/206.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://media.api-sports.io/football/leagues/206.png"
+                    }
+                },
+                {
                     "id": "hq-30bc6c39d0",
                     "name": "🏆 PREMIER LEAGUE | ⚽ Wolves vs Liverpool",
                     "type": "single",
@@ -150,74 +218,6 @@
                         "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png"
-                    }
-                },
-                {
-                    "id": "hq-c91c9ba14d",
-                    "name": "🏆 TÜRKIYE KUPASI | ⚽ İstanbulspor vs Boluspor",
-                    "type": "single",
-                    "display": "default",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/206.png",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "⏳ 19:30 03/03/2026",
-                            "position": "top-left",
-                            "color": "#1cb57a",
-                            "text_color": "#ffffff"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-c91c9ba14d",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-c91c9ba14d",
-                                    "name": "İstanbulspor vs Boluspor",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-c91c9ba14d",
-                                            "name": "Server Chính",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-c91c9ba14d",
-                                                    "name": "Vào Xem",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "http://waiting.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "TÜRKIYE KUPASI",
-                        "team_a": "İstanbulspor",
-                        "team_b": "Boluspor",
-                        "logo_a": "https://media.api-sports.io/football/leagues/206.png",
-                        "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/206.png"
                     }
                 },
                 {
@@ -422,74 +422,6 @@
                         "logo_a": "https://media.api-sports.io/football/leagues/701.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://media.api-sports.io/football/leagues/701.png"
-                    }
-                },
-                {
-                    "id": "hq-c43c84893d",
-                    "name": "🏆 CUP | ⚽ Dynamo Kyiv vs Inhulets",
-                    "type": "single",
-                    "display": "default",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/199.png",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "⏳ 23:00 03/03/2026",
-                            "position": "top-left",
-                            "color": "#1cb57a",
-                            "text_color": "#ffffff"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-c43c84893d",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-c43c84893d",
-                                    "name": "Dynamo Kyiv vs Inhulets",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-c43c84893d",
-                                            "name": "Server Chính",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-c43c84893d",
-                                                    "name": "Vào Xem",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "http://waiting.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "CUP",
-                        "team_a": "Dynamo Kyiv",
-                        "team_b": "Inhulets",
-                        "logo_a": "https://media.api-sports.io/football/leagues/199.png",
-                        "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/199.png"
                     }
                 },
                 {
@@ -1102,74 +1034,6 @@
                         "logo_a": "https://media.api-sports.io/football/leagues/143.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://media.api-sports.io/football/leagues/143.png"
-                    }
-                },
-                {
-                    "id": "hq-ae5d9193fe",
-                    "name": "🏆 COPPA ITALIA | ⚽ Como vs Inter",
-                    "type": "single",
-                    "display": "default",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcLnjYpFe2SNeZyFJC3mbAMUUYHdPt0kyb6w&amp;s",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "⏳ 03:00 04/03/2026",
-                            "position": "top-left",
-                            "color": "#1cb57a",
-                            "text_color": "#ffffff"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-ae5d9193fe",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-ae5d9193fe",
-                                    "name": "Como vs Inter",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-ae5d9193fe",
-                                            "name": "Server Chính",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-ae5d9193fe",
-                                                    "name": "Vào Xem",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "http://waiting.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "COPPA ITALIA",
-                        "team_a": "Como",
-                        "team_b": "Inter",
-                        "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcLnjYpFe2SNeZyFJC3mbAMUUYHdPt0kyb6w&amp;s",
-                        "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcLnjYpFe2SNeZyFJC3mbAMUUYHdPt0kyb6w&amp;s"
                     }
                 },
                 {
