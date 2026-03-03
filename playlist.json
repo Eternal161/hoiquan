@@ -1,7 +1,7 @@
 {
-    "id": "hoiquan-tv",
+    "id": "hoiquan-tv-pro",
     "url": "https://raw.githack.com/Eternal161/hoiquan/main/playlist.json",
-    "name": "Sáng TV",
+    "name": "Trực Tiếp Bóng Đá",
     "color": "#1cb57a",
     "grid_number": 3,
     "image": {
@@ -10,14 +10,14 @@
     },
     "groups": [
         {
-            "id": "all-matches",
-            "name": "🔴 Trực Tiếp Bóng Đá",
+            "id": "group-live",
+            "name": "🔴 ĐANG DIỄN RA",
             "display": "vertical",
             "grid_number": 3,
             "enable_detail": false,
             "channels": [
                 {
-                    "id": "hq-c91c9ba14d",
+                    "id": "hq-c91c9ba1",
                     "name": "🏆 TÜRKIYE KUPASI | ⚽ İstanbulspor vs Boluspor",
                     "type": "single",
                     "display": "default",
@@ -40,20 +40,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-c91c9ba14d",
-                            "name": "Hội Quán",
+                            "id": "src-hq-c91c9ba1",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-c91c9ba14d",
+                                    "id": "ct-hq-c91c9ba1",
                                     "name": "İstanbulspor vs Boluspor",
                                     "streams": [
                                         {
-                                            "id": "st-hq-c91c9ba14d",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-c91c9ba1",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-c91c9ba14d",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-c91c9ba1",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phancao/playlist.m3u8",
@@ -81,12 +81,12 @@
                         "team_b": "Boluspor",
                         "logo_a": "https://media.api-sports.io/football/leagues/206.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "score": "0 - 0",
+                        "score": "2 - 51",
                         "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
-                    "id": "hq-55568df904",
+                    "id": "hq-55568df9",
                     "name": "🏆 LIGA 1 | ⚽ Persepam Madura Utd vs Malut United",
                     "type": "single",
                     "display": "default",
@@ -109,20 +109,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-55568df904",
-                            "name": "Hội Quán",
+                            "id": "src-hq-55568df9",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-55568df904",
+                                    "id": "ct-hq-55568df9",
                                     "name": "Persepam Madura Utd vs Malut United",
                                     "streams": [
                                         {
-                                            "id": "st-hq-55568df904",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-55568df9",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-55568df904",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-55568df9",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8",
@@ -150,12 +150,12 @@
                         "team_b": "Malut United",
                         "logo_a": "https://media.api-sports.io/football/leagues/274.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "score": "0 - 0",
+                        "score": "1 - 10",
                         "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
-                    "id": "hq-15c96eea8e",
+                    "id": "hq-15c96eea",
                     "name": "🏆 LIGA 1 | ⚽ Persija vs Pusamania Borneo",
                     "type": "single",
                     "display": "default",
@@ -178,23 +178,23 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-15c96eea8e",
-                            "name": "Hội Quán",
+                            "id": "src-hq-15c96eea",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-15c96eea8e",
+                                    "id": "ct-hq-15c96eea",
                                     "name": "Persija vs Pusamania Borneo",
                                     "streams": [
                                         {
-                                            "id": "st-hq-15c96eea8e",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-15c96eea",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-15c96eea8e",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-15c96eea",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://tftv0gr4uqmtt8y41hcjzgyzdnqbifi1g1hdcgyhdrpjqci1gq3mpcfhgg3dq.100ycdn.com/dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8?wsSession=1ab15b0272e1ac91e9a5e76a-177254495517775&wsIPSercert=38982079ad396471cbfde57c4da50adc&wsiphost=local&wsBindIP=1",
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanca/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
@@ -219,12 +219,12 @@
                         "team_b": "Pusamania Borneo",
                         "logo_a": "https://media.api-sports.io/football/leagues/274.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "score": "0 - 0",
+                        "score": "1 - 10",
                         "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
-                    "id": "hq-30bc6c39d0",
+                    "id": "hq-30bc6c39",
                     "name": "🏆 PREMIER LEAGUE | ⚽ Wolves vs Liverpool",
                     "type": "single",
                     "display": "default",
@@ -247,23 +247,23 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-30bc6c39d0",
-                            "name": "Hội Quán",
+                            "id": "src-hq-30bc6c39",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-30bc6c39d0",
+                                    "id": "ct-hq-30bc6c39",
                                     "name": "Wolves vs Liverpool",
                                     "streams": [
                                         {
-                                            "id": "st-hq-30bc6c39d0",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-30bc6c39",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-30bc6c39d0",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-30bc6c39",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "http://waiting.m3u8",
+                                                    "url": "http://link_khong_ton_tai_hoac_chua_phat.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
@@ -291,9 +291,18 @@
                         "score": "0 - 0",
                         "thumb": "https://imgur.com/HDRH6Ii"
                     }
-                },
+                }
+            ]
+        },
+        {
+            "id": "group-upcoming",
+            "name": "⏳ SẮP DIỄN RA",
+            "display": "vertical",
+            "grid_number": 3,
+            "enable_detail": false,
+            "channels": [
                 {
-                    "id": "hq-56285e9d15",
+                    "id": "hq-56285e9d",
                     "name": "🏆 LIGA REVELAÇÃO U23 | ⚽ Sporting CP U23 vs Leixões U23",
                     "type": "single",
                     "display": "default",
@@ -308,7 +317,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 22:00 03/03/2026",
+                            "text": "⏳ Sắp diễn ra | 22:00 03/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -316,20 +325,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-56285e9d15",
-                            "name": "Hội Quán",
+                            "id": "src-hq-56285e9d",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-56285e9d15",
+                                    "id": "ct-hq-56285e9d",
                                     "name": "Sporting CP U23 vs Leixões U23",
                                     "streams": [
                                         {
-                                            "id": "st-hq-56285e9d15",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-56285e9d",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-56285e9d15",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-56285e9d",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -362,7 +371,7 @@
                     }
                 },
                 {
-                    "id": "hq-85cf3d81ab",
+                    "id": "hq-85cf3d81",
                     "name": "🏆 FIRST LEAGUE | ⚽ Botev Plovdiv vs Septemvri Sofia",
                     "type": "single",
                     "display": "default",
@@ -377,7 +386,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 23:30 03/03/2026",
+                            "text": "⏳ Sắp diễn ra | 23:30 03/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -385,20 +394,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-85cf3d81ab",
-                            "name": "Hội Quán",
+                            "id": "src-hq-85cf3d81",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-85cf3d81ab",
+                                    "id": "ct-hq-85cf3d81",
                                     "name": "Botev Plovdiv vs Septemvri Sofia",
                                     "streams": [
                                         {
-                                            "id": "st-hq-85cf3d81ab",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-85cf3d81",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-85cf3d81ab",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-85cf3d81",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -431,7 +440,7 @@
                     }
                 },
                 {
-                    "id": "hq-3eeeccecb3",
+                    "id": "hq-3eeeccec",
                     "name": "🏆 TÜRKIYE KUPASI | ⚽ Alanyaspor vs Galatasaray",
                     "type": "single",
                     "display": "default",
@@ -446,7 +455,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 00:30 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 00:30 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -454,20 +463,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-3eeeccecb3",
-                            "name": "Hội Quán",
+                            "id": "src-hq-3eeeccec",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-3eeeccecb3",
+                                    "id": "ct-hq-3eeeccec",
                                     "name": "Alanyaspor vs Galatasaray",
                                     "streams": [
                                         {
-                                            "id": "st-hq-3eeeccecb3",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-3eeeccec",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-3eeeccecb3",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-3eeeccec",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -500,7 +509,7 @@
                     }
                 },
                 {
-                    "id": "hq-c58915db19",
+                    "id": "hq-c58915db",
                     "name": "🏆 TÜRKIYE KUPASI | ⚽ Başakşehir vs Trabzonspor",
                     "type": "single",
                     "display": "default",
@@ -515,7 +524,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 00:30 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 00:30 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -523,20 +532,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-c58915db19",
-                            "name": "Hội Quán",
+                            "id": "src-hq-c58915db",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-c58915db19",
+                                    "id": "ct-hq-c58915db",
                                     "name": "Başakşehir vs Trabzonspor",
                                     "streams": [
                                         {
-                                            "id": "st-hq-c58915db19",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-c58915db",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-c58915db19",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-c58915db",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -569,7 +578,7 @@
                     }
                 },
                 {
-                    "id": "hq-1922939812",
+                    "id": "hq-19229398",
                     "name": "🏆 PREMIER LEAGUE | ⚽ Bournemouth vs Brentford",
                     "type": "single",
                     "display": "default",
@@ -584,7 +593,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 02:30 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 02:30 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -592,20 +601,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-1922939812",
-                            "name": "Hội Quán",
+                            "id": "src-hq-19229398",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-1922939812",
+                                    "id": "ct-hq-19229398",
                                     "name": "Bournemouth vs Brentford",
                                     "streams": [
                                         {
-                                            "id": "st-hq-1922939812",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-19229398",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-1922939812",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-19229398",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -638,7 +647,7 @@
                     }
                 },
                 {
-                    "id": "hq-6c72c5a8f0",
+                    "id": "hq-6c72c5a8",
                     "name": "🏆 PREMIER LEAGUE | ⚽ Everton vs Burnley",
                     "type": "single",
                     "display": "default",
@@ -653,7 +662,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 02:30 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 02:30 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -661,20 +670,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-6c72c5a8f0",
-                            "name": "Hội Quán",
+                            "id": "src-hq-6c72c5a8",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-6c72c5a8f0",
+                                    "id": "ct-hq-6c72c5a8",
                                     "name": "Everton vs Burnley",
                                     "streams": [
                                         {
-                                            "id": "st-hq-6c72c5a8f0",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-6c72c5a8",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-6c72c5a8f0",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-6c72c5a8",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -707,7 +716,7 @@
                     }
                 },
                 {
-                    "id": "hq-79aee665a6",
+                    "id": "hq-79aee665",
                     "name": "🏆 PREMIER LEAGUE | ⚽ Leeds vs Sunderland",
                     "type": "single",
                     "display": "default",
@@ -722,7 +731,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 02:30 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 02:30 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -730,20 +739,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-79aee665a6",
-                            "name": "Hội Quán",
+                            "id": "src-hq-79aee665",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-79aee665a6",
+                                    "id": "ct-hq-79aee665",
                                     "name": "Leeds vs Sunderland",
                                     "streams": [
                                         {
-                                            "id": "st-hq-79aee665a6",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-79aee665",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-79aee665a6",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-79aee665",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -776,7 +785,7 @@
                     }
                 },
                 {
-                    "id": "hq-c22ecae959",
+                    "id": "hq-c22ecae9",
                     "name": "🏆 COPA DEL REY | ⚽ Barcelona vs Atletico Madrid",
                     "type": "single",
                     "display": "default",
@@ -791,7 +800,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 03:00 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 03:00 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -799,20 +808,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-c22ecae959",
-                            "name": "Hội Quán",
+                            "id": "src-hq-c22ecae9",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-c22ecae959",
+                                    "id": "ct-hq-c22ecae9",
                                     "name": "Barcelona vs Atletico Madrid",
                                     "streams": [
                                         {
-                                            "id": "st-hq-c22ecae959",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-c22ecae9",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-c22ecae959",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-c22ecae9",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -845,7 +854,7 @@
                     }
                 },
                 {
-                    "id": "hq-c22ecae959",
+                    "id": "hq-c22ecae9",
                     "name": "🏆 COPA DEL REY | ⚽ Barcelona vs Atletico Madrid",
                     "type": "single",
                     "display": "default",
@@ -860,7 +869,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 03:00 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 03:00 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -868,20 +877,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-c22ecae959",
-                            "name": "Hội Quán",
+                            "id": "src-hq-c22ecae9",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-c22ecae959",
+                                    "id": "ct-hq-c22ecae9",
                                     "name": "Barcelona vs Atletico Madrid",
                                     "streams": [
                                         {
-                                            "id": "st-hq-c22ecae959",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-c22ecae9",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-c22ecae959",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-c22ecae9",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -914,7 +923,7 @@
                     }
                 },
                 {
-                    "id": "hq-c22ecae959",
+                    "id": "hq-c22ecae9",
                     "name": "🏆 COPA DEL REY | ⚽ Barcelona vs Atletico Madrid",
                     "type": "single",
                     "display": "default",
@@ -929,7 +938,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 03:00 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 03:00 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -937,20 +946,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-c22ecae959",
-                            "name": "Hội Quán",
+                            "id": "src-hq-c22ecae9",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-c22ecae959",
+                                    "id": "ct-hq-c22ecae9",
                                     "name": "Barcelona vs Atletico Madrid",
                                     "streams": [
                                         {
-                                            "id": "st-hq-c22ecae959",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-c22ecae9",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-c22ecae959",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-c22ecae9",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -983,7 +992,7 @@
                     }
                 },
                 {
-                    "id": "hq-ae5d9193fe",
+                    "id": "hq-ae5d9193",
                     "name": "🏆 COPPA ITALIA | ⚽ Como vs Inter",
                     "type": "single",
                     "display": "default",
@@ -998,7 +1007,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 03:00 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 03:00 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1006,20 +1015,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-ae5d9193fe",
-                            "name": "Hội Quán",
+                            "id": "src-hq-ae5d9193",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-ae5d9193fe",
+                                    "id": "ct-hq-ae5d9193",
                                     "name": "Como vs Inter",
                                     "streams": [
                                         {
-                                            "id": "st-hq-ae5d9193fe",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-ae5d9193",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-ae5d9193fe",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-ae5d9193",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -1052,7 +1061,7 @@
                     }
                 },
                 {
-                    "id": "hq-785189647e",
+                    "id": "hq-78518964",
                     "name": "🏆 LIGA PROFESIONAL ARGENTINA | ⚽ Huracan vs Belgrano Cordoba",
                     "type": "single",
                     "display": "default",
@@ -1067,7 +1076,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 05:15 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 05:15 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1075,20 +1084,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-785189647e",
-                            "name": "Hội Quán",
+                            "id": "src-hq-78518964",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-785189647e",
+                                    "id": "ct-hq-78518964",
                                     "name": "Huracan vs Belgrano Cordoba",
                                     "streams": [
                                         {
-                                            "id": "st-hq-785189647e",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-78518964",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-785189647e",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-78518964",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -1121,7 +1130,7 @@
                     }
                 },
                 {
-                    "id": "hq-9cf4b38162",
+                    "id": "hq-9cf4b381",
                     "name": "🏆 LIGA PROFESIONAL ARGENTINA | ⚽ Atletico Tucuman vs Racing Club",
                     "type": "single",
                     "display": "default",
@@ -1136,7 +1145,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 07:15 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 07:15 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1144,20 +1153,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-9cf4b38162",
-                            "name": "Hội Quán",
+                            "id": "src-hq-9cf4b381",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-9cf4b38162",
+                                    "id": "ct-hq-9cf4b381",
                                     "name": "Atletico Tucuman vs Racing Club",
                                     "streams": [
                                         {
-                                            "id": "st-hq-9cf4b38162",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-9cf4b381",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-9cf4b38162",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-9cf4b381",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -1190,7 +1199,7 @@
                     }
                 },
                 {
-                    "id": "hq-64504e7b7a",
+                    "id": "hq-64504e7b",
                     "name": "🏆 COPA LIBERTADORES | ⚽ Barcelona SC vs Botafogo FR",
                     "type": "single",
                     "display": "default",
@@ -1205,7 +1214,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 07:30 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 07:30 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1213,20 +1222,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-64504e7b7a",
-                            "name": "Hội Quán",
+                            "id": "src-hq-64504e7b",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-64504e7b7a",
+                                    "id": "ct-hq-64504e7b",
                                     "name": "Barcelona SC vs Botafogo FR",
                                     "streams": [
                                         {
-                                            "id": "st-hq-64504e7b7a",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-64504e7b",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-64504e7b7a",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-64504e7b",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -1259,7 +1268,7 @@
                     }
                 },
                 {
-                    "id": "hq-416ef33c9c",
+                    "id": "hq-416ef33c",
                     "name": "🏆 LIGA MX | ⚽ Santos Laguna vs Cruz Azul",
                     "type": "single",
                     "display": "default",
@@ -1274,7 +1283,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 08:00 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 08:00 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1282,20 +1291,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-416ef33c9c",
-                            "name": "Hội Quán",
+                            "id": "src-hq-416ef33c",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-416ef33c9c",
+                                    "id": "ct-hq-416ef33c",
                                     "name": "Santos Laguna vs Cruz Azul",
                                     "streams": [
                                         {
-                                            "id": "st-hq-416ef33c9c",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-416ef33c",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-416ef33c9c",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-416ef33c",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -1328,7 +1337,7 @@
                     }
                 },
                 {
-                    "id": "hq-9da3619095",
+                    "id": "hq-9da36190",
                     "name": "🏆 LIGA MX | ⚽ Pachuca vs Necaxa",
                     "type": "single",
                     "display": "default",
@@ -1343,7 +1352,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 08:00 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 08:00 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1351,20 +1360,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-9da3619095",
-                            "name": "Hội Quán",
+                            "id": "src-hq-9da36190",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-9da3619095",
+                                    "id": "ct-hq-9da36190",
                                     "name": "Pachuca vs Necaxa",
                                     "streams": [
                                         {
-                                            "id": "st-hq-9da3619095",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-9da36190",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-9da3619095",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-9da36190",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -1397,7 +1406,7 @@
                     }
                 },
                 {
-                    "id": "hq-1239fffa84",
+                    "id": "hq-1239fffa",
                     "name": "🏆 LIGA MX | ⚽ Atletico San Luis vs Mazatlán",
                     "type": "single",
                     "display": "default",
@@ -1412,7 +1421,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 10:00 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 10:00 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1420,20 +1429,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-1239fffa84",
-                            "name": "Hội Quán",
+                            "id": "src-hq-1239fffa",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-1239fffa84",
+                                    "id": "ct-hq-1239fffa",
                                     "name": "Atletico San Luis vs Mazatlán",
                                     "streams": [
                                         {
-                                            "id": "st-hq-1239fffa84",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-1239fffa",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-1239fffa84",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-1239fffa",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -1466,7 +1475,7 @@
                     }
                 },
                 {
-                    "id": "hq-466c1f39f5",
+                    "id": "hq-466c1f39",
                     "name": "🏆 LIGA MX | ⚽ U.N.A.M. - Pumas vs Toluca",
                     "type": "single",
                     "display": "default",
@@ -1481,7 +1490,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 10:10 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 10:10 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1489,20 +1498,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-466c1f39f5",
-                            "name": "Hội Quán",
+                            "id": "src-hq-466c1f39",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-466c1f39f5",
+                                    "id": "ct-hq-466c1f39",
                                     "name": "U.N.A.M. - Pumas vs Toluca",
                                     "streams": [
                                         {
-                                            "id": "st-hq-466c1f39f5",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-466c1f39",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-466c1f39f5",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-466c1f39",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -1535,7 +1544,7 @@
                     }
                 },
                 {
-                    "id": "hq-f63d6f1d52",
+                    "id": "hq-f63d6f1d",
                     "name": "🏆 ASIAN CUP WOMEN | ⚽ Japan W vs Chinese Taipei W",
                     "type": "single",
                     "display": "default",
@@ -1550,7 +1559,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 12:00 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 12:00 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1558,20 +1567,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-f63d6f1d52",
-                            "name": "Hội Quán",
+                            "id": "src-hq-f63d6f1d",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-f63d6f1d52",
+                                    "id": "ct-hq-f63d6f1d",
                                     "name": "Japan W vs Chinese Taipei W",
                                     "streams": [
                                         {
-                                            "id": "st-hq-f63d6f1d52",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-f63d6f1d",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-f63d6f1d52",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-f63d6f1d",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -1604,7 +1613,7 @@
                     }
                 },
                 {
-                    "id": "hq-7cc9b79512",
+                    "id": "hq-7cc9b795",
                     "name": "🏆 A-LEAGUE | ⚽ Macarthur vs Central Coast Mariners",
                     "type": "single",
                     "display": "default",
@@ -1619,7 +1628,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 15:00 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 15:00 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1627,20 +1636,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-7cc9b79512",
-                            "name": "Hội Quán",
+                            "id": "src-hq-7cc9b795",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-7cc9b79512",
+                                    "id": "ct-hq-7cc9b795",
                                     "name": "Macarthur vs Central Coast Mariners",
                                     "streams": [
                                         {
-                                            "id": "st-hq-7cc9b79512",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-7cc9b795",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-7cc9b79512",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-7cc9b795",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -1673,7 +1682,7 @@
                     }
                 },
                 {
-                    "id": "hq-85a3f1feb1",
+                    "id": "hq-85a3f1fe",
                     "name": "🏆 J2 LEAGUE | ⚽ Sagamihara vs Thespakusatsu Gunma",
                     "type": "single",
                     "display": "default",
@@ -1688,7 +1697,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 16:30 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 16:30 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1696,20 +1705,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-85a3f1feb1",
-                            "name": "Hội Quán",
+                            "id": "src-hq-85a3f1fe",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-85a3f1feb1",
+                                    "id": "ct-hq-85a3f1fe",
                                     "name": "Sagamihara vs Thespakusatsu Gunma",
                                     "streams": [
                                         {
-                                            "id": "st-hq-85a3f1feb1",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-85a3f1fe",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-85a3f1feb1",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-85a3f1fe",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -1742,7 +1751,7 @@
                     }
                 },
                 {
-                    "id": "hq-8b1128254e",
+                    "id": "hq-8b112825",
                     "name": "🏆 AFC CHAMPIONS LEAGUE | ⚽ FC Seoul vs Vissel Kobe",
                     "type": "single",
                     "display": "default",
@@ -1757,7 +1766,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 17:00 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 17:00 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1765,20 +1774,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-8b1128254e",
-                            "name": "Hội Quán",
+                            "id": "src-hq-8b112825",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-8b1128254e",
+                                    "id": "ct-hq-8b112825",
                                     "name": "FC Seoul vs Vissel Kobe",
                                     "streams": [
                                         {
-                                            "id": "st-hq-8b1128254e",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-8b112825",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-8b1128254e",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-8b112825",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -1811,7 +1820,7 @@
                     }
                 },
                 {
-                    "id": "hq-6f3f543abd",
+                    "id": "hq-6f3f543a",
                     "name": "🏆 AFC CUP | ⚽ Gamba Osaka vs Ratchaburi",
                     "type": "single",
                     "display": "default",
@@ -1826,7 +1835,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 17:00 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 17:00 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1834,20 +1843,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-6f3f543abd",
-                            "name": "Hội Quán",
+                            "id": "src-hq-6f3f543a",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-6f3f543abd",
+                                    "id": "ct-hq-6f3f543a",
                                     "name": "Gamba Osaka vs Ratchaburi",
                                     "streams": [
                                         {
-                                            "id": "st-hq-6f3f543abd",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-6f3f543a",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-6f3f543abd",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-6f3f543a",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -1880,7 +1889,7 @@
                     }
                 },
                 {
-                    "id": "hq-18ec7d6d3c",
+                    "id": "hq-18ec7d6d",
                     "name": "🏆 ASIAN CUP WOMEN | ⚽ Vietnam W vs India W",
                     "type": "single",
                     "display": "default",
@@ -1895,7 +1904,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 18:00 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 18:00 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1903,20 +1912,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-18ec7d6d3c",
-                            "name": "Hội Quán",
+                            "id": "src-hq-18ec7d6d",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-18ec7d6d3c",
+                                    "id": "ct-hq-18ec7d6d",
                                     "name": "Vietnam W vs India W",
                                     "streams": [
                                         {
-                                            "id": "st-hq-18ec7d6d3c",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-18ec7d6d",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-18ec7d6d3c",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-18ec7d6d",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -1949,7 +1958,7 @@
                     }
                 },
                 {
-                    "id": "hq-3df042004a",
+                    "id": "hq-3df04200",
                     "name": "🏆 TÜRKIYE KUPASI | ⚽ Erzurum BB vs Keçiörengücü",
                     "type": "single",
                     "display": "default",
@@ -1964,7 +1973,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 18:30 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 18:30 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -1972,20 +1981,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-3df042004a",
-                            "name": "Hội Quán",
+                            "id": "src-hq-3df04200",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-3df042004a",
+                                    "id": "ct-hq-3df04200",
                                     "name": "Erzurum BB vs Keçiörengücü",
                                     "streams": [
                                         {
-                                            "id": "st-hq-3df042004a",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-3df04200",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-3df042004a",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-3df04200",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -2018,7 +2027,7 @@
                     }
                 },
                 {
-                    "id": "hq-953b91598b",
+                    "id": "hq-953b9159",
                     "name": "🏆 AFC CHAMPIONS LEAGUE | ⚽ Johor Darul Takzim FC vs Sanfrecce Hiroshima",
                     "type": "single",
                     "display": "default",
@@ -2033,7 +2042,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 19:15 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 19:15 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -2041,20 +2050,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-953b91598b",
-                            "name": "Hội Quán",
+                            "id": "src-hq-953b9159",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-953b91598b",
+                                    "id": "ct-hq-953b9159",
                                     "name": "Johor Darul Takzim FC vs Sanfrecce Hiroshima",
                                     "streams": [
                                         {
-                                            "id": "st-hq-953b91598b",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-953b9159",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-953b91598b",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-953b9159",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -2087,7 +2096,7 @@
                     }
                 },
                 {
-                    "id": "hq-b778a3c191",
+                    "id": "hq-b778a3c1",
                     "name": "🏆 LIGA 1 | ⚽ Semen Padang vs PSIM Yogyakarta",
                     "type": "single",
                     "display": "default",
@@ -2102,7 +2111,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 21:00 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 21:00 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -2110,20 +2119,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-b778a3c191",
-                            "name": "Hội Quán",
+                            "id": "src-hq-b778a3c1",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-b778a3c191",
+                                    "id": "ct-hq-b778a3c1",
                                     "name": "Semen Padang vs PSIM Yogyakarta",
                                     "streams": [
                                         {
-                                            "id": "st-hq-b778a3c191",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-b778a3c1",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-b778a3c191",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-b778a3c1",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -2156,7 +2165,7 @@
                     }
                 },
                 {
-                    "id": "hq-c56355e588",
+                    "id": "hq-c56355e5",
                     "name": "🏆 FIRST LEAGUE | ⚽ Cherno More Varna vs Arda Kardzhali",
                     "type": "single",
                     "display": "default",
@@ -2171,7 +2180,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 21:00 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 21:00 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -2179,20 +2188,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-c56355e588",
-                            "name": "Hội Quán",
+                            "id": "src-hq-c56355e5",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-c56355e588",
+                                    "id": "ct-hq-c56355e5",
                                     "name": "Cherno More Varna vs Arda Kardzhali",
                                     "streams": [
                                         {
-                                            "id": "st-hq-c56355e588",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-c56355e5",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-c56355e588",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-c56355e5",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -2225,7 +2234,7 @@
                     }
                 },
                 {
-                    "id": "hq-8d0f5d5b4b",
+                    "id": "hq-8d0f5d5b",
                     "name": "🏆 CUPA ROMÂNIEI | ⚽ Arges Pitesti vs Gloria Bistriţa",
                     "type": "single",
                     "display": "default",
@@ -2240,7 +2249,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 22:30 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 22:30 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -2248,20 +2257,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-8d0f5d5b4b",
-                            "name": "Hội Quán",
+                            "id": "src-hq-8d0f5d5b",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-8d0f5d5b4b",
+                                    "id": "ct-hq-8d0f5d5b",
                                     "name": "Arges Pitesti vs Gloria Bistriţa",
                                     "streams": [
                                         {
-                                            "id": "st-hq-8d0f5d5b4b",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-8d0f5d5b",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-8d0f5d5b4b",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-8d0f5d5b",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
@@ -2294,7 +2303,7 @@
                     }
                 },
                 {
-                    "id": "hq-f25379ebe2",
+                    "id": "hq-f25379eb",
                     "name": "🏆 FIRST LEAGUE | ⚽ CSKA Sofia vs Botev Vratsa",
                     "type": "single",
                     "display": "default",
@@ -2309,7 +2318,7 @@
                     },
                     "labels": [
                         {
-                            "text": "⏳ 23:30 04/03/2026",
+                            "text": "⏳ Sắp diễn ra | 23:30 04/03/2026",
                             "position": "top-left",
                             "color": "#1cb57a",
                             "text_color": "#ffffff"
@@ -2317,20 +2326,20 @@
                     ],
                     "sources": [
                         {
-                            "id": "src-hq-f25379ebe2",
-                            "name": "Hội Quán",
+                            "id": "src-hq-f25379eb",
+                            "name": "Nguồn Phóng",
                             "contents": [
                                 {
-                                    "id": "ct-hq-f25379ebe2",
+                                    "id": "ct-hq-f25379eb",
                                     "name": "CSKA Sofia vs Botev Vratsa",
                                     "streams": [
                                         {
-                                            "id": "st-hq-f25379ebe2",
-                                            "name": "Server Chính",
+                                            "id": "st-hq-f25379eb",
+                                            "name": "Server Siêu Mượt",
                                             "stream_links": [
                                                 {
-                                                    "id": "lnk-hq-f25379ebe2",
-                                                    "name": "Vào Xem",
+                                                    "id": "lnk-hq-f25379eb",
+                                                    "name": "Bấm Để Xem",
                                                     "type": "hls",
                                                     "default": true,
                                                     "url": "http://waiting.m3u8",
