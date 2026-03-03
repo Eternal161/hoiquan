@@ -124,7 +124,7 @@
                                                     "name": "Vào Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://tftv0gr4uqmtt8y41hcjzgyzdnqbifi1g1hdcgyhdrpjqci1gq3mpcfhgg3dq.100ycdn.com/dipl0825.edgemaxcdn.org/live/hqtv_blv_phanchanh/playlist.m3u8?wsSession=1ab15b0272e1ac91e9a5e76a-177254405414652&wsIPSercert=a6fbeca75c321cd8f6062a5f020f7c91&wsiphost=local&wsBindIP=1",
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phancao/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
@@ -192,7 +192,7 @@
                                                     "name": "Vào Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://tftv0gr4uqmtt8y41hcjzgyzdnqbifi1g1hdcgyhdrpjqci1gq3mpcfhgg3dq.100ycdn.com/dipl0825.edgemaxcdn.org/live/hqtv_blv_phancao/playlist.m3u8?wsSession=1ab15b0272e1ac91e9a5e76a-177254406674933&wsIPSercert=a6fbeca75c321cd8f6062a5f020f7c91&wsiphost=local&wsBindIP=1",
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
