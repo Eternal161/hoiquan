@@ -192,7 +192,7 @@
                                                     "name": "Vào Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://tftv1gr3uomttgr31hcj18yzdgqjpctwzy5bo8y3dkmufctusk5mbxbtse5o.100ycdn.com/dipl0825.edgemaxcdn.org/live/hqtv_blv_phanchanh/playlist.m3u8?wsSession=e30a7b7a81ed4a66f7fb7397-177251063681068&wsIPSercert=3dd7c53aff76ce0f8c8b9c557ec16a28&wsiphost=local&wsBindIP=1",
+                                                    "url": "http://waiting.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
