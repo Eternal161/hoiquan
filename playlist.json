@@ -15,7 +15,1504 @@
             "display": "vertical",
             "grid_number": 3,
             "enable_detail": false,
-            "channels": []
+            "channels": [
+                {
+                    "id": "hq-375837238e",
+                    "name": "🏆 ASIAN CUP WOMEN | ⚽ Korea DPR vs Uzbekistan W",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzg5Ny5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5Lb3JlYSBEUFI8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPlV6YmVraXN0YW4gVzwvdGV4dD4KICAgICAgICA8L3N2Zz4=",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "🔴 Đang đá | 09:00 03/03/2026",
+                            "position": "top-left",
+                            "color": "#e50914",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-375837238e",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-375837238e",
+                                    "name": "Korea DPR vs Uzbekistan W",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-375837238e",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-375837238e",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanca/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "ASIAN CUP WOMEN",
+                        "team_a": "Korea DPR",
+                        "team_b": "Uzbekistan W",
+                        "logo_a": "https://media.api-sports.io/football/leagues/897.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzg5Ny5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5Lb3JlYSBEUFI8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPlV6YmVraXN0YW4gVzwvdGV4dD4KICAgICAgICA8L3N2Zz4="
+                    }
+                },
+                {
+                    "id": "hq-30bc6c39d0",
+                    "name": "🏆 PREMIER LEAGUE | ⚽ Wolves vs Liverpool",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iL2YvZjIvUHJlbWllcl9MZWFndWVfTG9nby5zdmcvMTIwMHB4LVByZW1pZXJfTGVhZ3VlX0xvZ28uc3ZnLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPldvbHZlczwvdGV4dD4KICAgICAgICAgICAgPHRleHQgeD0iMTE1MCIgeT0iODAwIiBmb250LXNpemU9IjU1IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbHRlcj0iZHJvcC1zaGFkb3coM3B4IDNweCAycHggcmdiYSgwLDAsMCwwLjgpKSI+TGl2ZXJwb29sPC90ZXh0PgogICAgICAgIDwvc3ZnPg==",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "🔴 Đang đá | 03:15 04/03/2026",
+                            "position": "top-left",
+                            "color": "#e50914",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-30bc6c39d0",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-30bc6c39d0",
+                                    "name": "Wolves vs Liverpool",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-30bc6c39d0",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-30bc6c39d0",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanca/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "PREMIER LEAGUE",
+                        "team_a": "Wolves",
+                        "team_b": "Liverpool",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iL2YvZjIvUHJlbWllcl9MZWFndWVfTG9nby5zdmcvMTIwMHB4LVByZW1pZXJfTGVhZ3VlX0xvZ28uc3ZnLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPldvbHZlczwvdGV4dD4KICAgICAgICAgICAgPHRleHQgeD0iMTE1MCIgeT0iODAwIiBmb250LXNpemU9IjU1IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbHRlcj0iZHJvcC1zaGFkb3coM3B4IDNweCAycHggcmdiYSgwLDAsMCwwLjgpKSI+TGl2ZXJwb29sPC90ZXh0PgogICAgICAgIDwvc3ZnPg=="
+                    }
+                },
+                {
+                    "id": "hq-a8b20b88f7",
+                    "name": "🏆 OFC PRO LEAGUE | ⚽ Tahiti United vs Hekari United",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzEyMTQucG5nIiB4PSIyNTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iODAwIiB5PSI1MzAiIGZvbnQtc2l6ZT0iMTQwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiPlZTPC90ZXh0PgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS8zMGFhcWluLnBuZyIgeD0iOTUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjQ1MCIgeT0iODAwIiBmb250LXNpemU9IjU1IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbHRlcj0iZHJvcC1zaGFkb3coM3B4IDNweCAycHggcmdiYSgwLDAsMCwwLjgpKSI+VGFoaXRpIFVuaXRlZDwvdGV4dD4KICAgICAgICAgICAgPHRleHQgeD0iMTE1MCIgeT0iODAwIiBmb250LXNpemU9IjU1IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbHRlcj0iZHJvcC1zaGFkb3coM3B4IDNweCAycHggcmdiYSgwLDAsMCwwLjgpKSI+SGVrYXJpIFVuaXRlZDwvdGV4dD4KICAgICAgICA8L3N2Zz4=",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 11:00 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-a8b20b88f7",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-a8b20b88f7",
+                                    "name": "Tahiti United vs Hekari United",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-a8b20b88f7",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-a8b20b88f7",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "OFC PRO LEAGUE",
+                        "team_a": "Tahiti United",
+                        "team_b": "Hekari United",
+                        "logo_a": "https://media.api-sports.io/football/leagues/1214.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzEyMTQucG5nIiB4PSIyNTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iODAwIiB5PSI1MzAiIGZvbnQtc2l6ZT0iMTQwIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiPlZTPC90ZXh0PgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS8zMGFhcWluLnBuZyIgeD0iOTUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjQ1MCIgeT0iODAwIiBmb250LXNpemU9IjU1IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbHRlcj0iZHJvcC1zaGFkb3coM3B4IDNweCAycHggcmdiYSgwLDAsMCwwLjgpKSI+VGFoaXRpIFVuaXRlZDwvdGV4dD4KICAgICAgICAgICAgPHRleHQgeD0iMTE1MCIgeT0iODAwIiBmb250LXNpemU9IjU1IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbHRlcj0iZHJvcC1zaGFkb3coM3B4IDNweCAycHggcmdiYSgwLDAsMCwwLjgpKSI+SGVrYXJpIFVuaXRlZDwvdGV4dD4KICAgICAgICA8L3N2Zz4="
+                    }
+                },
+                {
+                    "id": "hq-49e2d6a189",
+                    "name": "🏆 AFC CHAMPIONS LEAGUE | ⚽ Melbourne City vs Buriram United",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iL2QvZDcvQUZDX0NoYW1waW9uc19MZWFndWVfRWxpdGVfbG9nby5zdmcvMTIzMXB4LUFGQ19DaGFtcGlvbnNfTGVhZ3VlX0VsaXRlX2xvZ28uc3ZnLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPk1lbGJvdXJuZSBDaXR5PC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CdXJpcmFtIFVuaXRlZDwvdGV4dD4KICAgICAgICA8L3N2Zz4=",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 14:45 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-49e2d6a189",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-49e2d6a189",
+                                    "name": "Melbourne City vs Buriram United",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-49e2d6a189",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-49e2d6a189",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "AFC CHAMPIONS LEAGUE",
+                        "team_a": "Melbourne City",
+                        "team_b": "Buriram United",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iL2QvZDcvQUZDX0NoYW1waW9uc19MZWFndWVfRWxpdGVfbG9nby5zdmcvMTIzMXB4LUFGQ19DaGFtcGlvbnNfTGVhZ3VlX0VsaXRlX2xvZ28uc3ZnLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPk1lbGJvdXJuZSBDaXR5PC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CdXJpcmFtIFVuaXRlZDwvdGV4dD4KICAgICAgICA8L3N2Zz4="
+                    }
+                },
+                {
+                    "id": "hq-8d96b16d25",
+                    "name": "🏆 ASIAN CUP WOMEN | ⚽ China W vs Bangladesh W",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzg5Ny5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5DaGluYSBXPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CYW5nbGFkZXNoIFc8L3RleHQ+CiAgICAgICAgPC9zdmc+",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 15:00 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-8d96b16d25",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-8d96b16d25",
+                                    "name": "China W vs Bangladesh W",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-8d96b16d25",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-8d96b16d25",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "ASIAN CUP WOMEN",
+                        "team_a": "China W",
+                        "team_b": "Bangladesh W",
+                        "logo_a": "https://media.api-sports.io/football/leagues/897.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzg5Ny5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5DaGluYSBXPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CYW5nbGFkZXNoIFc8L3RleHQ+CiAgICAgICAgPC9zdmc+"
+                    }
+                },
+                {
+                    "id": "hq-23a7962322",
+                    "name": "🏆 AFC CHAMPIONS LEAGUE | ⚽ Gangwon FC vs Machida Zelvia",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iL2QvZDcvQUZDX0NoYW1waW9uc19MZWFndWVfRWxpdGVfbG9nby5zdmcvMTIzMXB4LUFGQ19DaGFtcGlvbnNfTGVhZ3VlX0VsaXRlX2xvZ28uc3ZnLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkdhbmd3b24gRkM8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPk1hY2hpZGEgWmVsdmlhPC90ZXh0PgogICAgICAgIDwvc3ZnPg==",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 17:00 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-23a7962322",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-23a7962322",
+                                    "name": "Gangwon FC vs Machida Zelvia",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-23a7962322",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-23a7962322",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "AFC CHAMPIONS LEAGUE",
+                        "team_a": "Gangwon FC",
+                        "team_b": "Machida Zelvia",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iL2QvZDcvQUZDX0NoYW1waW9uc19MZWFndWVfRWxpdGVfbG9nby5zdmcvMTIzMXB4LUFGQ19DaGFtcGlvbnNfTGVhZ3VlX0VsaXRlX2xvZ28uc3ZnLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkdhbmd3b24gRkM8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPk1hY2hpZGEgWmVsdmlhPC90ZXh0PgogICAgICAgIDwvc3ZnPg=="
+                    }
+                },
+                {
+                    "id": "hq-c1d0850b26",
+                    "name": "🏆 CUP | ⚽ Syunik vs Andranik",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzE5OS5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5TeXVuaWs8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkFuZHJhbmlrPC90ZXh0PgogICAgICAgIDwvc3ZnPg==",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 18:00 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c1d0850b26",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c1d0850b26",
+                                    "name": "Syunik vs Andranik",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c1d0850b26",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c1d0850b26",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "CUP",
+                        "team_a": "Syunik",
+                        "team_b": "Andranik",
+                        "logo_a": "https://media.api-sports.io/football/leagues/199.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzE5OS5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5TeXVuaWs8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkFuZHJhbmlrPC90ZXh0PgogICAgICAgIDwvc3ZnPg=="
+                    }
+                },
+                {
+                    "id": "hq-43919785dc",
+                    "name": "🏆 FIRST LEAGUE | ⚽ Spartak Varna vs Montana",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vc3RhdGljLmZsYXNoc2NvcmUuY29tL3Jlcy9pbWFnZS9kYXRhL3ZKdlZTMVYxLVdHZzFlenNtLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPlNwYXJ0YWsgVmFybmE8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPk1vbnRhbmE8L3RleHQ+CiAgICAgICAgPC9zdmc+",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 18:30 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-43919785dc",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-43919785dc",
+                                    "name": "Spartak Varna vs Montana",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-43919785dc",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-43919785dc",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "FIRST LEAGUE",
+                        "team_a": "Spartak Varna",
+                        "team_b": "Montana",
+                        "logo_a": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vc3RhdGljLmZsYXNoc2NvcmUuY29tL3Jlcy9pbWFnZS9kYXRhL3ZKdlZTMVYxLVdHZzFlenNtLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPlNwYXJ0YWsgVmFybmE8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPk1vbnRhbmE8L3RleHQ+CiAgICAgICAgPC9zdmc+"
+                    }
+                },
+                {
+                    "id": "hq-c91c9ba14d",
+                    "name": "🏆 TÜRKIYE KUPASI | ⚽ İstanbulspor vs Boluspor",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzIwNi5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj7EsHN0YW5idWxzcG9yPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5Cb2x1c3BvcjwvdGV4dD4KICAgICAgICA8L3N2Zz4=",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 19:30 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c91c9ba14d",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c91c9ba14d",
+                                    "name": "İstanbulspor vs Boluspor",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c91c9ba14d",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c91c9ba14d",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "TÜRKIYE KUPASI",
+                        "team_a": "İstanbulspor",
+                        "team_b": "Boluspor",
+                        "logo_a": "https://media.api-sports.io/football/leagues/206.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzIwNi5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj7EsHN0YW5idWxzcG9yPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5Cb2x1c3BvcjwvdGV4dD4KICAgICAgICA8L3N2Zz4="
+                    }
+                },
+                {
+                    "id": "hq-55568df904",
+                    "name": "🏆 LIGA 1 | ⚽ Persepam Madura Utd vs Malut United",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzI3NC5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5QZXJzZXBhbSBNYWR1cmEgVXRkPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5NYWx1dCBVbml0ZWQ8L3RleHQ+CiAgICAgICAgPC9zdmc+",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 20:30 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-55568df904",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-55568df904",
+                                    "name": "Persepam Madura Utd vs Malut United",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-55568df904",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-55568df904",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA 1",
+                        "team_a": "Persepam Madura Utd",
+                        "team_b": "Malut United",
+                        "logo_a": "https://media.api-sports.io/football/leagues/274.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzI3NC5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5QZXJzZXBhbSBNYWR1cmEgVXRkPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5NYWx1dCBVbml0ZWQ8L3RleHQ+CiAgICAgICAgPC9zdmc+"
+                    }
+                },
+                {
+                    "id": "hq-15c96eea8e",
+                    "name": "🏆 LIGA 1 | ⚽ Persija vs Pusamania Borneo",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzI3NC5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5QZXJzaWphPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5QdXNhbWFuaWEgQm9ybmVvPC90ZXh0PgogICAgICAgIDwvc3ZnPg==",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 20:30 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-15c96eea8e",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-15c96eea8e",
+                                    "name": "Persija vs Pusamania Borneo",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-15c96eea8e",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-15c96eea8e",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA 1",
+                        "team_a": "Persija",
+                        "team_b": "Pusamania Borneo",
+                        "logo_a": "https://media.api-sports.io/football/leagues/274.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzI3NC5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5QZXJzaWphPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5QdXNhbWFuaWEgQm9ybmVvPC90ZXh0PgogICAgICAgIDwvc3ZnPg=="
+                    }
+                },
+                {
+                    "id": "hq-56285e9d15",
+                    "name": "🏆 LIGA REVELAÇÃO U23 | ⚽ Sporting CP U23 vs Leixões U23",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzcwMS5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5TcG9ydGluZyBDUCBVMjM8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkxlaXjDtWVzIFUyMzwvdGV4dD4KICAgICAgICA8L3N2Zz4=",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 22:00 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-56285e9d15",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-56285e9d15",
+                                    "name": "Sporting CP U23 vs Leixões U23",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-56285e9d15",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-56285e9d15",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA REVELAÇÃO U23",
+                        "team_a": "Sporting CP U23",
+                        "team_b": "Leixões U23",
+                        "logo_a": "https://media.api-sports.io/football/leagues/701.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzcwMS5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5TcG9ydGluZyBDUCBVMjM8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkxlaXjDtWVzIFUyMzwvdGV4dD4KICAgICAgICA8L3N2Zz4="
+                    }
+                },
+                {
+                    "id": "hq-c43c84893d",
+                    "name": "🏆 CUP | ⚽ Dynamo Kyiv vs Inhulets",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzE5OS5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5EeW5hbW8gS3lpdjwvdGV4dD4KICAgICAgICAgICAgPHRleHQgeD0iMTE1MCIgeT0iODAwIiBmb250LXNpemU9IjU1IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbHRlcj0iZHJvcC1zaGFkb3coM3B4IDNweCAycHggcmdiYSgwLDAsMCwwLjgpKSI+SW5odWxldHM8L3RleHQ+CiAgICAgICAgPC9zdmc+",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 23:00 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c43c84893d",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c43c84893d",
+                                    "name": "Dynamo Kyiv vs Inhulets",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c43c84893d",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c43c84893d",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "CUP",
+                        "team_a": "Dynamo Kyiv",
+                        "team_b": "Inhulets",
+                        "logo_a": "https://media.api-sports.io/football/leagues/199.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzE5OS5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5EeW5hbW8gS3lpdjwvdGV4dD4KICAgICAgICAgICAgPHRleHQgeD0iMTE1MCIgeT0iODAwIiBmb250LXNpemU9IjU1IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbHRlcj0iZHJvcC1zaGFkb3coM3B4IDNweCAycHggcmdiYSgwLDAsMCwwLjgpKSI+SW5odWxldHM8L3RleHQ+CiAgICAgICAgPC9zdmc+"
+                    }
+                },
+                {
+                    "id": "hq-85cf3d81ab",
+                    "name": "🏆 FIRST LEAGUE | ⚽ Botev Plovdiv vs Septemvri Sofia",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vc3RhdGljLmZsYXNoc2NvcmUuY29tL3Jlcy9pbWFnZS9kYXRhL3ZKdlZTMVYxLVdHZzFlenNtLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkJvdGV2IFBsb3ZkaXY8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPlNlcHRlbXZyaSBTb2ZpYTwvdGV4dD4KICAgICAgICA8L3N2Zz4=",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 23:30 03/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-85cf3d81ab",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-85cf3d81ab",
+                                    "name": "Botev Plovdiv vs Septemvri Sofia",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-85cf3d81ab",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-85cf3d81ab",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "FIRST LEAGUE",
+                        "team_a": "Botev Plovdiv",
+                        "team_b": "Septemvri Sofia",
+                        "logo_a": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vc3RhdGljLmZsYXNoc2NvcmUuY29tL3Jlcy9pbWFnZS9kYXRhL3ZKdlZTMVYxLVdHZzFlenNtLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkJvdGV2IFBsb3ZkaXY8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPlNlcHRlbXZyaSBTb2ZpYTwvdGV4dD4KICAgICAgICA8L3N2Zz4="
+                    }
+                },
+                {
+                    "id": "hq-1922939812",
+                    "name": "🏆 PREMIER LEAGUE | ⚽ Bournemouth vs Brentford",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iL2YvZjIvUHJlbWllcl9MZWFndWVfTG9nby5zdmcvMTIwMHB4LVByZW1pZXJfTGVhZ3VlX0xvZ28uc3ZnLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkJvdXJuZW1vdXRoPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CcmVudGZvcmQ8L3RleHQ+CiAgICAgICAgPC9zdmc+",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 02:30 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-1922939812",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-1922939812",
+                                    "name": "Bournemouth vs Brentford",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-1922939812",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-1922939812",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "PREMIER LEAGUE",
+                        "team_a": "Bournemouth",
+                        "team_b": "Brentford",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iL2YvZjIvUHJlbWllcl9MZWFndWVfTG9nby5zdmcvMTIwMHB4LVByZW1pZXJfTGVhZ3VlX0xvZ28uc3ZnLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkJvdXJuZW1vdXRoPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CcmVudGZvcmQ8L3RleHQ+CiAgICAgICAgPC9zdmc+"
+                    }
+                },
+                {
+                    "id": "hq-6c72c5a8f0",
+                    "name": "🏆 PREMIER LEAGUE | ⚽ Everton vs Burnley",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iL2YvZjIvUHJlbWllcl9MZWFndWVfTG9nby5zdmcvMTIwMHB4LVByZW1pZXJfTGVhZ3VlX0xvZ28uc3ZnLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkV2ZXJ0b248L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkJ1cm5sZXk8L3RleHQ+CiAgICAgICAgPC9zdmc+",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 02:30 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-6c72c5a8f0",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-6c72c5a8f0",
+                                    "name": "Everton vs Burnley",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-6c72c5a8f0",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-6c72c5a8f0",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "PREMIER LEAGUE",
+                        "team_a": "Everton",
+                        "team_b": "Burnley",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iL2YvZjIvUHJlbWllcl9MZWFndWVfTG9nby5zdmcvMTIwMHB4LVByZW1pZXJfTGVhZ3VlX0xvZ28uc3ZnLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkV2ZXJ0b248L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkJ1cm5sZXk8L3RleHQ+CiAgICAgICAgPC9zdmc+"
+                    }
+                },
+                {
+                    "id": "hq-79aee665a6",
+                    "name": "🏆 PREMIER LEAGUE | ⚽ Leeds vs Sunderland",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iL2YvZjIvUHJlbWllcl9MZWFndWVfTG9nby5zdmcvMTIwMHB4LVByZW1pZXJfTGVhZ3VlX0xvZ28uc3ZnLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkxlZWRzPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5TdW5kZXJsYW5kPC90ZXh0PgogICAgICAgIDwvc3ZnPg==",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 02:30 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-79aee665a6",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-79aee665a6",
+                                    "name": "Leeds vs Sunderland",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-79aee665a6",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-79aee665a6",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "PREMIER LEAGUE",
+                        "team_a": "Leeds",
+                        "team_b": "Sunderland",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iL2YvZjIvUHJlbWllcl9MZWFndWVfTG9nby5zdmcvMTIwMHB4LVByZW1pZXJfTGVhZ3VlX0xvZ28uc3ZnLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkxlZWRzPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5TdW5kZXJsYW5kPC90ZXh0PgogICAgICAgIDwvc3ZnPg=="
+                    }
+                },
+                {
+                    "id": "hq-c22ecae959",
+                    "name": "🏆 COPA DEL REY | ⚽ Barcelona vs Atletico Madrid",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzE0My5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CYXJjZWxvbmE8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkF0bGV0aWNvIE1hZHJpZDwvdGV4dD4KICAgICAgICA8L3N2Zz4=",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 03:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c22ecae959",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c22ecae959",
+                                    "name": "Barcelona vs Atletico Madrid",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c22ecae959",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c22ecae959",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "COPA DEL REY",
+                        "team_a": "Barcelona",
+                        "team_b": "Atletico Madrid",
+                        "logo_a": "https://media.api-sports.io/football/leagues/143.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzE0My5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CYXJjZWxvbmE8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkF0bGV0aWNvIE1hZHJpZDwvdGV4dD4KICAgICAgICA8L3N2Zz4="
+                    }
+                },
+                {
+                    "id": "hq-c22ecae959",
+                    "name": "🏆 COPA DEL REY | ⚽ Barcelona vs Atletico Madrid",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzE0My5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CYXJjZWxvbmE8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkF0bGV0aWNvIE1hZHJpZDwvdGV4dD4KICAgICAgICA8L3N2Zz4=",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 03:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c22ecae959",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c22ecae959",
+                                    "name": "Barcelona vs Atletico Madrid",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c22ecae959",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c22ecae959",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "COPA DEL REY",
+                        "team_a": "Barcelona",
+                        "team_b": "Atletico Madrid",
+                        "logo_a": "https://media.api-sports.io/football/leagues/143.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzE0My5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CYXJjZWxvbmE8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkF0bGV0aWNvIE1hZHJpZDwvdGV4dD4KICAgICAgICA8L3N2Zz4="
+                    }
+                },
+                {
+                    "id": "hq-c22ecae959",
+                    "name": "🏆 COPA DEL REY | ⚽ Barcelona vs Atletico Madrid",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzE0My5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CYXJjZWxvbmE8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkF0bGV0aWNvIE1hZHJpZDwvdGV4dD4KICAgICAgICA8L3N2Zz4=",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 03:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c22ecae959",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c22ecae959",
+                                    "name": "Barcelona vs Atletico Madrid",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c22ecae959",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c22ecae959",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "COPA DEL REY",
+                        "team_a": "Barcelona",
+                        "team_b": "Atletico Madrid",
+                        "logo_a": "https://media.api-sports.io/football/leagues/143.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzE0My5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CYXJjZWxvbmE8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkF0bGV0aWNvIE1hZHJpZDwvdGV4dD4KICAgICAgICA8L3N2Zz4="
+                    }
+                },
+                {
+                    "id": "hq-ae5d9193fe",
+                    "name": "🏆 COPPA ITALIA | ⚽ Como vs Inter",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1JjTG5qWXBGZTJTTmVaeUZKQzNtYkFNVVVZSGRQdDBreWI2dyZhbXA7cyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkNvbW88L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkludGVyPC90ZXh0PgogICAgICAgIDwvc3ZnPg==",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 03:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-ae5d9193fe",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-ae5d9193fe",
+                                    "name": "Como vs Inter",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-ae5d9193fe",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-ae5d9193fe",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "COPPA ITALIA",
+                        "team_a": "Como",
+                        "team_b": "Inter",
+                        "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcLnjYpFe2SNeZyFJC3mbAMUUYHdPt0kyb6w&amp;s",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vZW5jcnlwdGVkLXRibjAuZ3N0YXRpYy5jb20vaW1hZ2VzP3E9dGJuOkFOZDlHY1JjTG5qWXBGZTJTTmVaeUZKQzNtYkFNVVVZSGRQdDBreWI2dyZhbXA7cyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkNvbW88L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkludGVyPC90ZXh0PgogICAgICAgIDwvc3ZnPg=="
+                    }
+                },
+                {
+                    "id": "hq-18ec7d6d3c",
+                    "name": "🏆 ASIAN CUP WOMEN | ⚽ Vietnam W vs India W",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzg5Ny5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5WaWV0bmFtIFc8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkluZGlhIFc8L3RleHQ+CiAgICAgICAgPC9zdmc+",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 18:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-18ec7d6d3c",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-18ec7d6d3c",
+                                    "name": "Vietnam W vs India W",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-18ec7d6d3c",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-18ec7d6d3c",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "ASIAN CUP WOMEN",
+                        "team_a": "Vietnam W",
+                        "team_b": "India W",
+                        "logo_a": "https://media.api-sports.io/football/leagues/897.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzg5Ny5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5WaWV0bmFtIFc8L3RleHQ+CiAgICAgICAgICAgIDx0ZXh0IHg9IjExNTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPkluZGlhIFc8L3RleHQ+CiAgICAgICAgPC9zdmc+"
+                    }
+                }
+            ]
         }
     ]
 }
