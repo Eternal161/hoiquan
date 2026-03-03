@@ -60,9 +60,10 @@ def main():
         "name": "Trực Tiếp Bóng Đá",
         "color": "#1cb57a",
         "grid_number": 3,
-        "image": {"type": "cover", "url": BACKGROUND_IMG},
-        "groups": [] 
-    }
+       "image": {
+        "type": "cover", 
+        "url": "https://i.postimg.cc/02tKjcyN/JT3IVCOJDKW3PBRFZAZUILENLU.jpg"
+    },
 
     # Hai mảng chứa riêng biệt
     live_channels = []
@@ -228,3 +229,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
