@@ -1717,6 +1717,550 @@
                     }
                 },
                 {
+                    "id": "hq-64504e7b7a",
+                    "name": "🏆 COPA LIBERTADORES | ⚽ Barcelona SC vs Botafogo FR",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/95/Conmebol_Libertadores_logo.svg/2560px-Conmebol_Libertadores_logo.svg.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 07:30 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-64504e7b7a",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-64504e7b7a",
+                                    "name": "Barcelona SC vs Botafogo FR",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-64504e7b7a",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-64504e7b7a",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "COPA LIBERTADORES",
+                        "team_a": "Barcelona SC",
+                        "team_b": "Botafogo FR",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/95/Conmebol_Libertadores_logo.svg/2560px-Conmebol_Libertadores_logo.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/95/Conmebol_Libertadores_logo.svg/2560px-Conmebol_Libertadores_logo.svg.png"
+                    }
+                },
+                {
+                    "id": "hq-416ef33c9c",
+                    "name": "🏆 LIGA MX | ⚽ Santos Laguna vs Cruz Azul",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://media.api-sports.io/football/leagues/262.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 08:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-416ef33c9c",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-416ef33c9c",
+                                    "name": "Santos Laguna vs Cruz Azul",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-416ef33c9c",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-416ef33c9c",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA MX",
+                        "team_a": "Santos Laguna",
+                        "team_b": "Cruz Azul",
+                        "logo_a": "https://media.api-sports.io/football/leagues/262.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://media.api-sports.io/football/leagues/262.png"
+                    }
+                },
+                {
+                    "id": "hq-9da3619095",
+                    "name": "🏆 LIGA MX | ⚽ Pachuca vs Necaxa",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://media.api-sports.io/football/leagues/262.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 08:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-9da3619095",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-9da3619095",
+                                    "name": "Pachuca vs Necaxa",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-9da3619095",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-9da3619095",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA MX",
+                        "team_a": "Pachuca",
+                        "team_b": "Necaxa",
+                        "logo_a": "https://media.api-sports.io/football/leagues/262.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://media.api-sports.io/football/leagues/262.png"
+                    }
+                },
+                {
+                    "id": "hq-1239fffa84",
+                    "name": "🏆 LIGA MX | ⚽ Atletico San Luis vs Mazatlán",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://media.api-sports.io/football/leagues/262.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 10:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-1239fffa84",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-1239fffa84",
+                                    "name": "Atletico San Luis vs Mazatlán",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-1239fffa84",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-1239fffa84",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA MX",
+                        "team_a": "Atletico San Luis",
+                        "team_b": "Mazatlán",
+                        "logo_a": "https://media.api-sports.io/football/leagues/262.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://media.api-sports.io/football/leagues/262.png"
+                    }
+                },
+                {
+                    "id": "hq-466c1f39f5",
+                    "name": "🏆 LIGA MX | ⚽ U.N.A.M. - Pumas vs Toluca",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://media.api-sports.io/football/leagues/262.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 10:10 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-466c1f39f5",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-466c1f39f5",
+                                    "name": "U.N.A.M. - Pumas vs Toluca",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-466c1f39f5",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-466c1f39f5",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA MX",
+                        "team_a": "U.N.A.M. - Pumas",
+                        "team_b": "Toluca",
+                        "logo_a": "https://media.api-sports.io/football/leagues/262.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://media.api-sports.io/football/leagues/262.png"
+                    }
+                },
+                {
+                    "id": "hq-f63d6f1d52",
+                    "name": "🏆 ASIAN CUP WOMEN | ⚽ Japan W vs Chinese Taipei W",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://media.api-sports.io/football/leagues/897.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 12:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-f63d6f1d52",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-f63d6f1d52",
+                                    "name": "Japan W vs Chinese Taipei W",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-f63d6f1d52",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-f63d6f1d52",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "ASIAN CUP WOMEN",
+                        "team_a": "Japan W",
+                        "team_b": "Chinese Taipei W",
+                        "logo_a": "https://media.api-sports.io/football/leagues/897.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://media.api-sports.io/football/leagues/897.png"
+                    }
+                },
+                {
+                    "id": "hq-7cc9b79512",
+                    "name": "🏆 A-LEAGUE | ⚽ Macarthur vs Central Coast Mariners",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://media.api-sports.io/football/leagues/188.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 15:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-7cc9b79512",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-7cc9b79512",
+                                    "name": "Macarthur vs Central Coast Mariners",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-7cc9b79512",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-7cc9b79512",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "A-LEAGUE",
+                        "team_a": "Macarthur",
+                        "team_b": "Central Coast Mariners",
+                        "logo_a": "https://media.api-sports.io/football/leagues/188.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://media.api-sports.io/football/leagues/188.png"
+                    }
+                },
+                {
+                    "id": "hq-85a3f1feb1",
+                    "name": "🏆 J2 LEAGUE | ⚽ Sagamihara vs Thespakusatsu Gunma",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://i.imgur.com/Pwa49YG.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 16:30 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-85a3f1feb1",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-85a3f1feb1",
+                                    "name": "Sagamihara vs Thespakusatsu Gunma",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-85a3f1feb1",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-85a3f1feb1",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "J2 LEAGUE",
+                        "team_a": "Sagamihara",
+                        "team_b": "Thespakusatsu Gunma",
+                        "logo_a": "https://i.imgur.com/Pwa49YG.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://i.imgur.com/Pwa49YG.png"
+                    }
+                },
+                {
                     "id": "hq-18ec7d6d3c",
                     "name": "🏆 ASIAN CUP WOMEN | ⚽ Vietnam W vs India W",
                     "type": "single",
