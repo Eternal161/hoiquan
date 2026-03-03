@@ -15,6 +15,7 @@ from selenium.webdriver.support import expected_conditions as EC
 GITHUB_TOKEN = os.environ.get("MY_GITHUB_TOKEN") 
 GITHUB_REPO_NAME = "Eternal161/hoiquan" 
 GITHUB_FILE_PATH = "playlist.json"
+BACKGROUND_IMG = "https://imgur.com/HDRH6Ii" 
 
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
@@ -29,7 +30,7 @@ du_lieu_json = {
     "grid_number": 3,
     "image": {
         "type": "cover", 
-        "url": "https://i.postimg.cc/02tKjcyN/JT3IVCOJDKW3PBRFZAZUILENLU.jpg"
+        "url": BACKGROUND_IMG
     },
     "groups": [] 
 }
@@ -38,7 +39,7 @@ danh_sach_tran = []
 link_da_quet = set()
 
 def make_absolute_url(u):
-    if not u: return "https://hoiquan1.live/assets/imgs/bg-fixture-card.png"
+    if not u: return BACKGROUND_IMG
     if u.startswith("//"): return "https:" + u
     if u.startswith("/"): return "https://hoiquan1.live" + u
     return u
@@ -91,13 +92,17 @@ try:
         else:
             logo_1 = logo_2 = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Soccerball.svg/500px-Soccerball.svg.png"
 
-        # ĐÃ VÁ LỖI MẤT HÌNH: Trả về hình Logo Đội 1 nguyên bản để TV không bị lỗi xám ngoét
-        poster_hoan_hao = logo_1
+        poster_hoan_hao = BACKGROUND_IMG
 
-        # ĐÃ VÁ LỖI SAI LIVE: Bộ lọc nhận diện trận đấu đã kết thúc
+        score_match = re.search(r"(\d+)\s*-\s*(\d+)", text)
+        ti_so = f"{score_match.group(1)} - {score_match.group(2)}" if score_match else "0 - 0"
+
+        live_time_match = re.search(r"(H[12]\s*-\s*\d+['’]?|\d+['’]|HT|H[12])", text, re.IGNORECASE)
+        phut_thi_dau = live_time_match.group(1).upper() if live_time_match else "LIVE"
+
         text_upper = text.upper()
         is_finished = "FT" in text_upper or "KT" in text_upper or "HẾT GIỜ" in text_upper
-        has_score = bool(re.search(r"(\d+)\s*-\s*(\d+)", text))
+        has_score = bool(score_match)
 
         time_m = re.search(r"(\d{2}:\d{2})\s*[\r\n]*\s*(\d{2}/\d{2}/\d{4})?", text)
         if time_m:
@@ -107,21 +112,20 @@ try:
         else:
             thoi_gian_goc = "Sắp diễn ra"
 
-        # Chỉ tính là Live nếu có tỉ số/chữ Live và CHƯA kết thúc
         if (has_score and not is_finished) or (("LIVE" in text_upper or "ĐANG ĐÁ" in text_upper) and not is_finished):
             is_live = True
         else:
             is_live = False
 
         if is_live:
-            nhan_hien_thi = f"🔴 Đang đá | {thoi_gian_goc}"
+            nhan_hien_thi = f"🔴 {phut_thi_dau} | {thoi_gian_goc}" 
         else:
             nhan_hien_thi = f"⏳ {thoi_gian_goc}"
 
         danh_sach_tran.append({
             "link": link, "doi_1": doi_1, "doi_2": doi_2, 
             "poster": poster_hoan_hao, "logo_1": logo_1, "logo_2": logo_2,
-            "giai": giai_dau, "is_live": is_live, "nhan": nhan_hien_thi,
+            "ti_so": ti_so, "giai": giai_dau, "is_live": is_live, "nhan": nhan_hien_thi,
             "thoi_gian_goc": thoi_gian_goc
         })
 
@@ -131,7 +135,6 @@ try:
     for tran in danh_sach_tran:
         link_m3u8 = "http://waiting.m3u8"
         if tran['is_live']:
-            # ĐÃ VÁ LỖI TRÙNG LINK VIDEO: Dọn dẹp sạch trí nhớ trước khi lấy trận mới
             del driver.requests
             driver.get(tran['link'])
             time.sleep(10)
@@ -149,12 +152,12 @@ try:
             "display": "default",
             "enable_detail": False,  
             "image": {
-                "padding": 1,
-                "background_color": "#ffffff",
-                "display": "contain",
+                "padding": 0,
+                "background_color": "#000000",
+                "display": "cover",
                 "url": tran['poster'], 
                 "width": 1600,
-                "height": 1200
+                "height": 900
             },
             "labels": [{
                 "text": tran['nhan'], 
@@ -191,6 +194,7 @@ try:
                 "team_b": tran['doi_2'],
                 "logo_a": tran['logo_1'],
                 "logo_b": tran['logo_2'],
+                "score": tran['ti_so'],
                 "thumb": tran['poster']
             }
         }
@@ -213,9 +217,9 @@ try:
         
         try:
             contents = repo.get_contents(GITHUB_FILE_PATH)
-            repo.update_file(contents.path, "Đã vá lỗi: Live, Trùng Video và Ảnh", json_content, contents.sha)
+            repo.update_file(contents.path, "Update match data and UI", json_content, contents.sha)
         except Exception:
-            repo.create_file(GITHUB_FILE_PATH, "Đã vá lỗi: Live, Trùng Video và Ảnh", json_content)
+            repo.create_file(GITHUB_FILE_PATH, "Update match data and UI", json_content)
 
 except Exception:
     traceback.print_exc()
