@@ -124,7 +124,7 @@
                                                     "name": "Vào Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://tftv0gr4uqmtt8y41hcjz8rzdnqjofi1g1hdcgyhdrpjqci1gq3mpcfhgg3dq.100ycdn.com/dipl0825.edgemaxcdn.org/live/hqtv_blv_phanchanh/playlist.m3u8?wsSession=6ba2238fff6fdf7530b8c14f-177254197439630&wsIPSercert=8e8be5191c5e04dd30d2ef2f6381e0a2&wsiphost=local&wsBindIP=1",
+                                                    "url": "https://tftv0gr4uqmtt8y41hcjz8rzdnpjufi1g1hdcgyhdrpjqci1gq3mpcfhgg3dq.100ycdn.com/dipl0825.edgemaxcdn.org/live/hqtv_blv_phanchanh/playlist.m3u8?wsSession=ea864c21590455dd4ba6aa91-177254226227510&wsIPSercert=4f025fde632a124a2acdc3e6d8f7f970&wsiphost=local&wsBindIP=1",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
@@ -150,6 +150,74 @@
                         "logo_a": "https://media.api-sports.io/football/leagues/206.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://media.api-sports.io/football/leagues/206.png"
+                    }
+                },
+                {
+                    "id": "hq-55568df904",
+                    "name": "🏆 LIGA 1 | ⚽ Persepam Madura Utd vs Malut United",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://media.api-sports.io/football/leagues/274.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "🔴 Đang đá | 20:30 03/03/2026",
+                            "position": "top-left",
+                            "color": "#e50914",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-55568df904",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-55568df904",
+                                    "name": "Persepam Madura Utd vs Malut United",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-55568df904",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-55568df904",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA 1",
+                        "team_a": "Persepam Madura Utd",
+                        "team_b": "Malut United",
+                        "logo_a": "https://media.api-sports.io/football/leagues/274.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://media.api-sports.io/football/leagues/274.png"
                     }
                 },
                 {
@@ -218,74 +286,6 @@
                         "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png"
-                    }
-                },
-                {
-                    "id": "hq-55568df904",
-                    "name": "🏆 LIGA 1 | ⚽ Persepam Madura Utd vs Malut United",
-                    "type": "single",
-                    "display": "default",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/274.png",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "⏳ 20:30 03/03/2026",
-                            "position": "top-left",
-                            "color": "#1cb57a",
-                            "text_color": "#ffffff"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-55568df904",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-55568df904",
-                                    "name": "Persepam Madura Utd vs Malut United",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-55568df904",
-                                            "name": "Server Chính",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-55568df904",
-                                                    "name": "Vào Xem",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "http://waiting.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "LIGA 1",
-                        "team_a": "Persepam Madura Utd",
-                        "team_b": "Malut United",
-                        "logo_a": "https://media.api-sports.io/football/leagues/274.png",
-                        "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/274.png"
                     }
                 },
                 {
