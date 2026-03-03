@@ -124,7 +124,7 @@
                                                     "name": "Vào Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "https://tftv1gr3uomttgr31hcj18yzdgpjpctwzy5bo8y3dkmufctusk5mbxbtse5o.100ycdn.com/dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8?wsSession=371047123de9e95baeea1e64-177252320965093&wsIPSercert=ad04092fa74ed5fd514464cfdc9e2ed5&wsiphost=local&wsBindIP=1",
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanliem/playlist.m3u8",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
