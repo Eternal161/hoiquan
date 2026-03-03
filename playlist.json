@@ -85,6 +85,142 @@
                     }
                 },
                 {
+                    "id": "hq-b5a845ed5d",
+                    "name": "🏆 LIGA PROFESIONAL ARGENTINA | ⚽ Banfield vs Aldosivi",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzEyOC5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CYW5maWVsZDwvdGV4dD4KICAgICAgICAgICAgPHRleHQgeD0iMTE1MCIgeT0iODAwIiBmb250LXNpemU9IjU1IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbHRlcj0iZHJvcC1zaGFkb3coM3B4IDNweCAycHggcmdiYSgwLDAsMCwwLjgpKSI+QWxkb3Npdmk8L3RleHQ+CiAgICAgICAgPC9zdmc+",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "🔴 Đang đá | 07:30 03/03/2026",
+                            "position": "top-left",
+                            "color": "#e50914",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-b5a845ed5d",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-b5a845ed5d",
+                                    "name": "Banfield vs Aldosivi",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-b5a845ed5d",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-b5a845ed5d",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanca/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA PROFESIONAL ARGENTINA",
+                        "team_a": "Banfield",
+                        "team_b": "Aldosivi",
+                        "logo_a": "https://media.api-sports.io/football/leagues/128.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzEyOC5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CYW5maWVsZDwvdGV4dD4KICAgICAgICAgICAgPHRleHQgeD0iMTE1MCIgeT0iODAwIiBmb250LXNpemU9IjU1IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbHRlcj0iZHJvcC1zaGFkb3coM3B4IDNweCAycHggcmdiYSgwLDAsMCwwLjgpKSI+QWxkb3Npdmk8L3RleHQ+CiAgICAgICAgPC9zdmc+"
+                    }
+                },
+                {
+                    "id": "hq-b94a6765f8",
+                    "name": "🏆 LIGA PROFESIONAL ARGENTINA | ⚽ Independ. Rivadavia vs River Plate",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#111318",
+                        "display": "contain",
+                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzEyOC5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5JbmRlcGVuZC4gUml2YWRhdmlhPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5SaXZlciBQbGF0ZTwvdGV4dD4KICAgICAgICA8L3N2Zz4=",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "🔴 Đang đá | 07:30 03/03/2026",
+                            "position": "top-left",
+                            "color": "#e50914",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-b94a6765f8",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-b94a6765f8",
+                                    "name": "Independ. Rivadavia vs River Plate",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-b94a6765f8",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-b94a6765f8",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanca/playlist.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA PROFESIONAL ARGENTINA",
+                        "team_a": "Independ. Rivadavia",
+                        "team_b": "River Plate",
+                        "logo_a": "https://media.api-sports.io/football/leagues/128.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzEyOC5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5JbmRlcGVuZC4gUml2YWRhdmlhPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5SaXZlciBQbGF0ZTwvdGV4dD4KICAgICAgICA8L3N2Zz4="
+                    }
+                },
+                {
                     "id": "hq-30bc6c39d0",
                     "name": "🏆 PREMIER LEAGUE | ⚽ Wolves vs Liverpool",
                     "type": "single",
@@ -150,142 +286,6 @@
                         "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vdXBsb2FkLndpa2ltZWRpYS5vcmcvd2lraXBlZGlhL3ZpL3RodW1iL2YvZjIvUHJlbWllcl9MZWFndWVfTG9nby5zdmcvMTIwMHB4LVByZW1pZXJfTGVhZ3VlX0xvZ28uc3ZnLnBuZyIgeD0iMjUwIiB5PSIzMDAiIHdpZHRoPSI0MDAiIGhlaWdodD0iNDAwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJ4TWlkWU1pZCBtZWV0Ii8+CiAgICAgICAgICAgIDx0ZXh0IHg9IjgwMCIgeT0iNTMwIiBmb250LXNpemU9IjE0MCIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIj5WUzwvdGV4dD4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vaS5pbWd1ci5jb20vMzBhYXFpbi5wbmciIHg9Ijk1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI0NTAiIHk9IjgwMCIgZm9udC1zaXplPSI1NSIgZmlsbD0iI2ZmZmZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWx0ZXI9ImRyb3Atc2hhZG93KDNweCAzcHggMnB4IHJnYmEoMCwwLDAsMC44KSkiPldvbHZlczwvdGV4dD4KICAgICAgICAgICAgPHRleHQgeD0iMTE1MCIgeT0iODAwIiBmb250LXNpemU9IjU1IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbHRlcj0iZHJvcC1zaGFkb3coM3B4IDNweCAycHggcmdiYSgwLDAsMCwwLjgpKSI+TGl2ZXJwb29sPC90ZXh0PgogICAgICAgIDwvc3ZnPg=="
-                    }
-                },
-                {
-                    "id": "hq-b5a845ed5d",
-                    "name": "🏆 LIGA PROFESIONAL ARGENTINA | ⚽ Banfield vs Aldosivi",
-                    "type": "single",
-                    "display": "default",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#111318",
-                        "display": "contain",
-                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzEyOC5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CYW5maWVsZDwvdGV4dD4KICAgICAgICAgICAgPHRleHQgeD0iMTE1MCIgeT0iODAwIiBmb250LXNpemU9IjU1IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbHRlcj0iZHJvcC1zaGFkb3coM3B4IDNweCAycHggcmdiYSgwLDAsMCwwLjgpKSI+QWxkb3Npdmk8L3RleHQ+CiAgICAgICAgPC9zdmc+",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "⏳ 07:30 03/03/2026",
-                            "position": "top-left",
-                            "color": "#1cb57a",
-                            "text_color": "#ffffff"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-b5a845ed5d",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-b5a845ed5d",
-                                    "name": "Banfield vs Aldosivi",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-b5a845ed5d",
-                                            "name": "Server Chính",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-b5a845ed5d",
-                                                    "name": "Vào Xem",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "http://waiting.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "LIGA PROFESIONAL ARGENTINA",
-                        "team_a": "Banfield",
-                        "team_b": "Aldosivi",
-                        "logo_a": "https://media.api-sports.io/football/leagues/128.png",
-                        "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzEyOC5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5CYW5maWVsZDwvdGV4dD4KICAgICAgICAgICAgPHRleHQgeD0iMTE1MCIgeT0iODAwIiBmb250LXNpemU9IjU1IiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbHRlcj0iZHJvcC1zaGFkb3coM3B4IDNweCAycHggcmdiYSgwLDAsMCwwLjgpKSI+QWxkb3Npdmk8L3RleHQ+CiAgICAgICAgPC9zdmc+"
-                    }
-                },
-                {
-                    "id": "hq-b94a6765f8",
-                    "name": "🏆 LIGA PROFESIONAL ARGENTINA | ⚽ Independ. Rivadavia vs River Plate",
-                    "type": "single",
-                    "display": "default",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#111318",
-                        "display": "contain",
-                        "url": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzEyOC5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5JbmRlcGVuZC4gUml2YWRhdmlhPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5SaXZlciBQbGF0ZTwvdGV4dD4KICAgICAgICA8L3N2Zz4=",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "⏳ 07:30 03/03/2026",
-                            "position": "top-left",
-                            "color": "#1cb57a",
-                            "text_color": "#ffffff"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-b94a6765f8",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-b94a6765f8",
-                                    "name": "Independ. Rivadavia vs River Plate",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-b94a6765f8",
-                                            "name": "Server Chính",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-b94a6765f8",
-                                                    "name": "Vào Xem",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "http://waiting.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "LIGA PROFESIONAL ARGENTINA",
-                        "team_a": "Independ. Rivadavia",
-                        "team_b": "River Plate",
-                        "logo_a": "https://media.api-sports.io/football/leagues/128.png",
-                        "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwMCIgaGVpZ2h0PSIxMjAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgICAgICAgICA8aW1hZ2UgaHJlZj0iaHR0cHM6Ly9pLmltZ3VyLmNvbS9IRFJINklpLnBuZyIgeD0iMCIgeT0iMCIgd2lkdGg9IjE2MDAiIGhlaWdodD0iMTIwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgc2xpY2UiLz4KICAgICAgICAgICAgPGltYWdlIGhyZWY9Imh0dHBzOi8vbWVkaWEuYXBpLXNwb3J0cy5pby9mb290YmFsbC9sZWFndWVzLzEyOC5wbmciIHg9IjI1MCIgeT0iMzAwIiB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ieE1pZFlNaWQgbWVldCIvPgogICAgICAgICAgICA8dGV4dCB4PSI4MDAiIHk9IjUzMCIgZm9udC1zaXplPSIxNDAiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCI+VlM8L3RleHQ+CiAgICAgICAgICAgIDxpbWFnZSBocmVmPSJodHRwczovL2kuaW1ndXIuY29tLzMwYWFxaW4ucG5nIiB4PSI5NTAiIHk9IjMwMCIgd2lkdGg9IjQwMCIgaGVpZ2h0PSI0MDAiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIG1lZXQiLz4KICAgICAgICAgICAgPHRleHQgeD0iNDUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5JbmRlcGVuZC4gUml2YWRhdmlhPC90ZXh0PgogICAgICAgICAgICA8dGV4dCB4PSIxMTUwIiB5PSI4MDAiIGZvbnQtc2l6ZT0iNTUiIGZpbGw9IiNmZmZmZmYiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXdlaWdodD0iYm9sZCIgZmlsdGVyPSJkcm9wLXNoYWRvdygzcHggM3B4IDJweCByZ2JhKDAsMCwwLDAuOCkpIj5SaXZlciBQbGF0ZTwvdGV4dD4KICAgICAgICA8L3N2Zz4="
                     }
                 },
                 {
