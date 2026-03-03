@@ -2261,6 +2261,142 @@
                     }
                 },
                 {
+                    "id": "hq-8b1128254e",
+                    "name": "🏆 AFC CHAMPIONS LEAGUE | ⚽ FC Seoul vs Vissel Kobe",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 17:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-8b1128254e",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-8b1128254e",
+                                    "name": "FC Seoul vs Vissel Kobe",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-8b1128254e",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-8b1128254e",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "AFC CHAMPIONS LEAGUE",
+                        "team_a": "FC Seoul",
+                        "team_b": "Vissel Kobe",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png"
+                    }
+                },
+                {
+                    "id": "hq-6f3f543abd",
+                    "name": "🏆 AFC CUP | ⚽ Gamba Osaka vs Ratchaburi",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://media.api-sports.io/football/leagues/18.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 17:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-6f3f543abd",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-6f3f543abd",
+                                    "name": "Gamba Osaka vs Ratchaburi",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-6f3f543abd",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-6f3f543abd",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "AFC CUP",
+                        "team_a": "Gamba Osaka",
+                        "team_b": "Ratchaburi",
+                        "logo_a": "https://media.api-sports.io/football/leagues/18.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://media.api-sports.io/football/leagues/18.png"
+                    }
+                },
+                {
                     "id": "hq-18ec7d6d3c",
                     "name": "🏆 ASIAN CUP WOMEN | ⚽ Vietnam W vs India W",
                     "type": "single",
@@ -2326,6 +2462,414 @@
                         "logo_a": "https://media.api-sports.io/football/leagues/897.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://media.api-sports.io/football/leagues/897.png"
+                    }
+                },
+                {
+                    "id": "hq-3df042004a",
+                    "name": "🏆 TÜRKIYE KUPASI | ⚽ Erzurum BB vs Keçiörengücü",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://media.api-sports.io/football/leagues/206.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 18:30 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-3df042004a",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-3df042004a",
+                                    "name": "Erzurum BB vs Keçiörengücü",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-3df042004a",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-3df042004a",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "TÜRKIYE KUPASI",
+                        "team_a": "Erzurum BB",
+                        "team_b": "Keçiörengücü",
+                        "logo_a": "https://media.api-sports.io/football/leagues/206.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://media.api-sports.io/football/leagues/206.png"
+                    }
+                },
+                {
+                    "id": "hq-953b91598b",
+                    "name": "🏆 AFC CHAMPIONS LEAGUE | ⚽ Johor Darul Takzim FC vs Sanfrecce Hiroshima",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 19:15 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-953b91598b",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-953b91598b",
+                                    "name": "Johor Darul Takzim FC vs Sanfrecce Hiroshima",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-953b91598b",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-953b91598b",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "AFC CHAMPIONS LEAGUE",
+                        "team_a": "Johor Darul Takzim FC",
+                        "team_b": "Sanfrecce Hiroshima",
+                        "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png"
+                    }
+                },
+                {
+                    "id": "hq-b778a3c191",
+                    "name": "🏆 LIGA 1 | ⚽ Semen Padang vs PSIM Yogyakarta",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://media.api-sports.io/football/leagues/274.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 21:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-b778a3c191",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-b778a3c191",
+                                    "name": "Semen Padang vs PSIM Yogyakarta",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-b778a3c191",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-b778a3c191",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "LIGA 1",
+                        "team_a": "Semen Padang",
+                        "team_b": "PSIM Yogyakarta",
+                        "logo_a": "https://media.api-sports.io/football/leagues/274.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://media.api-sports.io/football/leagues/274.png"
+                    }
+                },
+                {
+                    "id": "hq-c56355e588",
+                    "name": "🏆 FIRST LEAGUE | ⚽ Cherno More Varna vs Arda Kardzhali",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 21:00 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-c56355e588",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-c56355e588",
+                                    "name": "Cherno More Varna vs Arda Kardzhali",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-c56355e588",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-c56355e588",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "FIRST LEAGUE",
+                        "team_a": "Cherno More Varna",
+                        "team_b": "Arda Kardzhali",
+                        "logo_a": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png"
+                    }
+                },
+                {
+                    "id": "hq-8d0f5d5b4b",
+                    "name": "🏆 CUPA ROMÂNIEI | ⚽ Arges Pitesti vs Gloria Bistriţa",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://media.api-sports.io/football/leagues/285.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 22:30 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-8d0f5d5b4b",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-8d0f5d5b4b",
+                                    "name": "Arges Pitesti vs Gloria Bistriţa",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-8d0f5d5b4b",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-8d0f5d5b4b",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "CUPA ROMÂNIEI",
+                        "team_a": "Arges Pitesti",
+                        "team_b": "Gloria Bistriţa",
+                        "logo_a": "https://media.api-sports.io/football/leagues/285.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://media.api-sports.io/football/leagues/285.png"
+                    }
+                },
+                {
+                    "id": "hq-f25379ebe2",
+                    "name": "🏆 FIRST LEAGUE | ⚽ CSKA Sofia vs Botev Vratsa",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "⏳ 23:30 04/03/2026",
+                            "position": "top-left",
+                            "color": "#1cb57a",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-f25379ebe2",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-f25379ebe2",
+                                    "name": "CSKA Sofia vs Botev Vratsa",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-f25379ebe2",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-f25379ebe2",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "http://waiting.m3u8",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "FIRST LEAGUE",
+                        "team_a": "CSKA Sofia",
+                        "team_b": "Botev Vratsa",
+                        "logo_a": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png"
                     }
                 }
             ]
