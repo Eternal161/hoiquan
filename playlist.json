@@ -85,6 +85,74 @@
                     }
                 },
                 {
+                    "id": "hq-8d96b16d25",
+                    "name": "🏆 ASIAN CUP WOMEN | ⚽ China W vs Bangladesh W",
+                    "type": "single",
+                    "display": "default",
+                    "enable_detail": false,
+                    "image": {
+                        "padding": 1,
+                        "background_color": "#ffffff",
+                        "display": "contain",
+                        "url": "https://media.api-sports.io/football/leagues/897.png",
+                        "width": 1600,
+                        "height": 1200
+                    },
+                    "labels": [
+                        {
+                            "text": "🔴 Đang đá | 15:00 03/03/2026",
+                            "position": "top-left",
+                            "color": "#e50914",
+                            "text_color": "#ffffff"
+                        }
+                    ],
+                    "sources": [
+                        {
+                            "id": "src-hq-8d96b16d25",
+                            "name": "Hội Quán",
+                            "contents": [
+                                {
+                                    "id": "ct-hq-8d96b16d25",
+                                    "name": "China W vs Bangladesh W",
+                                    "streams": [
+                                        {
+                                            "id": "st-hq-8d96b16d25",
+                                            "name": "Server Chính",
+                                            "stream_links": [
+                                                {
+                                                    "id": "lnk-hq-8d96b16d25",
+                                                    "name": "Vào Xem",
+                                                    "type": "hls",
+                                                    "default": true,
+                                                    "url": "https://tftv1gr3uomttgr31hcj18yzdgpjpctwzy5bo8y3dkmufctusk5mbxbtse5o.100ycdn.com/dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8?wsSession=371047123de9e95baeea1e64-177252320965093&wsIPSercert=ad04092fa74ed5fd514464cfdc9e2ed5&wsiphost=local&wsBindIP=1",
+                                                    "request_headers": [
+                                                        {
+                                                            "key": "Referer",
+                                                            "value": "https://hoiquan1.live/"
+                                                        },
+                                                        {
+                                                            "key": "User-Agent",
+                                                            "value": "Mozilla/5.0"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "org_metadata": {
+                        "league": "ASIAN CUP WOMEN",
+                        "team_a": "China W",
+                        "team_b": "Bangladesh W",
+                        "logo_a": "https://media.api-sports.io/football/leagues/897.png",
+                        "logo_b": "https://i.imgur.com/30aaqin.png",
+                        "thumb": "https://media.api-sports.io/football/leagues/897.png"
+                    }
+                },
+                {
                     "id": "hq-30bc6c39d0",
                     "name": "🏆 PREMIER LEAGUE | ⚽ Wolves vs Liverpool",
                     "type": "single",
@@ -150,74 +218,6 @@
                         "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
                         "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png"
-                    }
-                },
-                {
-                    "id": "hq-8d96b16d25",
-                    "name": "🏆 ASIAN CUP WOMEN | ⚽ China W vs Bangladesh W",
-                    "type": "single",
-                    "display": "default",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/897.png",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "⏳ 15:00 03/03/2026",
-                            "position": "top-left",
-                            "color": "#1cb57a",
-                            "text_color": "#ffffff"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-8d96b16d25",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-8d96b16d25",
-                                    "name": "China W vs Bangladesh W",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-8d96b16d25",
-                                            "name": "Server Chính",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-8d96b16d25",
-                                                    "name": "Vào Xem",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "http://waiting.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "ASIAN CUP WOMEN",
-                        "team_a": "China W",
-                        "team_b": "Bangladesh W",
-                        "logo_a": "https://media.api-sports.io/football/leagues/897.png",
-                        "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/897.png"
                     }
                 },
                 {
