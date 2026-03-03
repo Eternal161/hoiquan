@@ -17,74 +17,6 @@
             "enable_detail": false,
             "channels": [
                 {
-                    "id": "hq-23a7962322",
-                    "name": "🏆 AFC CHAMPIONS LEAGUE | ⚽ Gangwon FC vs Machida Zelvia",
-                    "type": "single",
-                    "display": "default",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "🔴 Đang đá | 17:00 03/03/2026",
-                            "position": "top-left",
-                            "color": "#e50914",
-                            "text_color": "#ffffff"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-23a7962322",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-23a7962322",
-                                    "name": "Gangwon FC vs Machida Zelvia",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-23a7962322",
-                                            "name": "Server Chính",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-23a7962322",
-                                                    "name": "Vào Xem",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "http://waiting.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "AFC CHAMPIONS LEAGUE",
-                        "team_a": "Gangwon FC",
-                        "team_b": "Machida Zelvia",
-                        "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
-                        "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png"
-                    }
-                },
-                {
                     "id": "hq-43919785dc",
                     "name": "🏆 FIRST LEAGUE | ⚽ Spartak Varna vs Montana",
                     "type": "single",
@@ -192,7 +124,7 @@
                                                     "name": "Vào Xem",
                                                     "type": "hls",
                                                     "default": true,
-                                                    "url": "http://waiting.m3u8",
+                                                    "url": "https://tftv0gr4uqmtt8y41hcjzgyzdnqjifi1g1hdcgyhdrpjqci1gq3mpcfhgg3dq.100ycdn.com/dipl0825.edgemaxcdn.org/live/hqtv_blv_phanchanh/playlist.m3u8?wsSession=1b8d2c31c88ba6bebbdf2342-177253927533877&wsIPSercert=86a328d04f1088d2f76e148bc13e5592&wsiphost=local&wsBindIP=1",
                                                     "request_headers": [
                                                         {
                                                             "key": "Referer",
