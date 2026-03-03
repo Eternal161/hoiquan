@@ -6,7 +6,7 @@
     "grid_number": 3,
     "image": {
         "type": "cover",
-        "url": "https://i.postimg.cc/02tKjcyN/JT3IVCOJDKW3PBRFZAZUILENLU.jpg"
+        "url": "https://imgur.com/HDRH6Ii"
     },
     "groups": [
         {
@@ -17,90 +17,22 @@
             "enable_detail": false,
             "channels": [
                 {
-                    "id": "hq-43919785dc",
-                    "name": "🏆 FIRST LEAGUE | ⚽ Spartak Varna vs Montana",
-                    "type": "single",
-                    "display": "default",
-                    "enable_detail": false,
-                    "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
-                        "width": 1600,
-                        "height": 1200
-                    },
-                    "labels": [
-                        {
-                            "text": "🔴 Đang đá | 18:30 03/03/2026",
-                            "position": "top-left",
-                            "color": "#e50914",
-                            "text_color": "#ffffff"
-                        }
-                    ],
-                    "sources": [
-                        {
-                            "id": "src-hq-43919785dc",
-                            "name": "Hội Quán",
-                            "contents": [
-                                {
-                                    "id": "ct-hq-43919785dc",
-                                    "name": "Spartak Varna vs Montana",
-                                    "streams": [
-                                        {
-                                            "id": "st-hq-43919785dc",
-                                            "name": "Server Chính",
-                                            "stream_links": [
-                                                {
-                                                    "id": "lnk-hq-43919785dc",
-                                                    "name": "Vào Xem",
-                                                    "type": "hls",
-                                                    "default": true,
-                                                    "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phanchanh/playlist.m3u8",
-                                                    "request_headers": [
-                                                        {
-                                                            "key": "Referer",
-                                                            "value": "https://hoiquan1.live/"
-                                                        },
-                                                        {
-                                                            "key": "User-Agent",
-                                                            "value": "Mozilla/5.0"
-                                                        }
-                                                    ]
-                                                }
-                                            ]
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    ],
-                    "org_metadata": {
-                        "league": "FIRST LEAGUE",
-                        "team_a": "Spartak Varna",
-                        "team_b": "Montana",
-                        "logo_a": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
-                        "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png"
-                    }
-                },
-                {
                     "id": "hq-c91c9ba14d",
                     "name": "🏆 TÜRKIYE KUPASI | ⚽ İstanbulspor vs Boluspor",
                     "type": "single",
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/206.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
-                            "text": "🔴 Đang đá | 19:30 03/03/2026",
+                            "text": "🔴 3' | 19:30 03/03/2026",
                             "position": "top-left",
                             "color": "#e50914",
                             "text_color": "#ffffff"
@@ -149,7 +81,8 @@
                         "team_b": "Boluspor",
                         "logo_a": "https://media.api-sports.io/football/leagues/206.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/206.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -159,16 +92,16 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/274.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
-                            "text": "🔴 Đang đá | 20:30 03/03/2026",
+                            "text": "🔴 LIVE | 20:30 03/03/2026",
                             "position": "top-left",
                             "color": "#e50914",
                             "text_color": "#ffffff"
@@ -217,7 +150,8 @@
                         "team_b": "Malut United",
                         "logo_a": "https://media.api-sports.io/football/leagues/274.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/274.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -227,16 +161,16 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/274.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
-                            "text": "🔴 Đang đá | 20:30 03/03/2026",
+                            "text": "🔴 LIVE | 20:30 03/03/2026",
                             "position": "top-left",
                             "color": "#e50914",
                             "text_color": "#ffffff"
@@ -285,7 +219,8 @@
                         "team_b": "Pusamania Borneo",
                         "logo_a": "https://media.api-sports.io/football/leagues/274.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/274.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -295,16 +230,16 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
-                            "text": "🔴 Đang đá | 03:15 04/03/2026",
+                            "text": "🔴 LIVE | 03:15 04/03/2026",
                             "position": "top-left",
                             "color": "#e50914",
                             "text_color": "#ffffff"
@@ -353,7 +288,8 @@
                         "team_b": "Liverpool",
                         "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -363,12 +299,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/701.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -421,7 +357,8 @@
                         "team_b": "Leixões U23",
                         "logo_a": "https://media.api-sports.io/football/leagues/701.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/701.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -431,12 +368,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -489,7 +426,8 @@
                         "team_b": "Septemvri Sofia",
                         "logo_a": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -499,12 +437,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/206.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -557,7 +495,8 @@
                         "team_b": "Galatasaray",
                         "logo_a": "https://media.api-sports.io/football/leagues/206.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/206.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -567,12 +506,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/206.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -625,7 +564,8 @@
                         "team_b": "Trabzonspor",
                         "logo_a": "https://media.api-sports.io/football/leagues/206.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/206.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -635,12 +575,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -693,7 +633,8 @@
                         "team_b": "Brentford",
                         "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -703,12 +644,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -761,7 +702,8 @@
                         "team_b": "Burnley",
                         "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -771,12 +713,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -829,7 +771,8 @@
                         "team_b": "Sunderland",
                         "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/f/f2/Premier_League_Logo.svg/1200px-Premier_League_Logo.svg.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -839,12 +782,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/143.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -897,7 +840,8 @@
                         "team_b": "Atletico Madrid",
                         "logo_a": "https://media.api-sports.io/football/leagues/143.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/143.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -907,12 +851,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/143.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -965,7 +909,8 @@
                         "team_b": "Atletico Madrid",
                         "logo_a": "https://media.api-sports.io/football/leagues/143.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/143.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -975,12 +920,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/143.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1033,7 +978,8 @@
                         "team_b": "Atletico Madrid",
                         "logo_a": "https://media.api-sports.io/football/leagues/143.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/143.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1043,12 +989,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcLnjYpFe2SNeZyFJC3mbAMUUYHdPt0kyb6w&amp;s",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1101,7 +1047,8 @@
                         "team_b": "Inter",
                         "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcLnjYpFe2SNeZyFJC3mbAMUUYHdPt0kyb6w&amp;s",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcLnjYpFe2SNeZyFJC3mbAMUUYHdPt0kyb6w&amp;s"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1111,12 +1058,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/128.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1169,7 +1116,8 @@
                         "team_b": "Belgrano Cordoba",
                         "logo_a": "https://media.api-sports.io/football/leagues/128.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/128.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1179,12 +1127,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/128.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1237,7 +1185,8 @@
                         "team_b": "Racing Club",
                         "logo_a": "https://media.api-sports.io/football/leagues/128.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/128.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1247,12 +1196,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/95/Conmebol_Libertadores_logo.svg/2560px-Conmebol_Libertadores_logo.svg.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1305,7 +1254,8 @@
                         "team_b": "Botafogo FR",
                         "logo_a": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/95/Conmebol_Libertadores_logo.svg/2560px-Conmebol_Libertadores_logo.svg.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://upload.wikimedia.org/wikipedia/pt/thumb/9/95/Conmebol_Libertadores_logo.svg/2560px-Conmebol_Libertadores_logo.svg.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1315,12 +1265,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/262.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1373,7 +1323,8 @@
                         "team_b": "Cruz Azul",
                         "logo_a": "https://media.api-sports.io/football/leagues/262.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/262.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1383,12 +1334,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/262.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1441,7 +1392,8 @@
                         "team_b": "Necaxa",
                         "logo_a": "https://media.api-sports.io/football/leagues/262.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/262.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1451,12 +1403,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/262.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1509,7 +1461,8 @@
                         "team_b": "Mazatlán",
                         "logo_a": "https://media.api-sports.io/football/leagues/262.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/262.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1519,12 +1472,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/262.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1577,7 +1530,8 @@
                         "team_b": "Toluca",
                         "logo_a": "https://media.api-sports.io/football/leagues/262.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/262.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1587,12 +1541,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/897.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1645,7 +1599,8 @@
                         "team_b": "Chinese Taipei W",
                         "logo_a": "https://media.api-sports.io/football/leagues/897.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/897.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1655,12 +1610,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/188.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1713,7 +1668,8 @@
                         "team_b": "Central Coast Mariners",
                         "logo_a": "https://media.api-sports.io/football/leagues/188.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/188.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1723,12 +1679,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://i.imgur.com/Pwa49YG.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1781,7 +1737,8 @@
                         "team_b": "Thespakusatsu Gunma",
                         "logo_a": "https://i.imgur.com/Pwa49YG.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://i.imgur.com/Pwa49YG.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1791,12 +1748,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1849,7 +1806,8 @@
                         "team_b": "Vissel Kobe",
                         "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1859,12 +1817,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/18.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1917,7 +1875,8 @@
                         "team_b": "Ratchaburi",
                         "logo_a": "https://media.api-sports.io/football/leagues/18.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/18.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1927,12 +1886,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/897.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -1985,7 +1944,8 @@
                         "team_b": "India W",
                         "logo_a": "https://media.api-sports.io/football/leagues/897.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/897.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -1995,12 +1955,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/206.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -2053,7 +2013,8 @@
                         "team_b": "Keçiörengücü",
                         "logo_a": "https://media.api-sports.io/football/leagues/206.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/206.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -2063,12 +2024,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -2121,7 +2082,8 @@
                         "team_b": "Sanfrecce Hiroshima",
                         "logo_a": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -2131,12 +2093,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/274.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -2189,7 +2151,8 @@
                         "team_b": "PSIM Yogyakarta",
                         "logo_a": "https://media.api-sports.io/football/leagues/274.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/274.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -2199,12 +2162,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -2257,7 +2220,8 @@
                         "team_b": "Arda Kardzhali",
                         "logo_a": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -2267,12 +2231,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://media.api-sports.io/football/leagues/285.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -2325,7 +2289,8 @@
                         "team_b": "Gloria Bistriţa",
                         "logo_a": "https://media.api-sports.io/football/leagues/285.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://media.api-sports.io/football/leagues/285.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 },
                 {
@@ -2335,12 +2300,12 @@
                     "display": "default",
                     "enable_detail": false,
                     "image": {
-                        "padding": 1,
-                        "background_color": "#ffffff",
-                        "display": "contain",
-                        "url": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
+                        "padding": 0,
+                        "background_color": "#000000",
+                        "display": "cover",
+                        "url": "https://imgur.com/HDRH6Ii",
                         "width": 1600,
-                        "height": 1200
+                        "height": 900
                     },
                     "labels": [
                         {
@@ -2393,7 +2358,8 @@
                         "team_b": "Botev Vratsa",
                         "logo_a": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png",
                         "logo_b": "https://i.imgur.com/30aaqin.png",
-                        "thumb": "https://static.flashscore.com/res/image/data/vJvVS1V1-WGg1ezsm.png"
+                        "score": "0 - 0",
+                        "thumb": "https://imgur.com/HDRH6Ii"
                     }
                 }
             ]
